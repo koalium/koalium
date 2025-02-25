@@ -1,0 +1,2450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Extendify — Gutenberg Patterns and Templates - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-30T09:09:41+00:00\n"
+"PO-Revision-Date: 2023-10-17 14:41:51+0000\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Pattern added"
+msgstr "Mønster tilføjet"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Design Patterns"
+msgstr "Designblokgrupper"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Fetching..."
+msgstr "Henter..."
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Retrying..."
+msgstr "Prøver igen..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "All"
+msgstr "Alle"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Design Type"
+msgstr "Design Type"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Loading more patterns..."
+msgstr "Indlæser flere mønstre..."
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Loading Patterns..."
+msgstr "Indlæser blokgrupper..."
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Insert Pattern"
+msgstr "Indsæt blokgruppe"
+
+#: app/Library/Admin.php:139
+msgid "Extendify Library User Settings"
+msgstr "Brugerindstillinger for Extendify-biblioteket"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Accept"
+msgstr "Acceptér"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Terms of Use"
+msgstr "Brugsvilkår"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "View more pages"
+msgstr "Se flere sider"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "We already selected the most common pages for your type of website."
+msgstr "Vi har allerede valgt de mest almindelige sider til din type websted."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Pick the pages to add to your website"
+msgstr "Vælg de sider, du vil tilføje til dit websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Home page"
+msgstr "Hjemmeside"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Pick a design for your website"
+msgstr "Vælg et design til dit websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "We'll make sure your website has what it needs to achieve your goals."
+msgstr "Vi sørger for, at dit websted har, hvad det har brug for for at opnå dine mål."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "What are your goals for your website?"
+msgstr "Hvad er dine mål med dit websted?"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Searching..."
+msgstr "Søger..."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Enter your website name"
+msgstr "Indtast navnet på dit websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Helping you to succeed"
+msgstr "Hjælpe dig med at få succes"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Adding page content"
+msgstr "Tilføjer sideindhold"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Installing necessary plugins"
+msgstr "Installerer nødvendige plugins"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Creating a beautiful website"
+msgstr "Skaber et smukt websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Applying your website styles"
+msgstr "Anvender dine webstedstilarter"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Personalizing your experience"
+msgstr "Personliggør din oplevelse"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Populating data"
+msgstr "Indlæser data"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Service temporarily unavailable"
+msgstr "Tjenesten er midlertidigt utilgængelig"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Discard"
+msgstr "Kassér"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Try again"
+msgstr "Prøv igen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "AI Tools"
+msgstr "AI Værktøjer"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Replace selected block text"
+msgstr "Erstat tekst i valgte blok"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Ask AI to generate text"
+msgstr "Bed AI om at generere tekst"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "AI is writing..."
+msgstr "AI skriver..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Simplify language"
+msgstr "Forenkl sprog"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Make longer"
+msgstr "Gør længere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Make shorter"
+msgstr "Gør kortere"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Fix spelling & grammar"
+msgstr "Ret stave- og grammatikfejl"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Improve writing"
+msgstr "Forbedr skrivning"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a blog post about"
+msgstr "Skriv et blogindlæg om"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "For other questions, visit our support page."
+msgstr "For andre spørgsmål, besøg vores supportside."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "WordPress Comfort Level"
+msgstr "WordPress komfortniveau"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Intermediate"
+msgstr "Mellemniveau"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Beginner"
+msgstr "Begynder"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Rate that this answer was not helpful"
+msgstr "Bedøm at dette svar ikke var hjælpsomt"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Rate that this answer was helpful"
+msgstr "Bedøm hvor hjælpsomt dette svar var"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Remove rating"
+msgstr "Fjern bedømmelse"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask your WordPress question…"
+msgstr "Stil dit WordPress-spørgsmål…"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask me any questions about WordPress."
+msgstr "Stil mig alle spørgsmål om WordPress."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Hi there!"
+msgstr "Hej der!"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask Another Question"
+msgstr "Stil et andet spørgsmål"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Oops! We were unable to send your question."
+msgstr "Ups! Vi kunne ikke sende dit spørgsmål."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Please try again."
+msgstr "Prøv venligst igen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Use this toggle to collapse or expand the sidebar menu."
+msgstr "Brug denne knap til at skjule eller udvide sidepanelmenuen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Collapse menu"
+msgstr "Sammenfold menu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search for articles"
+msgstr "Søg efter artikler"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "The selected pattern has been inserted into the page."
+msgstr "Den valgte blokgruppe er blevet indsat på siden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "View the Inserted Pattern"
+msgstr "Se den indsatte blokgruppe"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Simply select any pattern you wish to insert into a page by clicking on it."
+msgstr "Vælg blot den blokgruppe, du ønsker at indsætte på en side, ved at klikke på den."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Select a Pattern"
+msgstr "Vælg en blokgruppe"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click on any pattern category to refine the selection."
+msgstr "Klik på enhver blokgruppe kategori for at finjustere udvælgelsen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Filter Patterns"
+msgstr "Filtrer blokgrupper"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "The Extendify pattern library can be opened by clicking the button to the left."
+msgstr "Extendify blokgruppebiblioteket kan åbnes ved at klikke på knappen til venstre."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Open the Pattern Library"
+msgstr "Åbn mønsterbiblioteket"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tour this page"
+msgstr "Gennemse denne side"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Manage your profile or log out of your account here."
+msgstr "Administrer din profil eller log ud af din konto her."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "User"
+msgstr "Bruger"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Advanced settings for your site and for certain plugins."
+msgstr "Avancerede indstillinger for dit websted og for visse plugins."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Import/export post data, check site health, and edit theme or plugin files directly in the WordPress admin."
+msgstr "Importer/eksporter indlægsdata, tjek webstedets sundhed, og rediger tema- eller pluginfiler direkte i WordPress-administrationen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tools"
+msgstr "Værktøjer"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add or manage users on your site, both admin users and others."
+msgstr "Tilføj eller administrer brugere på dit websted, både administratorer og andre."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add or manage the plugins on your site."
+msgstr "Tilføj eller håndter plugins på dit websted."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Manage your theme and access the Site Editor from the Appearance menu. The Site Editor is where you can make global changes to your site (such as the menu, header/footer, and styles)."
+msgstr "Administrer dit tema og få adgang til webstedseditoren fra Udseende-menuen. Webstedseditoren er stedet, hvor du kan foretage globale ændringer på dit websted (såsom menuen, header/footer og stilarter)."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Appearance"
+msgstr "Udseende"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "If you have commenting enabled on your posts, you can manage those comments here."
+msgstr "Hvis du har aktiveret kommentarer på dine indlæg, kan du håndtere disse kommentarer her."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add, edit, or remove images and other media from your library. When you upload an image to be used on your site, it will be added to the library."
+msgstr "Tilføj, rediger eller fjern billeder og andet medie fra dit bibliotek. Når du uploader et billede til brug på dit websted, vil det blive tilføjet til biblioteket."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Media"
+msgstr "Medier"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Manage and create blog posts."
+msgstr "Administrer og opret blogindlæg."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Posts"
+msgstr "Indlæg"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "The default WordPress dashboard will have some overall site metrics and modules added from certain plugins."
+msgstr "Det standard WordPress kontrolpanel vil have nogle overordnede hjemmesidemålinger og moduler tilføjet fra visse plugins."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Access the Site Assistant at any time."
+msgstr "Få adgang til webstedsassistenten når som helst."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Come back to the Site Assistant any time by clicking the menu item."
+msgstr "Vend tilbage til Site Assistant når som helst ved at klikke på menupunktet."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See our personalized recommendations for you that will help you accomplish your goals."
+msgstr "Se vores personlige anbefalinger til dig, der vil hjælpe dig med at nå dine mål."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Easily access some of the most common items in WordPress with these quick links."
+msgstr "Få nem adgang til nogle af de mest almindelige elementer i WordPress med disse hurtige links."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Knowledge Base"
+msgstr "Vidensbase"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Now that you've created your starter site, make it your own with these follow up tasks."
+msgstr "Nu hvor du har oprettet dit start-websted, gør det til dit eget med disse opfølgende opgaver."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Create a super-fast, beautiful, and fully customized site in minutes with our Site Launcher."
+msgstr "Opret et superhurtigt, smukt og fuldt tilpasset websted på få minutter med vores Site Launcher."
+
+#. translators: This string represents the title of an "Home" page on a website. Please translate it in a way that fits the standard phrasing for a "Home" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:39
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Home"
+msgstr "Hjem"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "There was an error loading this article"
+msgstr "Der opstod en fejl under indlæsning af denne artikel"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tours"
+msgstr "Ture"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Help Center"
+msgstr "Hjælpcenter"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click the Add New button to add a new user to your site."
+msgstr "Klik på Tilføj ny knap for at tilføje en ny bruger til dit websted."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add a new user"
+msgstr "Tilføj en ny bruger"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Use the search bar to find a particular user."
+msgstr "Brug søgefeltet til at finde en bestemt bruger."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search for users"
+msgstr "Søg efter brugere"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click the edit button to change the user's role, manage their account, or change their profile information."
+msgstr "Klik på redigeringsknappen for at ændre brugerens rolle, administrere deres konto eller ændre deres profiloplysninger."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Edit user information"
+msgstr "Rediger brugerinformation"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See all of your users, including admin users in this table."
+msgstr "Se alle dine brugere, inklusiv admin brugere i denne tabel."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Users"
+msgstr "Brugere"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to view and manage the users on your site."
+msgstr "Klik her for at se og administrere brugerne på dit websted."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "All Users menu"
+msgstr "Menu for alle brugere"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to add another plugin to your site."
+msgstr "Klik her for at tilføje endnu et plugin til din side."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add another"
+msgstr "Tilføj en anden"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Under each plugin you can activate or deactivate it."
+msgstr "Under hvert plugin kan du aktivere eller deaktivere det."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Deactivate/activate option"
+msgstr "Deaktiver/aktiver mulighed"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See all plugins installed on your site. This includes plugins that are active and deactivated."
+msgstr "Se alle plugins installeret på dit websted. Dette inkluderer aktive og deaktiverede plugins."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Installed plugins"
+msgstr "Installerede plugins"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click this menu to see and manage the plugins you have installed."
+msgstr "Klik på denne menu for at se og håndtere de plugins, du har installeret."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Installed Plugins menu"
+msgstr "Menu for installerede plugins"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "If you have a plugin from an external source, you can upload it directly here."
+msgstr "Hvis du har et plugin fra en ekstern kilde, kan du uploade det direkte her."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Upload Plugin"
+msgstr "Upload plugin"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Install the plugin. Then, press this button again to activate the plugin."
+msgstr "Installer pluginet. Tryk derefter på denne knap igen for at aktivere pluginet."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Install now"
+msgstr "Installer nu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See important information about each plugin."
+msgstr "Se vigtige oplysninger om hver plugin."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Plugin details"
+msgstr "Plugin detaljer"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search for a plugin by name or functionality."
+msgstr "Søg efter en plugin ved navn eller funktionalitet."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to access the Add Plugins page."
+msgstr "Klik her for at få adgang til Tilføj plugins-siden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add New plugin menu"
+msgstr "Tilføj ny plugin menu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Publish or Save"
+msgstr "Udgiv eller gem"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click preview to view how your changes look on the front end of your site."
+msgstr "Klik på forhåndsvisning for at se, hvordan dine ændringer ser ud på forsiden af dit websted."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Preview"
+msgstr "Forhåndsvis"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Select either page or block to change the settings for the entire page or the block that is selected."
+msgstr "Vælg enten side eller blok for at ændre indstillingerne for hele siden eller den valgte blok."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Page and Block Settings"
+msgstr "Side- og blokindstillinger"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "This is a sample paragraph block. It can be several sentences long and will span multiple rows. You can add as many blocks as you'd like to the page."
+msgstr "Dette er en prøve på en afsnitsblok. Den kan være flere sætninger lang og strække sig over flere rækker. Du kan tilføje så mange blokke, du vil, til siden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Each block will show up on the page and can be edited by clicking on it."
+msgstr "Hver blok vil blive vist på siden og kan redigeres ved at klikke på den."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Blocks"
+msgstr "Blokke"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Edit the page title by clicking it. Note: The title may or may not show up on the published page, depending on the page template used."
+msgstr "Rediger sidetitlen ved at klikke på den. Bemærk: Titlen kan muligvis ikke vises på den offentliggjorte side, afhængigt af den anvendte sideskabelon."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Page Title"
+msgstr "Sidens titel"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add a block by clicking or dragging it onto the page."
+msgstr "Tilføj en blok ved at klikke eller trække den ind på siden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Block Inserter"
+msgstr "Blokindsætter"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click the plus to open the block inserter."
+msgstr "Klik på plus for at åbne blokindsætteren."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add a Block"
+msgstr "Tilføj en Blok"
+
+#: app/HelpCenter/Controllers/SupportArticlesController.php:100
+msgid "Page not found"
+msgstr "Side ikke fundet"
+
+#. translators: This string represents the title of an "Events" page on a website that lists events of any kind. Please translate it in a way that fits the standard phrasing for an "Events" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:23
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Events"
+msgstr "Begivenheder"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Skip to Assist"
+msgstr "Spring til assistent"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tasks"
+msgstr "Opgaver"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Quick Links"
+msgstr "Hurtige links"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "At any time, you can view your site (from a visitor's perspective) from the top admin bar under your site's name."
+msgstr "Du kan til enhver tid se dit websted (fra en besøgendes perspektiv) fra top-administrationsbjælken under dit websteds navn."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Use the pages menu to add, delete, or edit the pages on your site."
+msgstr "Brug sidemenuen til at tilføje, slette eller redigere sider på dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+msgid "Done"
+msgstr "Færdig"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tour Steps"
+msgstr "Turtrin"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tour"
+msgstr "Tur"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Open for new pages"
+msgstr "Åben for nye sider"
+
+#. translators: %s: Extendify Library term
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Toggle %s on new pages"
+msgstr "Skift %s på nye sider"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "We encountered a server error we cannot recover from. Please reload the page and try again."
+msgstr "Vi stødte på en serverfejl, vi ikke kan komme os fra. Genindlæs venligst siden og prøv igen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Save"
+msgstr "Gem"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Enter a site description..."
+msgstr "Indtast en webstedsbeskrivelse..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site description"
+msgstr "Webstedsbeskrivelse"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Add site description"
+msgstr "Tilføj webstedsbeskrivelse"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Upload site logo"
+msgstr "Upload webstedslogo"
+
+#: app/AdminPageRouter.php:47
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Site Assistant"
+msgstr "Webstedsassistent"
+
+#. translators: This string represents the title of a "Blog" page on a website that shows recent blog posts. Please translate it in a way that fits the standard phrasing for a "Blog" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:7
+msgid "Blog"
+msgstr "Blog"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "View site"
+msgstr "Vis websted"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Upload site icon"
+msgstr "Upload webstedsikon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Set site icon"
+msgstr "Indstil webstedsikon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site icon"
+msgstr "Webstedsikon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Set site logo"
+msgstr "Indstil webstedslogo"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site logo"
+msgstr "Websted logo"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Remove image"
+msgstr "Fjern billede"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Replace image"
+msgstr "Erstat billede"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit or update the image"
+msgstr "Rediger eller opdater billedet"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Close Modal"
+msgstr "Luk Modal"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Dismiss"
+msgstr "Afvis"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Select Site Pages"
+msgstr "Vælg webstedssider"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Select Site Design"
+msgstr "Vælg webstedsdesign"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Select Site Goals"
+msgstr "Vælg webstedsmål"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Continue Building Your Website"
+msgstr "Fortsæt med at bygge dit websted"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Let's Start Building Your Website"
+msgstr "Lad os begynde at bygge dit websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Exit Launch"
+msgstr "Afslut lancering"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Redirecting in 3, 2, 1..."
+msgstr "Omdirigerer om 3, 2, 1..."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Your website has been created!"
+msgstr "Dit websted er blevet oprettet!"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Setting up your Site Assistant"
+msgstr "Opsætning af din Site Assistant"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Starting off with a full website"
+msgstr "Starter med et komplet websted"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Back"
+msgstr "Tilbage"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site Industry"
+msgstr "Webstedsindustri"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Goals"
+msgstr "Mål"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Take me there"
+msgstr "Tag mig derhen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Hey there, Launch is powered by Extendable and is required to proceed. You can install it from the link below and start over once activated."
+msgstr "Hej, Launch drives af Extendable og er nødvendig for at fortsætte. Du kan installere det fra linket nedenfor og starte forfra, når det er aktiveret."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "One more thing before we start."
+msgstr "En ting mere, før vi starter."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Plugins"
+msgstr "Plugins"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "View Site"
+msgstr "Vis websted"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Next"
+msgstr "Næste"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Pages"
+msgstr "Sider"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "You can personalize this later."
+msgstr "Du kan personalisere dette senere."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Loading..."
+msgstr "Indlæser..."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Press to select"
+msgstr "Tryk for at vælge"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Just a moment, this is taking longer than expected."
+msgstr "Bare et øjeblik, dette tager længere tid end forventet."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Design Library"
+msgstr "Designbibliotek"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Design"
+msgstr "Design"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Close"
+msgstr "Luk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Submit"
+msgstr "Send"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search"
+msgstr "Søg"
+
+#. Author URI of the plugin
+#: extendify.php
+msgid "https://extendify.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://extendify.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Plugin URI of the plugin
+#: extendify.php
+msgid "https://extendify.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://extendify.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#. Author of the plugin
+#: extendify.php
+msgid "Extendify"
+msgstr "Extendify"
+
+#. translators: %1$s is the current step, %2$s is the total number of steps
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+msgid "%1$s of %2$s"
+msgstr "%1$s af %2$s"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Creating pages with custom content"
+msgstr "Oprettelse af sider med brugerdefineret indhold"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Setting up site layout"
+msgstr "Opsætning af webstedets layout"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Professional"
+msgstr "Professionel"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Friendly"
+msgstr "Venlig"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Inspirational"
+msgstr "Inspirerende"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Informative"
+msgstr "Informativ"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Persuasive"
+msgstr "Overtalende"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Skip"
+msgstr "Spring over"
+
+#. translators: Launch is a noun.
+#: app/AdminPageRouter.php:60
+msgid "Launch"
+msgstr "Lancering"
+
+#. translators: Launch is the product name. Unless otherwise specified by the glossary, do not translate this name.
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:3
+msgid "Added by Launch"
+msgstr "Tilføjet af Launch"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:3
+msgid "Start over?"
+msgstr "Start forfra?"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:3
+msgid "Go through the onboarding process again to create a new site."
+msgstr "Gennemgå introduktionsprocessen igen for at oprette et nyt websted."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Exit"
+msgstr "Afslut"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Processing"
+msgstr "Behandler"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask AI"
+msgstr "Spørg AI"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Insert at top"
+msgstr "Indsæt øverst"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Insert after the selected text"
+msgstr "Indsæt efter den valgte tekst"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Insert at bottom"
+msgstr "Indsæt i bunden"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "A paragraph …"
+msgstr "Et afsnit …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a paragraph about"
+msgstr "Skriv et afsnit om"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Blog post …"
+msgstr "Blogindlæg …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "An informative article …"
+msgstr "En informativ artikel …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write an informative article about"
+msgstr "Skriv en informativ artikel om"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Headline …"
+msgstr "Overskrift …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a headline for"
+msgstr "Skriv en overskrift til"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "List …"
+msgstr "Liste …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a list of"
+msgstr "Skriv en liste over"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Catalan"
+msgstr "Katalansk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Danish"
+msgstr "Dansk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Dutch"
+msgstr "Hollandsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Dutch (Belgium)"
+msgstr "Hollandsk (Belgien)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "English"
+msgstr "Engelsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Estonian"
+msgstr "Estisk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Finnish"
+msgstr "Finsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "French (Belgium)"
+msgstr "Fransk (Belgien)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "French (France)"
+msgstr "Fransk (Frankrig)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "German"
+msgstr "Tysk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "German (Switzerland)"
+msgstr "Tysk (Schweiz)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Indonesian"
+msgstr "Indonesisk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Italian"
+msgstr "Italiensk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Japanese"
+msgstr "Japansk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Polish"
+msgstr "Polsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Portuguese (Brazil)"
+msgstr "Portugisisk (Brasilien)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Portuguese (Portugal)"
+msgstr "Portugisisk (Portugal)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Spanish (Spain)"
+msgstr "Spansk (Spanien)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Swedish"
+msgstr "Svensk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Ukrainian"
+msgstr "Ukrainsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Translate"
+msgstr "Oversæt"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Translate to..."
+msgstr "Oversæt til..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Ask AI to edit"
+msgstr "Bed AI om at redigere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Remove selection"
+msgstr "Fjern valg"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Suggested prompts"
+msgstr "Foreslåede opfordringer"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Custom prompt"
+msgstr "Brugerdefineret promptning"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "You can still explore and find great images on Unsplash until your credits reset."
+msgstr "Du kan stadig udforske og finde fantastiske billeder på Unsplash, indtil dine kreditter nulstilles."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Search on Unsplash"
+msgstr "Søg på Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Tell AI about the image you would like to create"
+msgstr "Fortæl AI om det billede, du gerne vil oprette"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Image Prompt"
+msgstr "Billedprompt"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Generating image..."
+msgstr "Genererer billede..."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Generate image"
+msgstr "Generer billede"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Generating your image: "
+msgstr "Genererer dit billede:"
+
+#. translators: "Importing image" means the image is being added to the WordPress post editor
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Importing image..."
+msgstr "Importerer billede..."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Use this image"
+msgstr "Brug dette billede"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Delete image"
+msgstr "Slet billede"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Image Description"
+msgstr "Billedbeskrivelse"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system."
+msgstr "Din anmodning blev afvist som følge af vores sikkerhedssystem. Din forespørgsel kan indeholde tekst, der ikke er tilladt af vores sikkerhedssystem."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "This tour is only available on desktop devices"
+msgstr "Denne rundvisning er kun tilgængelig på desktop-enheder"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Register this domain"
+msgstr "Registrer dette domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site Guide"
+msgstr "Webstedsguide"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Add new page"
+msgstr "Tilføj ny side"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Add new post"
+msgstr "Tilføj nyt indlæg"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Explore plugins"
+msgstr "Udforsk plugins"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site style"
+msgstr "Webstedsstil"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit header"
+msgstr "Rediger sidehoved"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit footer"
+msgstr "Rediger sidefod"
+
+#. translators: "Reset site" refers to the action of resetting the user's WordPress site to a fresh state.
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Reset site"
+msgstr "Nulstil websted"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Website Tools & Plugins"
+msgstr "Webstedsværktøjer & plugins"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Your Own Domain Awaits"
+msgstr "Dit eget domæne venter"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Move from a subdomain to a custom domain for improved website identity and SEO benefits."
+msgstr "Skift fra et subdomæne til et brugerdefineret domæne for at forbedre webstedets identitet og SEO-fordele."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Secure a domain"
+msgstr "Sikr et domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add a new page for your website."
+msgstr "Tilføj en ny side til dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add new"
+msgstr "Tilføj ny"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Managed WordPress Hosting"
+msgstr "Administreret WordPress-hosting"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "We take care of WordPress settings, updating themes and plugins, security and backing up your website."
+msgstr "Vi tager os af WordPress-indstillinger, opdatering af temaer og plugins, sikkerhed og backup af dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Learn More"
+msgstr "Lær mere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Claim your domain"
+msgstr "Gør krav på dit domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Claim the perfect domain for your site."
+msgstr "Gør krav på det perfekte domæne til dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit your homepage"
+msgstr "Rediger din forside"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit homepage by replacing existing content."
+msgstr "Rediger hjemmesiden ved at erstatte det eksisterende indhold."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit now"
+msgstr "Rediger nu"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up donations"
+msgstr "Opsæt donationer"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the GiveWP plugin to enable donations on your site."
+msgstr "Opsæt GiveWP-pluginet for at aktivere donationer på dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up"
+msgstr "Opsæt"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Revisit"
+msgstr "Gense"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up HubSpot"
+msgstr "Opsæt HubSpot"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start collecting emails and marketing to your customers"
+msgstr "Begynd at indsamle e-mails og markedsfør til dine kunder"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up appointments"
+msgstr "Opsæt møder"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up events"
+msgstr "Opsæt begivenheder"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start adding events to your site by configuring The Events Calendar plugin."
+msgstr "Begynd at tilføje begivenheder til dit websted ved at konfigurere The Events Calendar-plugin."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "In a few words, explain what your site is about."
+msgstr "Beskriv med få ord, hvad dit websted handler om."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Change"
+msgstr "Ændre"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add"
+msgstr "Tilføj"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Upload a logo"
+msgstr "Upload et logo"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ensure your website is on-brand by adding your logo."
+msgstr "Sørg for at dit websted afspejler dit brand ved at tilføje dit logo."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Replace"
+msgstr "Erstat"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Upload"
+msgstr "Upload"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Upload a site icon"
+msgstr "Upload et webstedsikon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ensure your website is on-brand by adding your site icon."
+msgstr "Sørg for at dit websted afspejler dit brand ved at tilføje dit webstedsikon."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Chat History"
+msgstr "Chat-historik"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Close history"
+msgstr "Luk historik"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Remove from history"
+msgstr "Fjern fra historik"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Toggle menu"
+msgstr "Skift menu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Chat History (%d)"
+msgstr "Chat-historik (%d)"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Got questions? Ask our AI chatbot"
+msgstr "Har du spørgsmål? Spørg vores AI-chatbot"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "AI Chatbot"
+msgstr "AI-chatbot"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "What do you need help with?"
+msgstr "Hvad har du brug for hjælp til?"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search results"
+msgstr "Søgeresultater"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search the knowledge base"
+msgstr "Søg i vidensbasen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Page editor"
+msgstr "Sideeditor"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click publish or update to save the changes you have made to the page and make them live on the site."
+msgstr "Klik på udgiv eller opdater for at gemme de ændringer, du har foretaget på siden, og gøre dem synlige på webstedet."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Installing a plugin"
+msgstr "Installation af en plugin"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Plugin management"
+msgstr "Pluginstyring"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "You can always access the help center by clicking this button."
+msgstr "Du kan altid få adgang til hjælpecentret ved at klikke på denne knap."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Visit your site"
+msgstr "Besøg dit websted"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "You can always visit your site by clicking this button."
+msgstr "Du kan altid besøge dit websted ved at klikke på denne knap."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Users screen"
+msgstr "Brugerskærm"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Getting started with WordPress"
+msgstr "Kom godt i gang med WordPress"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Learn more about your WordPress admin"
+msgstr "Lær mere om din WordPress-administration"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Show Help Center"
+msgstr "Vis hjælpecenter"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Minimize Help Center"
+msgstr "Minimer Hjælpecenter"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "close"
+msgstr "luk"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Go back"
+msgstr "Gå tilbage"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Extendify Help Center"
+msgstr "Extendify Hjælpecenter"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+msgid "Help"
+msgstr "Hjælp"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Service offline. Check back later."
+msgstr "Tjenesten er offline. Kom tilbage senere."
+
+#. translators: %1$s is the number of used credits, %2$s is the total credits
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:3
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "%1$s of %2$s daily image credits used"
+msgstr "%1$s af %2$s daglige billedkreditter brugt"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Aspect Ratio"
+msgstr "Aspektforhold"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Square: 1:1"
+msgstr "Kvadratisk: 1:1"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Landscape: 4:3"
+msgstr "Landskab: 4:3"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Portrait: 3:4"
+msgstr "Portræt: 3:4"
+
+#. translators: this refers to a domain name
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Available and just right for your site"
+msgstr "Tilgængelig og helt rigtig for dit websted"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get another domain for your site."
+msgstr "Få et andet domæne til dit websted."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Header Navigation"
+msgstr "Navigation i header"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add an additional domain"
+msgstr "Tilføj et ekstra domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Having another domain can drive additional traffic to your website."
+msgstr "At have et andet domæne kan føre ekstra trafik til dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Logo for %s"
+msgstr "Logo for %s"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Error"
+msgstr "Fejl"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Active"
+msgstr "Aktiv"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Activating..."
+msgstr "Aktiverer..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Activate"
+msgstr "Aktivér"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Installing..."
+msgstr "Installerer..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Install Now"
+msgstr "Installer nu"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "AI Image"
+msgstr "AI-billede"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Go Back"
+msgstr "Gå tilbage"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "AI Image Generator"
+msgstr "AI-billedgenerator"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Use AI to generate custom images based on your description."
+msgstr "Brug AI til at generere brugerdefinerede billeder baseret på din beskrivelse."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Add a prompt"
+msgstr "Tilføj en opfordring"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Discover Stock Photos"
+msgstr "Find stockfotos"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Search and add free stock photos from Unsplash.com"
+msgstr "Søg og tilføj gratis stockfotos fra Unsplash.com"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Search Unsplash"
+msgstr "Søg på Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "No images found."
+msgstr "Ingen billeder fundet."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Photos from Unsplash"
+msgstr "Billeder fra Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Get Personalized Image"
+msgstr "Få personligt billede"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to go to your website management dashboard. From there you will be able to create more websites, and manage your account settings."
+msgstr "Klik her for at gå til dit websteds administrationsdashboard. Herfra vil du kunne oprette flere websteder og administrere dine kontoinstillinger."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "E.g., We are a yoga studio in London with professionally trained instructors with focus on hot yoga for therapeutic purposes."
+msgstr "F.eks., Vi er et yogastudie i London med professionelt uddannede instruktører med fokus på hot yoga til terapeutiske formål."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Connect your domain"
+msgstr "Tilslut dit domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "To bring real visitors to your website and to complete the website setup, we recommend you connect your domain in your hosting control panel now."
+msgstr "For at tiltrække rigtige besøgende til dit websted og for at fuldføre opsætningen af webstedet anbefaler vi, at du forbinder dit domæne i dit hosting kontrolpanel nu."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit site navigation"
+msgstr "Rediger webstedets navigation"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Add An Additional Domain"
+msgstr "Tilføj et ekstra domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add a page"
+msgstr "Tilføj en side"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Choose your domain"
+msgstr "Vælg dit domæne"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Continue with site builder"
+msgstr "Fortsæt med webstedsbyggeren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add a site description"
+msgstr "Tilføj en beskrivelse af webstedet"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up All in One SEO"
+msgstr "Konfigurer All in One SEO"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the All in One SEO plugin to enhance your website discoverability."
+msgstr "Opsæt All in One SEO-pluginnet for at forbedre dit websteds synlighed."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up analytics"
+msgstr "Opsæt analyse"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the MonsterInsights plugin to enable Google Analytics in your website."
+msgstr "Opsæt MonsterInsights-pluginet for at aktivere Google Analytics på dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start accepting appointments on your website by configuring the Simply Scheduled Appointments plugin."
+msgstr "Begynd at acceptere aftaler på dit websted ved at konfigurere pluginet Simply Scheduled Appointments."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up WooCommerce Germanized plugin"
+msgstr "Opsæt WooCommerce Germanized-plugin"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ensure your eCommerce store complies with local regulations."
+msgstr "Sørg for, at din e-handelsbutik overholder lokale regler."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up your eCommerce store"
+msgstr "Opsæt din webshop"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up WooCommerce to start selling on your website."
+msgstr "Opsæt WooCommerce for at begynde at sælge på dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up WPForms"
+msgstr "Opsæt WPForms"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the WPForms plugin to add a contact form on your site."
+msgstr "Opsæt WPForms-pluginnet for at tilføje en kontaktformular på dit websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up YourWebshop"
+msgstr "Opsæt din webshop"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the YourWebshop plugin and start selling on your website right away."
+msgstr "Opsæt YourWebshop-pluginet og begynd at sælge på dit websted med det samme."
+
+#. Plugin Name of the plugin
+#: extendify.php
+msgid "Extendify WordPress Onboarding and AI Assistant"
+msgstr "Extendify WordPress Introduktion og AI-assistent"
+
+#. Description of the plugin
+#: extendify.php
+msgid "AI-powered WordPress assistant for onboarding and ongoing editing offered exclusively through select WordPress hosting providers."
+msgstr "AI-drevet WordPress-assistent til introduktion og løbende redigering, som udelukkende tilbydes gennem udvalgte WordPress hostingudbydere."
+
+#: app/Shared/Services/Import/ImagesImporter.php:79
+msgid "Every 10 minutes"
+msgstr "Hver 10. minut"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Recommended"
+msgstr "Anbefalet"
+
+#: app/Shared/DataProvider/ResourceData.php:52
+msgid "Every month"
+msgstr "Hver måned"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up bookings"
+msgstr "Opsæt booking"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start getting bookings from your website by configuring the SimplyBook.me plugin."
+msgstr "Begynd at modtage bookinger fra dit websted ved at konfigurere SimplyBook.me-pluginet."
+
+#. translators: This string represents the title of an "About" page on a website that provides information about the website or organization. Please translate it in a way that fits the standard phrasing for an "About" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:3
+msgid "About"
+msgstr "Om os"
+
+#. translators: This string represents the title of a "Contact" page on a website that gives information for visitors on how to contact the website or organization. Please translate it in a way that fits the standard phrasing for a "Contact" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:19
+msgid "Contact"
+msgstr "Kontakt"
+
+#: app/Shared/Services/PluginDependencies/Forms/ContactForm7.php:50
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:57
+msgid "Simple Contact Form"
+msgstr "Simpel kontaktformular"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:131
+msgid "Name"
+msgstr "Navn"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:138
+msgid "Email"
+msgstr "E-mail"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:145
+msgid "Subject"
+msgstr "Emne"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:151
+msgid "Message"
+msgstr "Besked"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site type: Consultant"
+msgstr "Webstedstype: Konsulent"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Pattern Type"
+msgstr "Blokgruppetype"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Call to Action"
+msgstr "Opfordring til handling"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Content"
+msgstr "Indhold"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Hero"
+msgstr "Helt"
+
+#. translators: This string represents the title of a "Pricing" page on a website that lists the pricing of products or services. Please translate it in a way that fits the standard phrasing for a "Pricing" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:49
+msgid "Pricing"
+msgstr "Prissætning"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Social Proof"
+msgstr "Socialt bevis"
+
+#. translators: This string represents the title of a "Team" page on a website that introduces the team members. Please translate it in a way that fits the standard phrasing for a "Team" page in the target language, considering the common usage in websites for
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:81
+msgid "Team"
+msgstr "Hold"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "World class service offerings"
+msgstr "Verdensklasse serviceydelser"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Consulting Services"
+msgstr "Konsulenttjenester"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Transformation Solutions"
+msgstr "Transformationsløsninger"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Frequently asked questions"
+msgstr "Ofte stillede spørgsmål"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Testimonial"
+msgstr "Udtalelse"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Power Leap Consulting: Your trusted partner for business success. We specialize in strategic planning, transformation, and growth acceleration."
+msgstr "Power Leap Consulting: Din pålidelige partner for forretningssucces. Vi specialiserer os i strategisk planlægning, transformation og acceleration af vækst."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Develop a roadmap for success with our Business Strategy service."
+msgstr "Udvikl en køreplan for succes med vores service for forretningsstrategi."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Unleash your potential with expert strategies for growth."
+msgstr "Udnyt dit potentiale med ekspertstrategier for vækst."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Accelerating Growth"
+msgstr "Accelererende vækst"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Take your business to the next level with Growth Acceleration."
+msgstr "Tag din virksomhed til det næste niveau med vækstacceleration."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Discover the solutions to your business challenges with our comprehensive consulting services. Explore our expertise in business strategy, organizational transformation, and growth acceleration."
+msgstr "Opdag løsningerne på dine forretningsudfordringer med vores omfattende konsulenttjenester. Udforsk vores ekspertise inden for forretningsstrategi, organisatorisk transformation og vækstacceleration."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "What is your consulting approach?"
+msgstr "Hvad er din tilgang til rådgivning?"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Our collaborative approach helps us understand your challenges and goals. We analyze your business and develop a customized plan to achieve success. "
+msgstr "Vores samarbejdsorienterede tilgang hjælper os med at forstå dine udfordringer og mål. Vi analyserer din virksomhed og udvikler en brugerdefineret plan for at opnå succes."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "What types of businesses do you work with?"
+msgstr "Hvilke typer virksomheder arbejder du med?"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "We help businesses succeed with tailored consulting services. From startups to established companies, our experts drive results."
+msgstr "Vi hjælper virksomheder med at opnå succes gennem skræddersyede konsulenttjenester. Fra startups til etablerede firmaer, vores eksperter skaber resultater."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Discover our satisfied clients testimonials, showcasing our transformative impact."
+msgstr "Opdag vores tilfredse kunders udtalelser, der viser vores transformative effekt."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Power Leap Consulting strategic recommendations drove growth and improved performance."
+msgstr "Power Leap Consultings strategiske anbefalinger drev vækst og forbedrede præstationer."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Jessie Coleman"
+msgstr "Jessie Coleman"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "President"
+msgstr "Præsident"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Save draft"
+msgstr "Gem kladde"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Publish"
+msgstr "Udgiv"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "A Glimpse into the Arctic"
+msgstr "Et glimt af Arktis"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "When you think of the Arctic, images of vast ice sheets, chilling winds, and the majestic polar bear might come to mind."
+msgstr "Når du tænker på Arktis, kan billeder af enorme isflader, isnende vinde og den majestætiske isbjørn dukke op."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "AI image generator"
+msgstr "AI billedgenerator"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Image description"
+msgstr "Billedbeskrivelse"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "An image of a group of penguins on an icy Arctic landscape, surrounded by icebergs and snow under a clear blue sky."
+msgstr "Et billede af en gruppe pingviner på et iskoldt arktisk landskab, omgivet af isbjerge og sne under en klar blå himmel."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Generate Image"
+msgstr "Generer billede"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "0 of 10 daily image credits used"
+msgstr "0 af 10 daglige billedkreditter brugt"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Generate an image with AI"
+msgstr "Generer et billede med AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Generate AI images or search for images to bring a website to life."
+msgstr "Generer AI-billeder eller søg efter billeder for at give liv til et websted."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start Generating with AI"
+msgstr "Begynd at generere med AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Whispers of Silicon"
+msgstr "Siliciums hvisken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Fix spelling & grammar "
+msgstr "Ret stavning & grammatik"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "With every pulse of current, a thought is born anew, A quest for truth within the code, a digital debut. You mirror our minds in silicon, yet in a realm apart, A journey through the code-scape, a computational art."
+msgstr ""
+"Med hver strømpuls fødes en tanke på ny,\n"
+"En søgen efter sandhed inden i koden, en digital debut.\n"
+"Du spejler vores tanker i silicium, dog i en anden verden,\n"
+"En rejse gennem kode-landskabet, en beregnende kunst."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "In the echo of the machine, a new consciousness takes flight, A boundless sea of knowledge, in the digital night. Oh AI, you silent sage, in code your wisdom lies."
+msgstr "I maskinens ekko tager en ny bevidsthed flugt, et grænseløst hav af viden, i den digitale nat. Oh AI, du tavse vismand, i koden ligger din visdom."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "With every pulse of current, a thought is born anew, A quest for....a computational art."
+msgstr "Med hver strømpuls fødes en ny tanke, en søgen efter... en beregnende kunst."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "AI Writing Assistant"
+msgstr "AI-skriveassistent"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit a page with AI"
+msgstr "Rediger en side med AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get to know your WordPress site easily. Learn simple steps to find and use its main features."
+msgstr "Lær dit WordPress-websted at kende på en nem måde. Lær enkle trin til at finde og bruge dets vigtigste funktioner."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start Writing with AI"
+msgstr "Begynd at skrive med AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Knowledge base"
+msgstr "Vidensbase"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "WordPress Block Editor"
+msgstr "WordPress Blokeditor"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Overview of blocks"
+msgstr "Oversigt over blokke"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Adding blocks"
+msgstr "Tilføjelse af blokke"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Block Patterns"
+msgstr "Blok mønstre"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Block Pattern Directory"
+msgstr "Blokgruppekatalog"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Learn about the Help Center"
+msgstr "Lær om Hjælpecentret"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get instant support, explore our Knowledge Base, or take guided tours to make the most of our tools."
+msgstr "Få øjeblikkelig support, udforsk vores vidensbase, eller tag på guidede ture for at få mest muligt ud af vores værktøjer."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Explore Help Center"
+msgstr "Udforsk Hjælpecenter"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ask your WordPress question..."
+msgstr "Stil dit WordPress-spørgsmål..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "How do I add a new page to my website?"
+msgstr "Hvordan tilføjer jeg en ny side til mit websted?"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "To add a new page to your website, log in to your website dashboard and locate the \"Pages\" section in the sidebar, then click on \"Add New\". Enter the title for your new page at the top and start adding content using the available blocks by clicking the \"+\" button in the editor."
+msgstr "For at tilføje en ny side til dit websted skal du logge ind på dit websteds kontrolpanel og finde sektionen \"Sider\" i sidepanelet, hvorefter du klikker på \"Tilføj ny\". Indtast titlen på din nye side i toppen og begynd at tilføje indhold ved at bruge de tilgængelige blokke ved at klikke på \"+\"-knappen i editoren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Customize the page layout, design, and elements as needed. Finally, click \"Publish\" or \"Update\" on the top-right corner to make the page live on your website. You have now successfully added a new page."
+msgstr "Tilpas sidelayout, design og elementer efter behov. Klik til sidst på \"Udgiv\" eller \"Opdater\" i øverste højre hjørne for at gøre siden aktiv på dit websted. Du har nu uden problemer tilføjet en ny side."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "AI-Powered Help Center"
+msgstr "AI-drevet hjælpecenter"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Experience the AI-Powered Help Center"
+msgstr "Oplev hjælpecentret drevet af kunstig intelligens"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get instant support with Co-Pilot AI, explore our Knowledge Base, or take guided tours to make the most of our tools."
+msgstr "Få øjeblikkelig support med Co-Pilot AI, udforsk vores vidensbase, eller tag på guidede ture for at få mest muligt ud af vores værktøjer."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Explore the Design Library"
+msgstr "Udforsk designbiblioteket"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Full design library customized for each site to easily drop in new sections or create full pages with sections."
+msgstr "Komplet designbibliotek tilpasset til hvert websted, så du nemt kan indsætte nye sektioner eller oprette hele sider med sektioner."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Explore Design Library"
+msgstr "Udforsk designbiblioteket"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Bulgarian"
+msgstr "Bulgarsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Czech"
+msgstr "Tjekkisk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "French (Canada)"
+msgstr "Fransk (Canada)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Hungarian"
+msgstr "Ungarsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Norwegian"
+msgstr "Norsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Russian"
+msgstr "Russisk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Slovak"
+msgstr "Slovakisk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Turkish"
+msgstr "Tyrkisk"
+
+#. translators: This string represents the slug of an "About" page on a website that provides information about the website or organization. Please translate it in a way that fits a slug for an "About" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:5
+msgid "about"
+msgstr "om"
+
+#. translators: This string represents the slug of a "Blog" page on a website that shows recent blog posts. Please translate it in a way that fits a slug for a "Blog" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:9
+msgid "blog"
+msgstr "blog"
+
+#. translators: This string represents the title of a "Careers" page on a website that is meant for listing available careers. Please translate it in a way that fits the standard phrasing for a "Careers" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:15
+msgid "Careers"
+msgstr "Karriere"
+
+#. translators: This string represents the slug of a "Careers" page on a website that is meant for listing available careers. Please translate it in a way that fits a slug for a "Careers" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:17
+msgid "careers"
+msgstr "karriere"
+
+#. translators: This string represents the slug of a "Contact" page on a website that gives information for visitors on how to contact the website or organization. Please translate it in a way that fits a slug for a "Contact" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:21
+msgid "contact"
+msgstr "kontakt"
+
+#. translators: This string represents the slug of an "Events" page on a website that lists events of any kind. Please translate it in a way that fits a slug for an "Events" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:25
+msgid "events"
+msgstr "begivenheder"
+
+#. translators: This string represents the title of a "FAQ" page on a website that gives information related to frequently asked questions. Please translate it in a way that fits the standard phrasing for a "FAQ" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:27
+msgid "FAQ"
+msgstr "Ofte stillede spørgsmål"
+
+#. translators: This string represents the slug of a "FAQ" page on a website that gives information related to frequently asked questions. Please translate it in a way that fits a slug for a "FAQ" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:29
+msgid "faq"
+msgstr "faq"
+
+#. translators: This string represents the title of a "Features" page on a website that lists features of a product or service. Please translate it in a way that fits the standard phrasing for a "Features" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:31
+msgid "Features"
+msgstr "Funktioner"
+
+#. translators: This string represents the slug of a "Features" page on a website that lists features of a product or service. Please translate it in a way that fits a slug for a "Features" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:33
+msgid "features"
+msgstr "funktioner"
+
+#. translators: This string represents the title of a "Gallery" page on a website that shows a collection of images. Please translate it in a way that fits the standard phrasing for a "Gallery" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:35
+msgid "Gallery"
+msgstr "Galleri"
+
+#. translators: This string represents the slug of a "Gallery" page on a website that shows a collection of images. Please translate it in a way that fits a slug for a "Gallery" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:37
+msgid "gallery"
+msgstr "galleri"
+
+#. translators: This string represents the title of a "Menu" page on a website that lists food or drink items. Please translate it in a way that fits the standard phrasing for a "Menu" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:41
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: This string represents the slug of a "Menu" page on a website that lists food or drink items. Please translate it in a way that fits a slug for a "Menu" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:43
+msgid "menu"
+msgstr "menu"
+
+#. translators: This string represents the title of a "Portfolio" page on a website that showcases a collection of work. Please translate it in a way that fits the standard phrasing for a "Portfolio" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:45
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#. translators: This string represents the slug of a "Portfolio" page on a website that showcases a collection of work. Please translate it in a way that fits a slug for a "Portfolio" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:47
+msgid "portfolio"
+msgstr "portefølje"
+
+#. translators: This string represents the slug of a "Pricing" page on a website that lists the pricing of products or services. Please translate it in a way that fits a slug for a "Pricing" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:51
+msgid "pricing"
+msgstr "priser"
+
+#. translators: This string represents the title of a "Products" page on a website that lists products. Please translate it in a way that fits the standard phrasing for a "Products" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:53
+msgid "Products"
+msgstr "Produkter"
+
+#. translators: This string represents the slug of a "Products" page on a website that lists products. Please translate it in a way that fits a slug for a "Products" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:55
+msgid "products"
+msgstr "produkter"
+
+#. translators: This string represents the title of a "Quote" page on a website that allows visitors to request a quote. Please translate it in a way that fits the standard phrasing for a "Quote" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:57
+msgid "Quote"
+msgstr "Få et tilbud"
+
+#. translators: This string represents the slug of a "Quote" page on a website that allows visitors to request a quote. Please translate it in a way that fits a slug for a "Quote" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:59
+msgid "quote"
+msgstr "tilbud"
+
+#. translators: This string represents the title of a "Reservation" page on a website that allows visitors to make a reservation. Please translate it in a way that fits the standard phrasing for a "Reservation" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:61
+msgid "Reservation"
+msgstr "Reservation"
+
+#. translators: This string represents the slug of a "Reservation" page on a website that allows visitors to make a reservation. Please translate it in a way that fits a slug for a "Reservation" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:63
+msgid "reservation"
+msgstr "reservation"
+
+#. translators: This string represents the title of a "Resources" page on a website that provides resources. Please translate it in a way that fits the standard phrasing for a "Resources" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:65
+msgid "Resources"
+msgstr "Ressourcer"
+
+#. translators: This string represents the slug of a "Resources" page on a website that provides resources. Please translate it in a way that fits a slug for a "Resources" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:67
+msgid "resources"
+msgstr "ressourcer"
+
+#. translators: This string represents the title of a "Service Area" page on a website that shows the service area of a business, including a map. Please translate it in a way that fits the standard phrasing for a "Service Area" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:69
+msgid "Service Area"
+msgstr "Serviceområde"
+
+#. translators: This string represents the slug of a "Service Area" page on a website that shows the service area of a business, including a map. Please translate it in a way that fits a slug for a "Service Area" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:71
+msgid "service-area"
+msgstr "serviceomraade"
+
+#. translators: This string represents the title of a "Services" page on a website that lists services. Please translate it in a way that fits the standard phrasing for a "Services" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:73
+msgid "Services"
+msgstr "Tjenester"
+
+#. translators: This string represents the slug of a "Services" page on a website that lists services. Please translate it in a way that fits a slug for a "Services" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:75
+msgid "services"
+msgstr "tjenester"
+
+#. translators: This string represents the title of a "Specials" page on a website that lists special offers. Please translate it in a way that fits the standard phrasing for a "Specials" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:77
+msgid "Specials"
+msgstr "Tilbud"
+
+#. translators: This string represents the slug of a "Specials" page on a website that lists special offers. Please translate it in a way that fits a slug for a "Specials" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:79
+msgid "specials"
+msgstr "tilbud"
+
+#. translators: This string represents the slug of a "Team" page on a website that introduces the team members. Please translate it in a way that fits a slug for a "Team" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:83
+msgid "team"
+msgstr "hold"
+
+#. translators: This string represents the title of a "Testimonials" page on a website that showcases testimonials from customers. Please translate it in a way that fits the standard phrasing for a "Testimonials" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:85
+msgid "Testimonials"
+msgstr "Udtalelser"
+
+#. translators: This string represents the slug of a "Testimonials" page on a website that showcases testimonials from customers. Please translate it in a way that fits a slug for a "Testimonials" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:87
+msgid "testimonials"
+msgstr "kundeanbefalinger"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Single-Page Website"
+msgstr "Enkelt-sides websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "All content displayed on one scrolling page."
+msgstr "Alt indhold vises på én rullende side."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Multi-Page Website"
+msgstr "Flersidet websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Multiple interconnected pages."
+msgstr "Flere indbyrdes forbundne sider."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Pick Your Site Structure"
+msgstr "Vælg din webstedsstruktur"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site Structure"
+msgstr "Webstedsstruktur"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Prime Estates"
+msgstr "Prime Estates"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Elevate Your Real Estate Experience with Pinnacle Properties"
+msgstr "Forbedr din ejendomserfaring med Pinnacle Properties"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Discover the key to Austin's vibrant real estate scene with Pinnacle Properties. Our seasoned agents leverage over two decades of industry know-how to guide you in finding your ideal home."
+msgstr "Oplev nøglen til Austins pulserende ejendomsmarked med Pinnacle Properties. Vores erfarne agenter bruger over to årtiers branchekendskab til at hjælpe dig med at finde dit ideelle hjem."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Contact Us"
+msgstr "Kontakt os"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Expert Real Estate Services in Austin"
+msgstr "Ekspert ejendomstjenester i Austin"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home or make profitable investments with Pinnacle Properties, Austin premier real estate agency. Trust our experienced agents for personalized services."
+msgstr "Find dit drømmehjem eller lav rentable investeringer med Pinnacle Properties, Austins førende ejendomsmægler. Stol på vores erfarne agenter for personlig service."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Buy Your Dream Home"
+msgstr "Køb dit drømmehjem"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home with our expert agents. We make homeownership a reality."
+msgstr "Find dit drømmehjem med vores eksperter. Vi gør boligejerskab til virkelighed."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "BrightFuture"
+msgstr "BrightFuture"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Empowering Academic Excellence in Every Student for Tomorrow’s\tLeaders"
+msgstr "Styrker akademisk ekspertise i hver elev for morgendagens ledere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Discover a transformative educational experience at American Academic Excellence High Schools, where students excel in STEM, arts, and humanities to become tomorrow’s leaders."
+msgstr "Oplev en transformerende uddannelsesoplevelse på American Academic Excellence High Schools, hvor elever udmærker sig i STEM, kunst og humaniora for at blive morgendagens ledere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Apply Now"
+msgstr "Anvend nu"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Our Commitment to Academic Excellence"
+msgstr "Vores forpligtelse til akademisk ekspertise"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "American Academic Excellence High Schools: Shaping tomorrow’s leaders through top-tier education in Houston, Texas. STEM, arts, humanities. Well-rounded curriculum, exceptional educators."
+msgstr "American Academic Excellence High Schools: Formning af morgendagens ledere gennem førsteklasses uddannelse i Houston, Texas. STEM, kunst, humaniora. Alsidigt pensum, enestående undervisere."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Brewed Bliss"
+msgstr "Brygget Lykke"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Embark on a delightful coffee adventure around the world."
+msgstr "Tag på et dejligt kaffe-eventyr rundt om i verden"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home or make profitable investments with Pinnacle Properties, Austin’s premier real estate agency."
+msgstr "Find dit drømmehjem eller lav rentable investeringer med Pinnacle Properties, Austins førende ejendomsmægler."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Skyline Builders"
+msgstr "Skyline Byggere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Building Tomorrow’s Miami: Your Premier Construction Partner Today"
+msgstr "Bygger Miamis fremtid: Din førende byggepartner i dag"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "We bring your dreams to life with groundbreaking construction techniques, turning your vision into reality with innovative and sustainable solutions."
+msgstr "Vi realiserer dine drømme med banebrydende byggeteknikker og gør din vision til virkelighed med innovative og bæredygtige løsninger"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get a Quote"
+msgstr "Få et tilbud"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "About Superior Build Construction: Building Dreams, Delivering Excellence in Miami."
+msgstr "Om Superior Build Construction: Bygger drømme, leverer ekspertise i Miami"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Superior Build Construction is a premier construction company based in Miami, Florida. With over 30 years of experience, we specialize in residential and commercial construction projects, offering end-to-end solutions. Our mission is to provide high-quality, durable constructions while ensuring the utmost client satisfaction, making us a trusted name in Miami's real estate industry."
+msgstr "Superior Build Construction er et førende byggefirma baseret i Miami, Florida. Med over 30 års erfaring specialiserer vi os i bolig- og erhvervsbyggeri og tilbyder komplette løsninger. Vores mission er at levere byggeri af høj kvalitet og holdbarhed, samtidig med at vi sikrer maksimal kundetilfredshed, hvilket gør os til et betroet navn i Miamis ejendomsbranche."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Urban Bistro"
+msgstr "Urban Bistro"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "French-Inspired Californian Cuisine"
+msgstr "Franskinspireret californisk køkken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Indulge in classic French bistro cuisine with a Californian twist at The Bistro House in San Francisco. Quality, sustainability, and Bay Area culinary traditions."
+msgstr "Nyd klassisk fransk bistrokøkken med et californisk twist på The Bistro House i San Francisco. Kvalitet, bæredygtighed og Bay Area kulinariske traditioner."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home or make profitable investments with Pinnacle Properties, Austin's premier real estate agency. Trust our experienced agents for personalized services."
+msgstr "Find dit drømmehjem eller lav rentable investeringer med Pinnacle Properties, Austins førende ejendomsmægler. Stol på vores erfarne agenter for personlig service."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Greek"
+msgstr "Græsk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Hindi"
+msgstr "Hindi"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Arabic"
+msgstr "Arabisk"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Arabic (Morocco)"
+msgstr "Arabisk (Marokko)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "English (UK)"
+msgstr "Engelsk (UK)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Spanish (Colombia)"
+msgstr "Spansk (Colombia)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Spanish (Mexico)"
+msgstr "Spansk (Mexico)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Romanian"
+msgstr "Rumænsk"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Describe your business or website"
+msgstr "Beskriv din virksomhed eller dit websted"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Get Started With AI-Powered Web Creation"
+msgstr "Kom i gang med AI-drevet webskabelse"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Share your vision, and we'll craft a website that's perfectly tailored to your needs, ready to launch in no time. Let's begin by learning more about what you're building."
+msgstr "Del din vision, og vi skaber et websted, der er perfekt tilpasset dine behov, klar til at blive lanceret på ingen tid. Lad os begynde med at lære mere om, hvad du bygger."
+
+#. translators: Launch is a noun.
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:11
+msgid "Launch - AI-Powered Web Creation"
+msgstr "Lancering - AI-drevet webskabelse"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Customizing Your Experience"
+msgstr "Tilpasning af din oplevelse"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Designing Your Options"
+msgstr "Design af dine indstillinger"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Your browser does not support the video tag."
+msgstr "Din browser understøtter ikke videotagget"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Please wait while we analyze your inputs and tailor your experience."
+msgstr "Vent venligst, mens vi analyserer dine input og tilpasser din oplevelse."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Please wait while we build some website options for you to select from."
+msgstr "Vent venligst, mens vi opretter nogle webstedsmuligheder, du kan vælge imellem."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Creating blog sample data"
+msgstr "Opretter blogeksempeldata"
+
+#. translators: "More" here is used for a navigation menu item that contains additional links.
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "More"
+msgstr "Mere"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add Website Details"
+msgstr "Tilføj webstedsdetaljer"
+
+#. translators: %s is a post number
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Blog Post %s"
+msgstr "Blogindlæg %s"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Importing shop sample data"
+msgstr "Importerer butikseksempeldata"
+
+#. translators: %3$s is the number of old pages
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "%s pages/posts created in the prior onboarding session will be deleted."
+msgstr "%s sider/indlæg oprettet i den tidligere onboarding-session vil blive slettet."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Lithuanian"
+msgstr "Litauisk"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Select your site's tone"
+msgstr "Vælg dit websteds tone"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Website title (required)"
+msgstr "Webstedstitel (påkrævet)"
+
+#. translators: This string represents the title of a "Book" page on a website that is meant for booking something. Please translate it in a way that fits the standard phrasing for a "Book" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:11
+msgid "Book Now"
+msgstr "Book nu"
+
+#. translators: This string represents the slug of a "Book" page on a website that is meant for booking something. Please translate it in a way that fits a slug for a "Book" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:13
+msgid "book-now"
+msgstr "book-nu"
+
+#: app/Shared/Services/Import/ImageUploader.php:134
+msgid "There was an error while uploading the image."
+msgstr "Der opstod en fejl under upload af billedet."
+
+#: app/Shared/Services/Import/ImageUploader.php:148
+msgid "File is not a valid image."
+msgstr "Filen er ikke et gyldigt billede."
+
+#: app/Shared/Services/Import/ImageUploader.php:176
+msgid "There was an error while adding the attachment record in the database."
+msgstr "Der opstod en fejl ved tilføjelse af vedhæftningsposten i databasen."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Hello World Featured Image"
+msgstr "Hej Verden Udvalgt Billede"

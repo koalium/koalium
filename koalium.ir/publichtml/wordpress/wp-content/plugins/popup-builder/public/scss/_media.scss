@@ -1,0 +1,83 @@
+@import "variables";
+
+@media screen and (max-width: 1250px) and (min-width: 1100px) {
+	.sgpb {
+		.sgpb-options-menu {
+			padding: 12px;
+
+			h3 {
+				font-size: 14px;
+			}
+		}
+
+		.sgpb-options-content {
+			padding: 0 0 0 20px;
+		}
+		.formItem input[type=email]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=number]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=text]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=url]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker) {
+			padding: 0 3px!important;
+			line-height: 1.7!important;
+			margin: 0 2px!important;
+		}
+	}
+
+	.edit-post-meta-boxes-area .postbox > .inside {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1250px) {
+	.sgpb {
+		.sgpb-options-menu {
+			padding: 15px;
+			h3 {
+				font-size: 15px;
+			}
+		}
+
+		.sgpb-options-content {
+			padding: 0 0 0 20px;
+		}
+		.formItem input[type=email]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=number]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=text]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=url]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker) {
+			padding: 5px!important;
+			line-height: 2!important;
+			margin: 5px!important;
+		}
+	}
+
+	.edit-post-meta-boxes-area .postbox > .inside {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1310px) {
+	.sgpb {
+		.sgpb-options-menu {
+			padding: 15px;
+			h3 {
+				font-size: 15px;
+			}
+		}
+
+		.sgpb-options-content {
+			padding: 0 0 0 20px;
+		}
+		.formItem input[type=email]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=number]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=text]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker),
+		.sgpb .formItem input[type=url]:not(.sgpb-mailchimp-input):not(.js-registration-text-inputs):not(.js-login-text-inputs):not(.text):not(.wp-color-picker) {
+			padding: 5px!important;
+			line-height: 2!important;
+			margin: 5px!important;
+		}
+	}
+
+	.edit-post-meta-boxes-area .postbox > .inside {
+		padding: 0;
+	}
+}

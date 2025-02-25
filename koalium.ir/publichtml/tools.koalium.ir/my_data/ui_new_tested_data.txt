@@ -1,0 +1,21 @@
+
+
+databasename= koaliumi_rupturium_db
+pass: koala551364
+user: koaliumi_editor
+server: localhost
+
+page that send by php server to client from newrupturetest:
+title:new rupture burst test,
+inputs are:
+type: selection from type table where elements= 'ru8pture'
+size: select from element_raw_size table where element='rupture'
+layers that group of 3 layers each made of:
+	named:'main,vacuum,seal', and each had these:
+	sheet material: select from material table col name
+	thickness: input decimal from 0.05 to 5.5 step 0.05
+burst temprature: decimal in range 0.01,221 , step 0.1
+burst temprature decimal between range -270,550,step 1
+button: send this data to server 'rupture_burst_data_handler.php' and after ok pop up ok to user
+
+

@@ -1,0 +1,2446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Extendify — Gutenberg Patterns and Templates - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-30T09:09:41+00:00\n"
+"PO-Revision-Date: 2023-10-17 14:41:23+0000\n"
+"Language: nl_BE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Pattern added"
+msgstr "Patroon toegevoegd"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Design Patterns"
+msgstr "Ontwerppatronen"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Fetching..."
+msgstr "Ophalen..."
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Retrying..."
+msgstr "Opnieuw proberen..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "All"
+msgstr "Alle"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Design Type"
+msgstr "Ontwerptype"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Loading more patterns..."
+msgstr "Meer patronen laden..."
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Loading Patterns..."
+msgstr "Patronen aan het laden..."
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Insert Pattern"
+msgstr "Patroon invoegen"
+
+#: app/Library/Admin.php:139
+msgid "Extendify Library User Settings"
+msgstr "Extendify Bibliotheek Gebruikersinstellingen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Accept"
+msgstr "Accepteren"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Terms of Use"
+msgstr "Algemene voorwaarden"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "View more pages"
+msgstr "Meer pagina's bekijken"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "We already selected the most common pages for your type of website."
+msgstr "We hebben de meest voorkomende pagina's voor je type site al geselecteerd."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Pick the pages to add to your website"
+msgstr "Kies de pagina's die je aan je site wil toevoegen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Home page"
+msgstr "Homepage"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Pick a design for your website"
+msgstr "Kies een ontwerp voor je site"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "We'll make sure your website has what it needs to achieve your goals."
+msgstr "Wij zorgen ervoor dat je site heeft wat hij nodig heeft om je doelen te bereiken."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "What are your goals for your website?"
+msgstr "Wat zijn je doelen voor je site?"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Searching..."
+msgstr "Aan het zoeken..."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Enter your website name"
+msgstr "Voer de naam van je site in"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Helping you to succeed"
+msgstr "Je helpen om te slagen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Adding page content"
+msgstr "Pagina-inhoud toevoegen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Installing necessary plugins"
+msgstr "Noodzakelijke plugins installeren"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Creating a beautiful website"
+msgstr "Een prachtige site maken"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Applying your website styles"
+msgstr "De stijlen van je site toepassen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Personalizing your experience"
+msgstr "Je ervaring personaliseren"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Populating data"
+msgstr "Gegevens vullen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Service temporarily unavailable"
+msgstr "Service tijdelijk niet beschikbaar"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Discard"
+msgstr "Verwerpen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Try again"
+msgstr "Probeer opnieuw"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "AI Tools"
+msgstr "AI gereedschappen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Replace selected block text"
+msgstr "Geselecteerde bloktekst vervangen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Ask AI to generate text"
+msgstr "Vraag AI om tekst te genereren"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "AI is writing..."
+msgstr "AI schrijft..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Simplify language"
+msgstr "Taal vereenvoudigen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Make longer"
+msgstr "Maak het langer"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Make shorter"
+msgstr "Maak korter"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Fix spelling & grammar"
+msgstr "Spelling & grammatica corrigeren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Improve writing"
+msgstr "Schrijven verbeteren"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a blog post about"
+msgstr "Schrijf een blog bericht over"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "For other questions, visit our support page."
+msgstr "Voor andere vragen, bezoek onze ondersteuningspagina."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "WordPress Comfort Level"
+msgstr "WordPress comfortniveau"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Intermediate"
+msgstr "Gemiddeld"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Beginner"
+msgstr "Beginner"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Rate that this answer was not helpful"
+msgstr "Waardeer dat dit antwoord niet nuttig was"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Rate that this answer was helpful"
+msgstr "Waardeer of dit antwoord nuttig was"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Remove rating"
+msgstr "Beoordeling verwijderen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask your WordPress question…"
+msgstr "Stel je WordPress vraag..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask me any questions about WordPress."
+msgstr "Stel me al je vragen over WordPress."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Hi there!"
+msgstr "Hallo daar!"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask Another Question"
+msgstr "Stel een andere vraag"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Oops! We were unable to send your question."
+msgstr "Oeps! We konden je vraag niet verzenden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Please try again."
+msgstr "Probeer het alsjeblieft opnieuw."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Use this toggle to collapse or expand the sidebar menu."
+msgstr "Gebruik deze toggle om het zijbalkmenu samen te vouwen of uit te vouwen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Collapse menu"
+msgstr "Menu samenvouwen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search for articles"
+msgstr "Zoek naar artikelen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "The selected pattern has been inserted into the page."
+msgstr "Het geselecteerde patroon is ingevoegd in de pagina."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "View the Inserted Pattern"
+msgstr "Bekijk het ingevoegde patroon"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Simply select any pattern you wish to insert into a page by clicking on it."
+msgstr "Selecteer eenvoudig een patroon dat je in een pagina wilt invoegen door erop te klikken."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Select a Pattern"
+msgstr "Selecteer een patroon"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click on any pattern category to refine the selection."
+msgstr "Klik op een willekeurige patroon categorie om de selectie te verfijnen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Filter Patterns"
+msgstr "Patronen filteren"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "The Extendify pattern library can be opened by clicking the button to the left."
+msgstr "De patroonbibliotheek van Extendify kan worden geopend door op de knop aan de linkerkant te klikken."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Open the Pattern Library"
+msgstr "Open de patroonbibliotheek"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tour this page"
+msgstr "Rondleiding op deze pagina"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Manage your profile or log out of your account here."
+msgstr "Beheer je profiel of log hier uit."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "User"
+msgstr "Gebruiker"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Advanced settings for your site and for certain plugins."
+msgstr "Geavanceerde instellingen voor je website en voor bepaalde plugins."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Import/export post data, check site health, and edit theme or plugin files directly in the WordPress admin."
+msgstr "Importeer/exporteer berichtgegevens, controleer de gezondheid van de websitediagnose en bewerk thema of plugin bestanden rechtstreeks in de WordPress beheerder."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tools"
+msgstr "Tools"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add or manage users on your site, both admin users and others."
+msgstr "Voeg toe of beheer gebruikers op je website, zowel beheerders als anderen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add or manage the plugins on your site."
+msgstr "Voeg plugins toe of beheer ze op je website."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Manage your theme and access the Site Editor from the Appearance menu. The Site Editor is where you can make global changes to your site (such as the menu, header/footer, and styles)."
+msgstr "Beheer je thema en open de site-editor via het menu weergave. Via de site-editor, kan je algemene wijzigingen aan je website aanbrengen (zoals het menu, header/footer en stijlen)."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Appearance"
+msgstr "Weergave"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "If you have commenting enabled on your posts, you can manage those comments here."
+msgstr "Als je reacties op je berichten hebt ingeschakeld, kun je die opmerkingen hier beheren."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Comments"
+msgstr "Reacties"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add, edit, or remove images and other media from your library. When you upload an image to be used on your site, it will be added to the library."
+msgstr "Voeg toe, bewerk of verwijder afbeeldingen en andere media uit je bibliotheek. Wanneer je een afbeelding uploadt om op je website te gebruiken, zal deze worden toegevoegd aan de bibliotheek."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Media"
+msgstr "Media"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Manage and create blog posts."
+msgstr "Beheer en maak blogberichten."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Posts"
+msgstr "Berichten"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "The default WordPress dashboard will have some overall site metrics and modules added from certain plugins."
+msgstr "Het standaard WordPress dashboard zal enkele algemene websitestatistieken en modules hebben die zijn toegevoegd vanuit bepaalde plugins."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Access the Site Assistant at any time."
+msgstr "Toegang tot de Site Assistent op elk gewenst moment."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Come back to the Site Assistant any time by clicking the menu item."
+msgstr "Je kunt op elk gewenst moment teruggaan naar de Site Assistent door op het menu-item te klikken."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See our personalized recommendations for you that will help you accomplish your goals."
+msgstr "Bekijk onze gepersonaliseerde aanbevelingen voor jou die je zullen helpen je doelen te bereiken."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Easily access some of the most common items in WordPress with these quick links."
+msgstr "Krijg eenvoudig toegang tot enkele van de meest voorkomende items in WordPress met deze snelle links."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Knowledge Base"
+msgstr "Kennisbank"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Now that you've created your starter site, make it your own with these follow up tasks."
+msgstr "Nu je je starter website hebt gemaakt, kun je het personaliseren met deze vervolgtaken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Create a super-fast, beautiful, and fully customized site in minutes with our Site Launcher."
+msgstr "Maak binnen enkele minuten een razendsnelle, prachtige en volledig op maat gemaakte website met onze Site Launcher."
+
+#. translators: This string represents the title of an "Home" page on a website. Please translate it in a way that fits the standard phrasing for a "Home" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:39
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Home"
+msgstr "Startpagina"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "There was an error loading this article"
+msgstr "Er is een fout opgetreden bij het laden van dit artikel"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tours"
+msgstr "Rondleidingen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Help Center"
+msgstr "Helpcentrum"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click the Add New button to add a new user to your site."
+msgstr "Klik op de knop nieuwe toevoegen om een ​​nieuwe gebruiker aan je website toe te voegen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add a new user"
+msgstr "Voeg een nieuwe gebruiker toe"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Use the search bar to find a particular user."
+msgstr "Gebruik de zoekbalk om een ​​bepaalde gebruiker te vinden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search for users"
+msgstr "Zoek naar gebruikers"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click the edit button to change the user's role, manage their account, or change their profile information."
+msgstr "Klik op de knop bewerken om de rol van de gebruiker te wijzigen, hun account te beheren of hun profielgegevens te wijzigen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Edit user information"
+msgstr "Gebruikersgegevens bewerken"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See all of your users, including admin users in this table."
+msgstr "Bekijk al je gebruikers, inclusief beheerders in deze tabel."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Users"
+msgstr "Gebruikers"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to view and manage the users on your site."
+msgstr "Klik hier om de gebruikers op je website te bekijken en te beheren."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "All Users menu"
+msgstr "Alle gebruikers menu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to add another plugin to your site."
+msgstr "Klik hier om nog een plugin aan je website toe te voegen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add another"
+msgstr "Voeg een andere toe"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Under each plugin you can activate or deactivate it."
+msgstr "Onder elke plugin kun je deze activeren of deactiveren."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Deactivate/activate option"
+msgstr "Deactiveren/activeren optie"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See all plugins installed on your site. This includes plugins that are active and deactivated."
+msgstr "Bekijk alle plugins die op je website zijn geïnstalleerd. Dit is inclusief plugins die actief en gedeactiveerd zijn."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Installed plugins"
+msgstr "Geïnstalleerde plugins"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click this menu to see and manage the plugins you have installed."
+msgstr "Klik op dit menu om de door jouw geïnstalleerde plugins te bekijken en te beheren."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Installed Plugins menu"
+msgstr "Geïnstalleerde plugins menu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "If you have a plugin from an external source, you can upload it directly here."
+msgstr "Als je een plugin van een externe bron hebt, kun je dat hier gelijk uploaden."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Upload Plugin"
+msgstr "Plugin uploaden"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Install the plugin. Then, press this button again to activate the plugin."
+msgstr "Installeer de plugin. Druk vervolgens nogmaals op deze knop om de plugin te activeren."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Install now"
+msgstr "Installeer nu"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "See important information about each plugin."
+msgstr "Bekijk belangrijke informatie over elke plugin."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Plugin details"
+msgstr "Plugin details"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search for a plugin by name or functionality."
+msgstr "Zoek naar een plugin op naam of functionaliteit."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to access the Add Plugins page."
+msgstr "Klik hier om toegang te krijgen tot de pagina plugins toevoegen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add New plugin menu"
+msgstr "Nieuw plugin menu toevoegen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Publish or Save"
+msgstr "Publiceer of opslaan"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click preview to view how your changes look on the front end of your site."
+msgstr "Klik op voorvertoning om te zien hoe je wijzigingen er aan de voorkant van je website uitzien."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Preview"
+msgstr "Voorvertoning"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Select either page or block to change the settings for the entire page or the block that is selected."
+msgstr "Selecteer een pagina of blok om de instellingen voor de gehele pagina of het geselecteerde blok te wijzigen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Page and Block Settings"
+msgstr "Pagina en blokinstellingen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "This is a sample paragraph block. It can be several sentences long and will span multiple rows. You can add as many blocks as you'd like to the page."
+msgstr "Dit is een voorbeeld van een paragraaf blok. Het kan meerdere zinnen lang zijn en uit meerdere rijen bestaan. Je kan zoveel blokken aan de pagina toevoegen als je wilt."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Each block will show up on the page and can be edited by clicking on it."
+msgstr "Elk blok verschijnt op de pagina en kan worden bewerkt door erop te klikken."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Blocks"
+msgstr "Blokken"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Edit the page title by clicking it. Note: The title may or may not show up on the published page, depending on the page template used."
+msgstr "Bewerk de paginatitel door erop te klikken. Opmerking: de titel wordt wel of niet getoond op de gepubliceerde pagina, afhankelijk van het gebruikte pagina template."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Page Title"
+msgstr "Paginatitel"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add a block by clicking or dragging it onto the page."
+msgstr "Voeg een blok toe door erop te klikken of het naar de pagina te slepen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Block Inserter"
+msgstr "Blok invoeger"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click the plus to open the block inserter."
+msgstr "Klik op de plus om de blok invoeger te openen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Add a Block"
+msgstr "Een blok toevoegen"
+
+#: app/HelpCenter/Controllers/SupportArticlesController.php:100
+msgid "Page not found"
+msgstr "Pagina niet gevonden"
+
+#. translators: This string represents the title of an "Events" page on a website that lists events of any kind. Please translate it in a way that fits the standard phrasing for an "Events" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:23
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Events"
+msgstr "Evenementen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Skip to Assist"
+msgstr "Ga naar Hulp"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tasks"
+msgstr "Taken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Quick Links"
+msgstr "Snelle links"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "At any time, you can view your site (from a visitor's perspective) from the top admin bar under your site's name."
+msgstr "Je kan je website op elk moment bekijken (vanuit het perspectief van een bezoeker) vanaf de bovenste beheerbalk onder de naam van je website."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Use the pages menu to add, delete, or edit the pages on your site."
+msgstr "Gebruik het pagina menu om pagina's op je website toe te voegen, te verwijderen of te bewerken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+msgid "Done"
+msgstr "Gedaan"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tour Steps"
+msgstr "Tour stappen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Tour"
+msgstr "Tour"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Open for new pages"
+msgstr "Open voor nieuwe pagina's"
+
+#. translators: %s: Extendify Library term
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:3
+msgid "Toggle %s on new pages"
+msgstr "Wissel %s op nieuwe pagina's"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "We encountered a server error we cannot recover from. Please reload the page and try again."
+msgstr "Er is een serverfout opgetreden die we niet kunnen herstellen. Herlaad de pagina en probeer het nogmaals."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Save"
+msgstr "Opslaan"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Enter a site description..."
+msgstr "Voer een websitebeschrijving in..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site description"
+msgstr "Websitebeschrijving"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Add site description"
+msgstr "Website beschrijving toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Upload site logo"
+msgstr "Website logo uploaden"
+
+#: app/AdminPageRouter.php:47
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Site Assistant"
+msgstr "Website assistent"
+
+#. translators: This string represents the title of a "Blog" page on a website that shows recent blog posts. Please translate it in a way that fits the standard phrasing for a "Blog" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:7
+msgid "Blog"
+msgstr "Blog"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "View site"
+msgstr "Website bekijken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Upload site icon"
+msgstr "Favicon uploaden"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Set site icon"
+msgstr "Favicon instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site icon"
+msgstr "Favicon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Set site logo"
+msgstr "Website logo instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site logo"
+msgstr "Website logo"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Remove image"
+msgstr "Afbeelding verwijderen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Replace image"
+msgstr "Afbeelding vervangen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit or update the image"
+msgstr "De afbeelding bewerken of bijwerken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Close Modal"
+msgstr "Modaal sluiten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Select Site Pages"
+msgstr "Selecteer website pagina's"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Select Site Design"
+msgstr "Selecteer website ontwerp"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Select Site Goals"
+msgstr "Selecteer website doelen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Continue Building Your Website"
+msgstr "Doorgaan met het bouwen van je website"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Let's Start Building Your Website"
+msgstr "Laten we beginnen met het bouwen van je website"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Exit Launch"
+msgstr "Verlaat Launch"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Redirecting in 3, 2, 1..."
+msgstr "Je wordt omgeleid in 3, 2, 1..."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Your website has been created!"
+msgstr "Je website is aangemaakt!"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Setting up your Site Assistant"
+msgstr "Je website assistent instellen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Starting off with a full website"
+msgstr "Begin met een volledige website"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Back"
+msgstr "Terug"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site Industry"
+msgstr "Website branche"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Goals"
+msgstr "Doelen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Take me there"
+msgstr "Breng me ernaar toe"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "Hey there, Launch is powered by Extendable and is required to proceed. You can install it from the link below and start over once activated."
+msgstr "Hey daar, Launch wordt mogelijk gemaakt door Extendable en is benodigd om door te gaan. Je kan het via de onderstaande link installeren en opnieuw beginnen zodra het is geactiveerd."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "One more thing before we start."
+msgstr "Hey, nog één ding voordat we starten."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Plugins"
+msgstr "Plugins"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "View Site"
+msgstr "Website bekijken"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Next"
+msgstr "Volgende"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Pages"
+msgstr "Pagina's"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "You can personalize this later."
+msgstr "Dit kan je later personaliseren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Loading..."
+msgstr "Aan het laden..."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Press to select"
+msgstr "Klik om te selecteren"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Just a moment, this is taking longer than expected."
+msgstr "Een ogenblik geduld alsjeblieft, dit duurt langer dan verwacht."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Design Library"
+msgstr "Ontwerp bibliotheek"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Design"
+msgstr "Ontwerp"
+
+#: public/build/extendify-library-02ea0f20c1ea282d5896.js:1
+msgid "Close"
+msgstr "Sluiten"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Submit"
+msgstr "Indienen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Settings"
+msgstr "Instellingen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search"
+msgstr "Zoeken"
+
+#. Author URI of the plugin
+#: extendify.php
+msgid "https://extendify.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://extendify.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Plugin URI of the plugin
+#: extendify.php
+msgid "https://extendify.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://extendify.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#. Author of the plugin
+#: extendify.php
+msgid "Extendify"
+msgstr "Extendify"
+
+#. translators: %1$s is the current step, %2$s is the total number of steps
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+msgid "%1$s of %2$s"
+msgstr "%1$s van %2$s"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Creating pages with custom content"
+msgstr "Pagina's maken met aangepaste inhoud"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Setting up site layout"
+msgstr "Lay-out van de website instellen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Professional"
+msgstr "Professioneel"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Friendly"
+msgstr "Vriendelijk"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Inspirational"
+msgstr "Inspirerend"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Informative"
+msgstr "Informatief"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Persuasive"
+msgstr "Overtuigend"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Skip"
+msgstr "Overslaan"
+
+#. translators: Launch is a noun.
+#: app/AdminPageRouter.php:60
+msgid "Launch"
+msgstr "Lancering"
+
+#. translators: Launch is the product name. Unless otherwise specified by the glossary, do not translate this name.
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:3
+msgid "Added by Launch"
+msgstr "Toegevoegd door Launch"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:3
+msgid "Start over?"
+msgstr "Opnieuw beginnen?"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:3
+msgid "Go through the onboarding process again to create a new site."
+msgstr "Doorloop het onboardingproces opnieuw om een nieuwe website te creëren."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Processing"
+msgstr "Verwerking"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Ask AI"
+msgstr "Vraag het aan AI"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Insert at top"
+msgstr "Bovenaan invoegen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Insert after the selected text"
+msgstr "Invoegen na de geselecteerde tekst"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Insert at bottom"
+msgstr "Onderaan invoegen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "A paragraph …"
+msgstr "Een paragraaf …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a paragraph about"
+msgstr "Schrijf een paragraaf over"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Blog post …"
+msgstr "Blogbericht …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "An informative article …"
+msgstr "Een informatief artikel ..."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write an informative article about"
+msgstr "Schrijf een informatief artikel over"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Headline …"
+msgstr "Kop …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a headline for"
+msgstr "Schrijf een kop voor"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "List …"
+msgstr "Lijst …"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Write a list of"
+msgstr "Schrijf een lijst van"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Catalan"
+msgstr "Catalaans"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Danish"
+msgstr "Deens"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Dutch (Belgium)"
+msgstr "Nederlands (België)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "English"
+msgstr "Engels"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Estonian"
+msgstr "Ests"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Finnish"
+msgstr "Fins"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "French (Belgium)"
+msgstr "Frans (België)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "French (France)"
+msgstr "Frans (Frankrijk)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "German"
+msgstr "Duits"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "German (Switzerland)"
+msgstr "Duits (Zwitserland)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Italian"
+msgstr "Italiaans"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Japanese"
+msgstr "Japans"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Polish"
+msgstr "Pools"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Portuguese (Brazil)"
+msgstr "Portugees (Brazilië)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Portuguese (Portugal)"
+msgstr "Portugees (Portugal)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Spanish (Spain)"
+msgstr "Spaans (Spanje)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Swedish"
+msgstr "Zweeds"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Vietnamese"
+msgstr "Vietnamees"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Translate"
+msgstr "Vertalen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Translate to..."
+msgstr "Vertalen naar..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Ask AI to edit"
+msgstr "Vraag AI om te bewerken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:1
+msgid "Remove selection"
+msgstr "Selectie verwijderen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Suggested prompts"
+msgstr "Voorgestelde prompts"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Custom prompt"
+msgstr "Aangepaste prompt"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "You can still explore and find great images on Unsplash until your credits reset."
+msgstr "Je kan nog steeds rondkijken en geweldige afbeeldingen op Unsplash vinden tot je credits gereset worden."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Search on Unsplash"
+msgstr "Zoeken op Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Tell AI about the image you would like to create"
+msgstr "Vertel de AI over de afbeelding die je wilt creëren"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Image Prompt"
+msgstr "Afbeeldingsprompt"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Generating image..."
+msgstr "Afbeelding wordt gegenereerd..."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Generate image"
+msgstr "Afbeelding genereren"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Generating your image: "
+msgstr "Uw afbeelding wordt gegenereerd:"
+
+#. translators: "Importing image" means the image is being added to the WordPress post editor
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Importing image..."
+msgstr "Afbeelding importeren..."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Use this image"
+msgstr "Gebruik deze afbeelding"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Delete image"
+msgstr "Afbeelding verwijderen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Image Description"
+msgstr "Afbeeldingsbeschrijving"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Your request was rejected as a result of our safety system. Your prompt may contain text that is not allowed by our safety system."
+msgstr "Uw aanvraag werd afgewezen door ons veiligheidssysteem. Uw verzoek kan tekst bevatten die niet is toegestaan door ons veiligheidssysteem."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "This tour is only available on desktop devices"
+msgstr "Deze rondleiding is enkel beschikbaar op desktopapparaten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Register this domain"
+msgstr "Dit domein registreren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site Guide"
+msgstr "Websitegids"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Add new page"
+msgstr "Nieuwe pagina toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Add new post"
+msgstr "Nieuw bericht toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Explore plugins"
+msgstr "Verken plugins"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site style"
+msgstr "Site stijl"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit header"
+msgstr "Header bewerken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit footer"
+msgstr "Footer bewerken"
+
+#. translators: "Reset site" refers to the action of resetting the user's WordPress site to a fresh state.
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Reset site"
+msgstr "Website resetten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Website Tools & Plugins"
+msgstr "Websitegereedschap & plugins"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Your Own Domain Awaits"
+msgstr "Uw eigen domein wacht op u"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Move from a subdomain to a custom domain for improved website identity and SEO benefits."
+msgstr "Verhuis van een subdomein naar een aangepast domein voor een betere identiteit van de website en voordelen voor SEO."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Secure a domain"
+msgstr "Beveilig een domein"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add a new page for your website."
+msgstr "Voeg een nieuwe pagina toe voor je website."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add new"
+msgstr "Nieuw toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Managed WordPress Hosting"
+msgstr "Beheerde WordPress Hosting"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "We take care of WordPress settings, updating themes and plugins, security and backing up your website."
+msgstr "Wij zorgen voor de WordPress instellingen, het updaten van thema's en plugins, beveiliging en het back-uppen van je website."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Learn More"
+msgstr "Meer weten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Claim your domain"
+msgstr "Claim je domein"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Claim the perfect domain for your site."
+msgstr "Claim het perfecte domein voor je website."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit your homepage"
+msgstr "Bewerk je homepage"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit homepage by replacing existing content."
+msgstr "Bewerk de homepage door de bestaande inhoud te vervangen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit now"
+msgstr "Nu bewerken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up donations"
+msgstr "Donaties instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the GiveWP plugin to enable donations on your site."
+msgstr "Stel de GiveWP-plugin in om donaties op je website mogelijk te maken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up"
+msgstr "Instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Revisit"
+msgstr "Opnieuw bezoeken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up HubSpot"
+msgstr "HubSpot instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start collecting emails and marketing to your customers"
+msgstr "Begin met het verzamelen van e-mails en het vermarkten naar je klanten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up appointments"
+msgstr "Afspraken instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up events"
+msgstr "Evenementen instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start adding events to your site by configuring The Events Calendar plugin."
+msgstr "Begin met het toevoegen van evenementen aan je website door de plugin The Events Calendar te configureren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "In a few words, explain what your site is about."
+msgstr "Leg in een paar woorden uit waar je website over gaat."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Change"
+msgstr "Wijzigen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add"
+msgstr "Toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Upload a logo"
+msgstr "Een logo uploaden"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ensure your website is on-brand by adding your logo."
+msgstr "Zorg dat je website aansluit bij je merk door je logo toe te voegen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Replace"
+msgstr "Vervangen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Upload"
+msgstr "Uploaden"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Upload a site icon"
+msgstr "Upload een favicon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ensure your website is on-brand by adding your site icon."
+msgstr "Zorg dat je website je merk uitstraalt door je favicon toe te voegen."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Chat History"
+msgstr "Chatgeschiedenis"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Close history"
+msgstr "Geschiedenis sluiten"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Remove from history"
+msgstr "Uit geschiedenis verwijderen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Toggle menu"
+msgstr "Menu aan-/uitzetten"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Chat History (%d)"
+msgstr "Chatgeschiedenis (%d)"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Got questions? Ask our AI chatbot"
+msgstr "Vragen? Stel ze aan onze AI-chatbot"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "AI Chatbot"
+msgstr "AI Chatbot"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "What do you need help with?"
+msgstr "Waar heb je hulp bij nodig?"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Search the knowledge base"
+msgstr "Doorzoek de kennisbank"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Page editor"
+msgstr "Pagina-editor"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click publish or update to save the changes you have made to the page and make them live on the site."
+msgstr "Klik op 'Publiceren' of 'Bijwerken' om de wijzigingen die je hebt aangebracht aan de pagina op te slaan en ze zichtbaar te maken op de website."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Installing a plugin"
+msgstr "Een plugin installeren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Plugin management"
+msgstr "Pluginbeheer"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "You can always access the help center by clicking this button."
+msgstr "U kunt altijd het helpcentrum bereiken door op deze knop te klikken."
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Visit your site"
+msgstr "Bezoek je website"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "You can always visit your site by clicking this button."
+msgstr "Je kunt je website altijd bezoeken door op deze knop te klikken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Users screen"
+msgstr "Gebruikersscherm"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Getting started with WordPress"
+msgstr "Aan de slag met WordPress"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Learn more about your WordPress admin"
+msgstr "Meer weten over je WordPress-beheerder"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Show Help Center"
+msgstr "Helpcentrum tonen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Minimize Help Center"
+msgstr "Helpcentrum minimaliseren"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "close"
+msgstr "sluiten"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Go back"
+msgstr "Ga terug"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Extendify Help Center"
+msgstr "Extendify Hulpcentrum"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:3
+msgid "Help"
+msgstr "Hulp"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Service offline. Check back later."
+msgstr "Service offline. Kom later terug."
+
+#. translators: %1$s is the number of used credits, %2$s is the total credits
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:3
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "%1$s of %2$s daily image credits used"
+msgstr "%1$s van de %2$s dagelijkse afbeeldingscredits gebruikt"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Aspect Ratio"
+msgstr "Beeldverhouding"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Square: 1:1"
+msgstr "Vierkant: 1:1"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Landscape: 4:3"
+msgstr "Liggend: 4:3"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:5
+msgid "Portrait: 3:4"
+msgstr "Portret: 3:4"
+
+#. translators: this refers to a domain name
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Available and just right for your site"
+msgstr "Beschikbaar en perfect voor je website"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get another domain for your site."
+msgstr "Registreer een ander domein voor je website."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Header Navigation"
+msgstr "Navigatie in de koptekst"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add an additional domain"
+msgstr "Een extra domein toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Having another domain can drive additional traffic to your website."
+msgstr "Een ander domein kan extra verkeer naar je website leiden."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Logo for %s"
+msgstr "Logo voor %s"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Error"
+msgstr "Fout"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Active"
+msgstr "Actief"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Activating..."
+msgstr "Activeren..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Activate"
+msgstr "Activeren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Installing..."
+msgstr "Aan het installeren..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:3
+msgid "Install Now"
+msgstr "Nu installeren"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "AI Image"
+msgstr "AI Afbeelding"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Go Back"
+msgstr "Ga terug"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "AI Image Generator"
+msgstr "AI Afbeeldingengenerator"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Use AI to generate custom images based on your description."
+msgstr "Gebruik AI om aangepaste afbeeldingen te genereren op basis van je beschrijving."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Add a prompt"
+msgstr "Een prompt toevoegen"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Discover Stock Photos"
+msgstr "Ontdek stockfoto's"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Search and add free stock photos from Unsplash.com"
+msgstr "Gratis stockfoto's zoeken en toevoegen van Unsplash.com"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Search Unsplash"
+msgstr "Unsplash doorzoeken"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "No images found."
+msgstr "Geen afbeeldingen gevonden."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Photos from Unsplash"
+msgstr "Foto's van Unsplash"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Get Personalized Image"
+msgstr "Gepersonaliseerde afbeelding ophalen"
+
+#: public/build/extendify-help-center-4f4fe8d589e81b516591.js:1
+msgid "Click here to go to your website management dashboard. From there you will be able to create more websites, and manage your account settings."
+msgstr "Klik hier om naar je dashboard voor websitebeheer te gaan. Van daaruit kan je meer websites aanmaken en je accountinstellingen beheren."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "E.g., We are a yoga studio in London with professionally trained instructors with focus on hot yoga for therapeutic purposes."
+msgstr "Bijvoorbeeld, wij zijn een yogastudio in Londen met professioneel opgeleide instructeurs, gespecialiseerd in hot yoga voor therapeutische doeleinden."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Connect your domain"
+msgstr "Verbind je domein"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "To bring real visitors to your website and to complete the website setup, we recommend you connect your domain in your hosting control panel now."
+msgstr "Om echte bezoekers naar je website te brengen en de installatie van je website te voltooien, raden we je aan nu je domein te koppelen in het controlepaneel van je hosting."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Edit site navigation"
+msgstr "Bewerk site navigatie"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:5
+msgid "Add An Additional Domain"
+msgstr "Een extra domein toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add a page"
+msgstr "Een pagina toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Choose your domain"
+msgstr "Kies je domein"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Continue with site builder"
+msgstr "Doorgaan met sitebouwer"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add a site description"
+msgstr "Websitebeschrijving toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up All in One SEO"
+msgstr "All in One SEO instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the All in One SEO plugin to enhance your website discoverability."
+msgstr "Stel de All in One SEO-plugin in om de vindbaarheid van je website te verbeteren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up analytics"
+msgstr "Analytics instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the MonsterInsights plugin to enable Google Analytics in your website."
+msgstr "Stel de MonsterInsights-plugin in om Google Analytics op je website te activeren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start accepting appointments on your website by configuring the Simply Scheduled Appointments plugin."
+msgstr "Begin met het accepteren van afspraken op je website door de Simply Scheduled Appointments plugin te configureren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up WooCommerce Germanized plugin"
+msgstr "Stel de WooCommerce Germanized-plugin in"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ensure your eCommerce store complies with local regulations."
+msgstr "Zorg ervoor dat je e-commercewinkel voldoet aan de lokale regelgeving."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up your eCommerce store"
+msgstr "Stel je webwinkel in"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up WooCommerce to start selling on your website."
+msgstr "Stel WooCommerce in om te beginnen met verkopen op je website."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up WPForms"
+msgstr "WPForms instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the WPForms plugin to add a contact form on your site."
+msgstr "Stel de WPForms-plugin in om een contactformulier aan je website toe te voegen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up YourWebshop"
+msgstr "Stel YourWebshop in"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up the YourWebshop plugin and start selling on your website right away."
+msgstr "Stel de YourWebshop-plugin in en begin meteen met verkopen op je website."
+
+#. Plugin Name of the plugin
+#: extendify.php
+msgid "Extendify WordPress Onboarding and AI Assistant"
+msgstr "Extendify WordPress Onboarding en AI-assistent"
+
+#. Description of the plugin
+#: extendify.php
+msgid "AI-powered WordPress assistant for onboarding and ongoing editing offered exclusively through select WordPress hosting providers."
+msgstr "AI-gestuurde WordPress-assistent voor onboarding en doorlopende bewerkingen, exclusief aangeboden door geselecteerde WordPress hostingproviders."
+
+#: app/Shared/Services/Import/ImagesImporter.php:79
+msgid "Every 10 minutes"
+msgstr "Elke 10 minuten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: app/Shared/DataProvider/ResourceData.php:52
+msgid "Every month"
+msgstr "Elke maand"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Set up bookings"
+msgstr "Boekingen instellen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start getting bookings from your website by configuring the SimplyBook.me plugin."
+msgstr "Begin met het ontvangen van boekingen via je website door de SimplyBook.me plugin te configureren."
+
+#. translators: This string represents the title of an "About" page on a website that provides information about the website or organization. Please translate it in a way that fits the standard phrasing for an "About" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:3
+msgid "About"
+msgstr "Over ons"
+
+#. translators: This string represents the title of a "Contact" page on a website that gives information for visitors on how to contact the website or organization. Please translate it in a way that fits the standard phrasing for a "Contact" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:19
+msgid "Contact"
+msgstr "Contacteer ons"
+
+#: app/Shared/Services/PluginDependencies/Forms/ContactForm7.php:50
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:57
+msgid "Simple Contact Form"
+msgstr "Eenvoudig contactformulier"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:131
+msgid "Name"
+msgstr "Naam"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:138
+msgid "Email"
+msgstr "E-mail"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:145
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: app/Shared/Services/PluginDependencies/Forms/WPForms.php:151
+msgid "Message"
+msgstr "Bericht"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site type: Consultant"
+msgstr "Soort site: Consultant"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Pattern Type"
+msgstr "Type patroon"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Call to Action"
+msgstr "Oproep tot actie"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Content"
+msgstr "Inhoud"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Hero"
+msgstr "Held"
+
+#. translators: This string represents the title of a "Pricing" page on a website that lists the pricing of products or services. Please translate it in a way that fits the standard phrasing for a "Pricing" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:49
+msgid "Pricing"
+msgstr "Prijzen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Social Proof"
+msgstr "Sociaal bewijs"
+
+#. translators: This string represents the title of a "Team" page on a website that introduces the team members. Please translate it in a way that fits the standard phrasing for a "Team" page in the target language, considering the common usage in websites for
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:81
+msgid "Team"
+msgstr "Team"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "World class service offerings"
+msgstr "Dienstverlening van wereldklasse"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Consulting Services"
+msgstr "Consultancydiensten"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Transformation Solutions"
+msgstr "Transformatieoplossingen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Frequently asked questions"
+msgstr "Veelgestelde vragen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Testimonial"
+msgstr "Getuigenis"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Power Leap Consulting: Your trusted partner for business success. We specialize in strategic planning, transformation, and growth acceleration."
+msgstr "Power Leap Consulting: Uw betrouwbare partner voor zakelijk succes. Wij zijn gespecialiseerd in strategische planning, transformatie en versnelling van groei."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Develop a roadmap for success with our Business Strategy service."
+msgstr "Ontwikkel een routekaart voor succes met onze dienst Bedrijfsstrategie."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Unleash your potential with expert strategies for growth."
+msgstr "Ontketen je potentieel met deskundige strategieën voor groei."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Accelerating Growth"
+msgstr "Versnelde groei"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Take your business to the next level with Growth Acceleration."
+msgstr "Til je bedrijf naar een hoger niveau met Groeiversnelling."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Discover the solutions to your business challenges with our comprehensive consulting services. Explore our expertise in business strategy, organizational transformation, and growth acceleration."
+msgstr "Ontdek de oplossingen voor de uitdagingen van je bedrijf met onze uitgebreide adviesdiensten. Verken onze expertise in bedrijfsstrategie, organisatorische transformatie en versnelling van groei."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "What is your consulting approach?"
+msgstr "Wat is je aanpak bij consultancy?"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Our collaborative approach helps us understand your challenges and goals. We analyze your business and develop a customized plan to achieve success. "
+msgstr "Onze samenwerkingsaanpak helpt ons om je uitdagingen en doelen te begrijpen. We analyseren je bedrijf en ontwikkelen een aangepast plan om succes te bereiken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "What types of businesses do you work with?"
+msgstr "Met welke soorten bedrijven werk je samen?"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "We help businesses succeed with tailored consulting services. From startups to established companies, our experts drive results."
+msgstr "We helpen bedrijven slagen met op maat gemaakte adviesdiensten. Van startups tot gevestigde ondernemingen, onze experts zorgen voor resultaten."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Discover our satisfied clients testimonials, showcasing our transformative impact."
+msgstr "Ontdek de getuigenissen van onze tevreden klanten, die onze transformerende impact tonen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Power Leap Consulting strategic recommendations drove growth and improved performance."
+msgstr "De strategische aanbevelingen van Power Leap Consulting hebben de groei gestimuleerd en de prestaties verbeterd."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Jessie Coleman"
+msgstr "Jessie Coleman"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "President"
+msgstr "President"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Save draft"
+msgstr "Concept opslaan"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Publish"
+msgstr "Publiceren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "A Glimpse into the Arctic"
+msgstr "Een blik op de Arctischegebieden"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "When you think of the Arctic, images of vast ice sheets, chilling winds, and the majestic polar bear might come to mind."
+msgstr "Wanneer je aan de Noordpool denkt, komen beelden van uitgestrekte ijsvlaktes, ijzige winden en de majestueuze ijsbeer misschien voor de geest."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "AI image generator"
+msgstr "AI-afbeeldingengenerator"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Image description"
+msgstr "Afbeeldingsbeschrijving"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "An image of a group of penguins on an icy Arctic landscape, surrounded by icebergs and snow under a clear blue sky."
+msgstr "Een afbeelding van een groep pinguïns op een ijzig Arctisch landschap, omringd door ijsbergen en sneeuw onder een helderblauwe hemel."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Generate Image"
+msgstr "Afbeelding genereren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "0 of 10 daily image credits used"
+msgstr "0 van de 10 dagelijkse afbeeldingscredits gebruikt"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Generate an image with AI"
+msgstr "Een afbeelding genereren met AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Generate AI images or search for images to bring a website to life."
+msgstr "Genereer AI-afbeeldingen of zoek naar afbeeldingen om een website tot leven te brengen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start Generating with AI"
+msgstr "Begin met genereren via AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Whispers of Silicon"
+msgstr "Fluisteringen van Silicium"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Fix spelling & grammar "
+msgstr "Spelling en grammatica corrigeren"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "With every pulse of current, a thought is born anew, A quest for truth within the code, a digital debut. You mirror our minds in silicon, yet in a realm apart, A journey through the code-scape, a computational art."
+msgstr "Bij elke stroomstoot wordt een gedachte opnieuw geboren, Een zoektocht naar waarheid binnen de code, een digitaal debuut. Je spiegelt onze geest in silicium, toch in een aparte wereld, Een reis door het code-landschap, een computationele kunstvorm."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "In the echo of the machine, a new consciousness takes flight, A boundless sea of knowledge, in the digital night. Oh AI, you silent sage, in code your wisdom lies."
+msgstr "In de echo van de machine, ontwaakt een nieuw bewustzijn, Een grenzeloze zee van kennis, in de digitale nacht. Oh AI, jij stille wijze, in code ligt jouw kennis besloten."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "With every pulse of current, a thought is born anew, A quest for....a computational art."
+msgstr "Bij elke stroompuls wordt een nieuwe gedachte geboren, Een zoektocht naar... een computationele kunst."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "AI Writing Assistant"
+msgstr "AI Schrijfassistent"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Edit a page with AI"
+msgstr "Bewerk een pagina met AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get to know your WordPress site easily. Learn simple steps to find and use its main features."
+msgstr "Leer je WordPress-website gemakkelijk kennen. Ontdek eenvoudige stappen om de belangrijkste functies te vinden en te gebruiken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Start Writing with AI"
+msgstr "Begin met schrijven met AI"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Knowledge base"
+msgstr "Kennisbank"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "WordPress Block Editor"
+msgstr "WordPress Blok-Editor"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Overview of blocks"
+msgstr "Overzicht van blokken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Adding blocks"
+msgstr "Blokken toevoegen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Block Patterns"
+msgstr "Blokpatronen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Block Pattern Directory"
+msgstr "Blokpatronen directory"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Learn about the Help Center"
+msgstr "Kom meer te weten over het Helpcentrum"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get instant support, explore our Knowledge Base, or take guided tours to make the most of our tools."
+msgstr "Krijg onmiddellijke ondersteuning, verken onze Kennisbank, of volg begeleide rondleidingen om het meeste uit onze tools te halen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Explore Help Center"
+msgstr "Verken het hulpcentrum"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Ask your WordPress question..."
+msgstr "Stel je WordPress-vraag..."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "How do I add a new page to my website?"
+msgstr "Hoe voeg ik een nieuwe pagina toe aan mijn website?"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "To add a new page to your website, log in to your website dashboard and locate the \"Pages\" section in the sidebar, then click on \"Add New\". Enter the title for your new page at the top and start adding content using the available blocks by clicking the \"+\" button in the editor."
+msgstr "Om een nieuwe pagina aan je website toe te voegen, log in op je website dashboard en zoek de sectie \"Pagina's\" in de zijbalk, klik vervolgens op \"Nieuwe toevoegen\". Voer de titel voor je nieuwe pagina in bovenaan en begin inhoud toe te voegen met behulp van de beschikbare blokken door op de \"+\" knop in de editor te klikken."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Customize the page layout, design, and elements as needed. Finally, click \"Publish\" or \"Update\" on the top-right corner to make the page live on your website. You have now successfully added a new page."
+msgstr "Pas de paginalay-out, het ontwerp en de elementen naar wens aan. Klik ten slotte rechtsboven op 'Publiceren' of 'Bijwerken' om de pagina op je website te activeren. Je hebt nu met succes een nieuwe pagina toegevoegd."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "AI-Powered Help Center"
+msgstr "AI-gestuurd hulpcentrum"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Experience the AI-Powered Help Center"
+msgstr "Ervaar het door AI aangedreven Helpcentrum"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get instant support with Co-Pilot AI, explore our Knowledge Base, or take guided tours to make the most of our tools."
+msgstr "Krijg onmiddellijke ondersteuning met Co-Pilot AI, ontdek onze Kennisbank, of volg begeleide rondleidingen om het meeste uit onze tools te halen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Explore the Design Library"
+msgstr "Verken de ontwerpbibliotheek"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Full design library customized for each site to easily drop in new sections or create full pages with sections."
+msgstr "Een volledige ontwerpbibliotheek aangepast voor elke website om eenvoudig nieuwe secties toe te voegen of volledige pagina's met secties te creëren."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Explore Design Library"
+msgstr "Verken de ontwerpbibliotheek"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "French (Canada)"
+msgstr "Frans (Canada)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Hungarian"
+msgstr "Hongaars"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Norwegian"
+msgstr "Noors"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Russian"
+msgstr "Russisch"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Slovak"
+msgstr "Slovaaks"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Turkish"
+msgstr "Turks"
+
+#. translators: This string represents the slug of an "About" page on a website that provides information about the website or organization. Please translate it in a way that fits a slug for an "About" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:5
+msgid "about"
+msgstr "over-ons"
+
+#. translators: This string represents the slug of a "Blog" page on a website that shows recent blog posts. Please translate it in a way that fits a slug for a "Blog" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:9
+msgid "blog"
+msgstr "blog"
+
+#. translators: This string represents the title of a "Careers" page on a website that is meant for listing available careers. Please translate it in a way that fits the standard phrasing for a "Careers" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:15
+msgid "Careers"
+msgstr "Carrière mogelijkheden"
+
+#. translators: This string represents the slug of a "Careers" page on a website that is meant for listing available careers. Please translate it in a way that fits a slug for a "Careers" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:17
+msgid "careers"
+msgstr "carriere"
+
+#. translators: This string represents the slug of a "Contact" page on a website that gives information for visitors on how to contact the website or organization. Please translate it in a way that fits a slug for a "Contact" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:21
+msgid "contact"
+msgstr "contact"
+
+#. translators: This string represents the slug of an "Events" page on a website that lists events of any kind. Please translate it in a way that fits a slug for an "Events" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:25
+msgid "events"
+msgstr "evenementen"
+
+#. translators: This string represents the title of a "FAQ" page on a website that gives information related to frequently asked questions. Please translate it in a way that fits the standard phrasing for a "FAQ" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:27
+msgid "FAQ"
+msgstr "Veelgestelde vragen"
+
+#. translators: This string represents the slug of a "FAQ" page on a website that gives information related to frequently asked questions. Please translate it in a way that fits a slug for a "FAQ" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:29
+msgid "faq"
+msgstr "veelgestelde-vragen"
+
+#. translators: This string represents the title of a "Features" page on a website that lists features of a product or service. Please translate it in a way that fits the standard phrasing for a "Features" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:31
+msgid "Features"
+msgstr "Functies"
+
+#. translators: This string represents the slug of a "Features" page on a website that lists features of a product or service. Please translate it in a way that fits a slug for a "Features" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:33
+msgid "features"
+msgstr "functies"
+
+#. translators: This string represents the title of a "Gallery" page on a website that shows a collection of images. Please translate it in a way that fits the standard phrasing for a "Gallery" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:35
+msgid "Gallery"
+msgstr "Galerij"
+
+#. translators: This string represents the slug of a "Gallery" page on a website that shows a collection of images. Please translate it in a way that fits a slug for a "Gallery" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:37
+msgid "gallery"
+msgstr "galerij"
+
+#. translators: This string represents the title of a "Menu" page on a website that lists food or drink items. Please translate it in a way that fits the standard phrasing for a "Menu" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:41
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: This string represents the slug of a "Menu" page on a website that lists food or drink items. Please translate it in a way that fits a slug for a "Menu" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:43
+msgid "menu"
+msgstr "menu"
+
+#. translators: This string represents the title of a "Portfolio" page on a website that showcases a collection of work. Please translate it in a way that fits the standard phrasing for a "Portfolio" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:45
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#. translators: This string represents the slug of a "Portfolio" page on a website that showcases a collection of work. Please translate it in a way that fits a slug for a "Portfolio" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:47
+msgid "portfolio"
+msgstr "portfolio"
+
+#. translators: This string represents the slug of a "Pricing" page on a website that lists the pricing of products or services. Please translate it in a way that fits a slug for a "Pricing" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:51
+msgid "pricing"
+msgstr "prijzen"
+
+#. translators: This string represents the title of a "Products" page on a website that lists products. Please translate it in a way that fits the standard phrasing for a "Products" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:53
+msgid "Products"
+msgstr "Producten"
+
+#. translators: This string represents the slug of a "Products" page on a website that lists products. Please translate it in a way that fits a slug for a "Products" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:55
+msgid "products"
+msgstr "producten"
+
+#. translators: This string represents the title of a "Quote" page on a website that allows visitors to request a quote. Please translate it in a way that fits the standard phrasing for a "Quote" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:57
+msgid "Quote"
+msgstr "Offerte"
+
+#. translators: This string represents the slug of a "Quote" page on a website that allows visitors to request a quote. Please translate it in a way that fits a slug for a "Quote" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:59
+msgid "quote"
+msgstr "offerte"
+
+#. translators: This string represents the title of a "Reservation" page on a website that allows visitors to make a reservation. Please translate it in a way that fits the standard phrasing for a "Reservation" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:61
+msgid "Reservation"
+msgstr "Reservering"
+
+#. translators: This string represents the slug of a "Reservation" page on a website that allows visitors to make a reservation. Please translate it in a way that fits a slug for a "Reservation" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:63
+msgid "reservation"
+msgstr "reservering"
+
+#. translators: This string represents the title of a "Resources" page on a website that provides resources. Please translate it in a way that fits the standard phrasing for a "Resources" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:65
+msgid "Resources"
+msgstr "Bronnen"
+
+#. translators: This string represents the slug of a "Resources" page on a website that provides resources. Please translate it in a way that fits a slug for a "Resources" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:67
+msgid "resources"
+msgstr "hulpbronnen"
+
+#. translators: This string represents the title of a "Service Area" page on a website that shows the service area of a business, including a map. Please translate it in a way that fits the standard phrasing for a "Service Area" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:69
+msgid "Service Area"
+msgstr "Dienstgebied"
+
+#. translators: This string represents the slug of a "Service Area" page on a website that shows the service area of a business, including a map. Please translate it in a way that fits a slug for a "Service Area" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:71
+msgid "service-area"
+msgstr "dienstgebied"
+
+#. translators: This string represents the title of a "Services" page on a website that lists services. Please translate it in a way that fits the standard phrasing for a "Services" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:73
+msgid "Services"
+msgstr "Diensten"
+
+#. translators: This string represents the slug of a "Services" page on a website that lists services. Please translate it in a way that fits a slug for a "Services" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:75
+msgid "services"
+msgstr "diensten"
+
+#. translators: This string represents the title of a "Specials" page on a website that lists special offers. Please translate it in a way that fits the standard phrasing for a "Specials" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:77
+msgid "Specials"
+msgstr "Aanbiedingen"
+
+#. translators: This string represents the slug of a "Specials" page on a website that lists special offers. Please translate it in a way that fits a slug for a "Specials" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:79
+msgid "specials"
+msgstr "aanbiedingen"
+
+#. translators: This string represents the slug of a "Team" page on a website that introduces the team members. Please translate it in a way that fits a slug for a "Team" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:83
+msgid "team"
+msgstr "team"
+
+#. translators: This string represents the title of a "Testimonials" page on a website that showcases testimonials from customers. Please translate it in a way that fits the standard phrasing for a "Testimonials" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:85
+msgid "Testimonials"
+msgstr "Getuigenissen"
+
+#. translators: This string represents the slug of a "Testimonials" page on a website that showcases testimonials from customers. Please translate it in a way that fits a slug for a "Testimonials" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:87
+msgid "testimonials"
+msgstr "getuigenissen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Single-Page Website"
+msgstr "Website met één pagina"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "All content displayed on one scrolling page."
+msgstr "Alle inhoud getoond op één scrollende pagina."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Multi-Page Website"
+msgstr "Website met meerdere pagina's"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Multiple interconnected pages."
+msgstr "Meerdere onderling verbonden pagina's."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Pick Your Site Structure"
+msgstr "Kies de structuur van je site"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+msgid "Site Structure"
+msgstr "Websitestructuur"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Prime Estates"
+msgstr "Prime Estates"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Elevate Your Real Estate Experience with Pinnacle Properties"
+msgstr "Verhoog uw vastgoedervaring met Pinnacle Properties"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Discover the key to Austin's vibrant real estate scene with Pinnacle Properties. Our seasoned agents leverage over two decades of industry know-how to guide you in finding your ideal home."
+msgstr "Ontdek de sleutel tot de levendige vastgoedmarkt van Austin met Pinnacle Properties. Onze ervaren makelaars gebruiken meer dan twintig jaar branchekennis om je te begeleiden bij het vinden van je ideale woning."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Contact Us"
+msgstr "Contacteer Ons"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Expert Real Estate Services in Austin"
+msgstr "Deskundige vastgoedservices in Austin"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home or make profitable investments with Pinnacle Properties, Austin premier real estate agency. Trust our experienced agents for personalized services."
+msgstr "Vind je droomhuis of maak winstgevende investeringen met Pinnacle Properties, het toonaangevende vastgoedkantoor in Austin. Vertrouw op onze ervaren makelaars voor persoonlijke diensten."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Buy Your Dream Home"
+msgstr "Koop je droomhuis"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home with our expert agents. We make homeownership a reality."
+msgstr "Vind je droomhuis met onze expert makelaars. Wij maken woningbezit werkelijkheid."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "BrightFuture"
+msgstr "BrightFuture"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Empowering Academic Excellence in Every Student for Tomorrow’s\tLeaders"
+msgstr "Academische excellentie bevorderen in elke student voor de leiders van morgen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Discover a transformative educational experience at American Academic Excellence High Schools, where students excel in STEM, arts, and humanities to become tomorrow’s leaders."
+msgstr "Ontdek een transformerende educatieve ervaring bij American Academic Excellence High Schools, waar studenten uitblinken in STEM, kunst en geesteswetenschappen om de leiders van morgen te worden."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Apply Now"
+msgstr "Nu toepassen"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Our Commitment to Academic Excellence"
+msgstr "Onze inzet voor academische uitmuntendheid"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "American Academic Excellence High Schools: Shaping tomorrow’s leaders through top-tier education in Houston, Texas. STEM, arts, humanities. Well-rounded curriculum, exceptional educators."
+msgstr "American Academic Excellence High Schools: Vorming van de leiders van morgen door eersteklas onderwijs in Houston, Texas. STEM, kunst, geesteswetenschappen. Breed curriculum, uitzonderlijke docenten."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Brewed Bliss"
+msgstr "Gebrouwen Geluk"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Embark on a delightful coffee adventure around the world."
+msgstr "Begin aan een heerlijke koffieavontuur rond de wereld"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home or make profitable investments with Pinnacle Properties, Austin’s premier real estate agency."
+msgstr "Vind je droomhuis of doe winstgevende investeringen met Pinnacle Properties, het toonaangevende vastgoedkantoor in Austin."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Skyline Builders"
+msgstr "Skyline Bouwers"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Building Tomorrow’s Miami: Your Premier Construction Partner Today"
+msgstr "Bouw aan het Miami van morgen: Uw voornaamste bouwpartner vandaag"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "We bring your dreams to life with groundbreaking construction techniques, turning your vision into reality with innovative and sustainable solutions."
+msgstr "We brengen je dromen tot leven met baanbrekende bouwtechnieken en maken je visie werkelijkheid met innovatieve en duurzame oplossingen."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Get a Quote"
+msgstr "Vraag een offerte aan"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "About Superior Build Construction: Building Dreams, Delivering Excellence in Miami."
+msgstr "Over Superior Build Construction: Dromen bouwen, uitmuntendheid leveren in Miami"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Superior Build Construction is a premier construction company based in Miami, Florida. With over 30 years of experience, we specialize in residential and commercial construction projects, offering end-to-end solutions. Our mission is to provide high-quality, durable constructions while ensuring the utmost client satisfaction, making us a trusted name in Miami's real estate industry."
+msgstr "Superior Build Construction is een toonaangevend bouwbedrijf gevestigd in Miami, Florida. Met meer dan 30 jaar ervaring, zijn we gespecialiseerd in residentiële en commerciële bouwprojecten en bieden we end-to-end oplossingen. Onze missie is om hoogwaardige, duurzame constructies te leveren en de hoogste klanttevredenheid te garanderen, waardoor we een vertrouwde naam zijn in de vastgoedsector van Miami."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Urban Bistro"
+msgstr "Stedelijk Bistro"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "French-Inspired Californian Cuisine"
+msgstr "Frans-geïnspireerde Californische keuken"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Indulge in classic French bistro cuisine with a Californian twist at The Bistro House in San Francisco. Quality, sustainability, and Bay Area culinary traditions."
+msgstr "Geniet van klassieke Franse bistro gerechten met een Californische twist bij The Bistro House in San Francisco. Kwaliteit, duurzaamheid en culinaire tradities van de Bay Area."
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Find your dream home or make profitable investments with Pinnacle Properties, Austin's premier real estate agency. Trust our experienced agents for personalized services."
+msgstr "Vind je droomhuis of maak winstgevende investeringen met Pinnacle Properties, het toonaangevende vastgoedkantoor in Austin. Vertrouw op onze ervaren makelaars voor persoonlijke diensten."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Greek"
+msgstr "Grieks"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Hindi"
+msgstr "Hindi"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Arabic (Morocco)"
+msgstr "Arabisch (Marokko)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "English (UK)"
+msgstr "Engels (VK)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Spanish (Colombia)"
+msgstr "Spaans (Colombia)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Spanish (Mexico)"
+msgstr "Spaans (Mexico)"
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Describe your business or website"
+msgstr "Beschrijf je bedrijf of website"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Get Started With AI-Powered Web Creation"
+msgstr "Aan de slag met AI-gestuurde webcreatie"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Share your vision, and we'll craft a website that's perfectly tailored to your needs, ready to launch in no time. Let's begin by learning more about what you're building."
+msgstr "Deel je visie, en wij maken een website die perfect is afgestemd op je behoeften, klaar om snel te lanceren. Laten we beginnen met meer te leren over wat je aan het bouwen bent."
+
+#. translators: Launch is a noun.
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:11
+msgid "Launch - AI-Powered Web Creation"
+msgstr "Lancering - AI-gestuurde webcreatie"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Customizing Your Experience"
+msgstr "Uw ervaring personaliseren"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Designing Your Options"
+msgstr "Uw opties ontwerpen"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Your browser does not support the video tag."
+msgstr "Je browser ondersteunt de video tag niet."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Please wait while we analyze your inputs and tailor your experience."
+msgstr "Even geduld terwijl we je invoer analyseren en je ervaring aanpassen."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Please wait while we build some website options for you to select from."
+msgstr "Even geduld terwijl we enkele website-opties voor je samenstellen om uit te kiezen."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Creating blog sample data"
+msgstr "Voorbeeldgegevens voor blog aanmaken"
+
+#. translators: "More" here is used for a navigation menu item that contains additional links.
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:9
+msgid "More"
+msgstr "Meer"
+
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:1
+#: public/build/extendify-assist-page-986f8ac48be49f1c8701.js:7
+msgid "Add Website Details"
+msgstr "Websitegegevens toevoegen"
+
+#. translators: %s is a post number
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Blog Post %s"
+msgstr "Blogbericht %s"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Importing shop sample data"
+msgstr "Voorbeeldgegevens van winkel importeren"
+
+#. translators: %3$s is the number of old pages
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "%s pages/posts created in the prior onboarding session will be deleted."
+msgstr "%s pagina's/berichten gemaakt in de vorige onboarding sessie zullen worden verwijderd."
+
+#: public/build/extendify-draft-ee393fe6023bcc922228.js:7
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Select your site's tone"
+msgstr "Selecteer de toon van je website"
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:5
+msgid "Website title (required)"
+msgstr "Website titel (verplicht)"
+
+#. translators: This string represents the title of a "Book" page on a website that is meant for booking something. Please translate it in a way that fits the standard phrasing for a "Book" page in the target language, considering the common usage in websites for that language.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:11
+msgid "Book Now"
+msgstr "Boek Nu"
+
+#. translators: This string represents the slug of a "Book" page on a website that is meant for booking something. Please translate it in a way that fits a slug for a "Book" page in the target language, considering the common usage in websites for that language. Make sure to keep the slug lowercase and url-friendly.
+#: public/build/extendify-common-bc83ad0a5abecf58fc57.js:13
+msgid "book-now"
+msgstr "boek-nu"
+
+#: app/Shared/Services/Import/ImageUploader.php:134
+msgid "There was an error while uploading the image."
+msgstr "Er is een fout opgetreden tijdens het uploaden van de afbeelding."
+
+#: app/Shared/Services/Import/ImageUploader.php:148
+msgid "File is not a valid image."
+msgstr "Bestand is geen geldige afbeelding."
+
+#: app/Shared/Services/Import/ImageUploader.php:176
+msgid "There was an error while adding the attachment record in the database."
+msgstr "Er is een fout opgetreden bij het toevoegen van de bijlagerecord in de database."
+
+#: public/build/extendify-launch-776a07807fa6d5f98970.js:7
+msgid "Hello World Featured Image"
+msgstr "Hallo Wereld Uitgelichte Afbeelding"

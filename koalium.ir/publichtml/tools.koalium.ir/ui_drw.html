@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form and Canvas</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="number"], select {
+            padding: 8px;
+            font-size: 14px;
+            background-color: darkgreen;
+            text-align: center;
+            color:yellow;
+        }
+        button {
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        canvas {
+            border: 2px solid #000;
+            background-color: darkblue;
+            margin: 2px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <form id="dynamic-form">
+        <input type="number" id="size" name="size" min="0.5" max="40" step="0.5" value="2" placeholder="size">
+        <input type="number" id="qty" name="qty" value="10" placeholder="Quantity">
+        <input type="number" id="desqty" name="desqty" value="3" hidden="true">
+        <input type="number" id="testqty" name="testqty" value="4" hidden="true">
+        <select id="stagger" name="stagger" >
+            <option value="inline">Inline</option>
+            <option value="triangle">Triangle</option>
+        </select>
+        <button type="button" onclick="sendData()">Send</button>
+        <button type="button" onclick="clearCanvas()">Clear View</button>
+        <button type="button" onclick="laserView()">Laser View</button>
+    </form>
+    <canvas id="canvas1" width="1000" height="500"></canvas>
+    <canvas id="canvas2" width="1000" height="500" style="display: none;"></canvas>
+    <footer>&copy; Koalium Ltd</footer>
+
+    <script>
+        function sendData() {
+            const form = document.getElementById('dynamic-form');
+            const data = new FormData(form);
+            fetch('https://tools.koalium.ir/tool/form_handler.php', {
+                method: 'POST',
+                body: data
+            }).then(response => {
+                if(response.ok) {
+                    alert('Data sent successfully!');
+                }
+            });
+        }
+
+        function clearCanvas() {
+            const canvas1 = document.getElementById('canvas1');
+            const canvas2 = document.getElementById('canvas2');
+            const ctx1 = canvas1.getContext('2d');
+            const ctx2 = canvas2.getContext('2d');
+            ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
+            ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+        }
+
+        function laserView() {
+            const size = document.getElementById('size').value;
+            const qty = document.getElementById('qty').value;
+            const desqty = document.getElementById('desqty').value;
+            const testqty = document.getElementById('testqty').value;
+            const stagger = document.getElementById('stagger').value;
+            const totalCircles = parseInt(qty) + parseInt(desqty) + parseInt(testqty);
+            const canvas1 = document.getElementById('canvas1');
+            const ctx1 = canvas1.getContext('2d');
+            const canvas2 = document.getElementById('canvas2');
+            const ctx2 = canvas2.getContext('2d');
+            const radius = size * 25.4 * 0.25;
+            const diameter = radius * 2;
+            const xseperation = 5;
+            const yseperation = 5;
+            const margin = 5;
+            const edgeMargin = 12;
+
+            let circleCount = 0;
+
+            function drawCircle(ctx, x, y, outlineColor, text) {
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, 2 * Math.PI, false);
+                ctx.lineWidth = 3;
+                ctx.strokeStyle = outlineColor;
+                ctx.stroke();
+                ctx.fillStyle = 'darkgreen';
+                ctx.fill();
+                ctx.fillStyle = 'white';
+                ctx.font = '12px Arial';
+                ctx.fillText(text, x - radius / 2, y + radius / 4);
+            }
+
+            function animateCircles(ctx) {
+                let col = 0;
+                let row = 0;
+                let canvasIndex = 1;
+                const midleqty = parseInt(qty) + parseInt(desqty) ;
+                function drawNextCircle() {
+                    if (circleCount < totalCircles) {
+                        const x = edgeMargin + col * (diameter + xseperation) + radius;
+                        let y = edgeMargin + row * (diameter + yseperation) + radius + margin;
+
+                        if (stagger === 'triangle' && col % 2 !== 0) {
+                            y += (radius + yseperation);
+                        }
+
+                        let outlineColor = 'green';
+                        if ( circleCount < qty ) {
+                            outlineColor = 'yellow';
+                        } else {
+                            if ( circleCount < midleqty) {
+                            outlineColor = 'cyan';
+                            } else {
+                            outlineColor = 'magenta';
+                            }
+                        }
+
+                        drawCircle(ctx, x, y, outlineColor, circleCount + 1);
+
+                        row++;
+                        if (y + diameter + edgeMargin > canvas1.height - edgeMargin) {
+                            row = 0;
+                            col++;
+                            if (x + diameter + edgeMargin > canvas1.width - edgeMargin) {
+                                canvasIndex++;
+                                if (canvasIndex > 2) {
+                                    return;
+                                }
+                                ctx = document.getElementById('canvas' + canvasIndex).getContext('2d');
+                                row = 0;
+                                col = 0;
+                            }
+                        }
+
+                        circleCount++;
+                        setTimeout(drawNextCircle, 200);
+                    }
+                }
+
+                drawNextCircle();
+            }
+
+            animateCircles(ctx1);
+        }
+    </script>
+</body>
+</html>

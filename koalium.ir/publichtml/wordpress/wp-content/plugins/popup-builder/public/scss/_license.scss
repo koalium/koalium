@@ -1,0 +1,46 @@
+@import "variables";
+
+.sgpb {
+	&-license {
+		&:nth-child(odd) {
+			margin-right: 30px;
+		}
+		&-block {
+			box-shadow: 0 0 30px $black_opacity_20;
+			border-radius: 5px;
+			width: 48%;
+		}
+		&-border {
+			top: 0;
+			position: absolute;
+			height: 2px;
+			left: 5%;
+			width: 90%;
+			&.active {
+				background: $green;
+			}
+			&.inactive {
+				background: $red_cc;
+			}
+		}
+
+		&__status {
+			display: flex;
+			align-items: center;
+			.active {
+				width: 27px;
+				height: 27px;
+				border: 5px solid $green;
+				border-radius: 50%;
+				margin-right: 5px;
+			}
+			.inactive {
+				width: 27px;
+				height: 27px;
+				border: 5px solid $red_cc;
+				border-radius: 50%;
+				margin-right: 5px;
+			}
+		}
+	}
+}

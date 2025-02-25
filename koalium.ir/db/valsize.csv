@@ -1,0 +1,128 @@
+﻿id,element,type,size,nsize,do,di,thickness,len,width,height,desc,
+1,rupture,a,0.5,12.5,40,0,0,0,0,0,desc,
+2,rupture,a,0.75,19,50,0,0,0,0,0,desc,
+3,rupture,a,1,25,59,0,0,0,0,0,desc,
+4,rupture,a,1.5,36,51,0,0,0,0,0,desc,
+5,rupture,a,2,50,87,0,0,0,0,0,desc,
+6,rupture,a,3,80,122,0,0,0,0,0,desc,
+7,rupture,a,4,100,158,0,0,0,0,0,desc,
+8,rupture,a,6,150,212,0,0,0,0,0,desc,
+9,rupture,a,8,200,265,0,0,0,0,0,desc,
+10,rupture,a,10,250,320,0,0,0,0,0,desc,
+11,rupture,a,12,300,365,0,0,0,0,0,desc,
+12,rupture,a,14,350,420,0,0,0,0,0,desc,
+13,rupture,a,16,400,470,0,0,0,0,0,desc,
+14,rupture,a,18,450,520,0,0,0,0,0,desc,
+15,rupture,a,20,500,570,0,0,0,0,0,desc,
+16,rupture,a,22,550,620,0,0,0,0,0,desc,
+17,rupture,a,24,600,670,0,0,0,0,0,desc,
+18,rupture,a,26,650,720,0,0,0,0,0,desc,
+19,rupture,a,28,700,770,0,0,0,0,0,desc,
+58,rupture,a,30,750,830,0,0,0,0,0,desc,
+59,rupture,a,31,775,855,0,0,0,0,0,desc,
+60,rupture,a,32,800,880,0,0,0,0,0,desc,
+61,rupture,a,33,825,905,0,0,0,0,0,desc,
+62,rupture,a,34,850,950,0,0,0,0,0,desc,
+63,rupture,a,35,875,975,0,0,0,0,0,desc,
+64,rupture,a,36,900,1000,0,0,0,0,0,desc,
+65,rupture,a,37,925,1025,0,0,0,0,0,desc,
+66,rupture,a,38,950,1050,0,0,0,0,0,desc,
+67,rupture,a,39,975,1075,0,0,0,0,0,desc,
+68,rupture,a,40,1000,1100,0,0,0,0,0,desc,
+69,rupture,a,41,1025,1125,0,0,0,0,0,desc,
+70,rupture,a,42,1050,1150,0,0,0,0,0,desc,
+71,rupture,a,43,1075,1175,0,0,0,0,0,desc,
+72,rupture,a,44,1100,1200,0,0,0,0,0,desc,
+73,rupture,a,45,1125,1225,0,0,0,0,0,desc,
+74,rupture,a,46,1150,1250,0,0,0,0,0,desc,
+75,rupture,a,47,1175,1275,0,0,0,0,0,desc,
+76,rupture,a,48,1200,1300,0,0,0,0,0,desc,
+77,holder,forward,1,25,65,27,80,47,23,24,desc,
+78,holder,forward,1.5,40,83,40,80,47,22,25,desc,
+79,holder,forward,2,50,108,52,120,59,23,36,desc,
+80,holder,forward,3,80,135,80.2,140,47,23,24,desc,
+81,holder,forward,4,100,180,100,180,47,22,25,desc,
+82,holder,forward,6,150,220,150,220,52,25,27,desc,
+83,holder,forward,8,200,277,200,280,64,24,40,desc,
+84,holder,forward,10,250,337,250,350,79,29,50,desc,
+85,holder,forward,12,300,407,300,420,89,32,57,desc,
+86,holder,forward,14,350,448,350,460,111,41,70,desc,
+87,holder,forward,16,400,512,400,520,121,41,80,desc,
+88,holder,reverse,1,25,65,30.5,80,47,24,23,desc,
+89,holder,reverse,1.5,40,92,40,100,55,28,27,desc,
+90,holder,reverse,2,50,107,55,120,59,30,29,desc,
+91,holder,reverse,3,80,146,80,150,71,41,30,desc,
+92,holder,reverse,4,100,177,100,180,118,69,49,desc,
+93,holder,reverse,6,150,247,150,250,111,58,53,desc,
+94,holder,reverse,8,200,276,200,280,115,57,58,desc,
+95,holder,reverse,10,250,358,250,360,79,30,49,desc,
+96,holder,reverse,12,300,407,300,420,95,36,59,desc,a
+97,holder,reverse,14,350,483,350,500,110,41,69,desc,
+98,holder,reverse,16,400,550,400,520,115,45,70,desc,
+99,holder,a,18,450,623,450,450,115,45,70,desc,
+100,holder,a,20,500,694.5,500,500,115,45,70,desc,
+101,holder,a,22,550,766,550,550,115,45,70,desc,
+102,holder,a,24,600,837.5,600,600,115,45,70,desc,
+103,holder,a,26,650,909,650,650,115,45,70,desc,
+104,holder,a,28,700,980.5,700,700,115,45,70,desc,
+105,holder,a,30,750,1052,750,750,115,45,70,desc,
+106,holder,a,32,800,1123.5,800,800,115,45,70,desc,
+107,tag,small,0,0,0,0,0.5,0.5,135,50,desc,
+108,plate,ss,0,0,0,0,0,2000,1000,1000,desc,
+109,tef,rol,0,0,0,0,0,0,1200,0,desc,
+110,shaft,standard,0,0,0,0,0,0,0,0,desc,
+
+
+cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4saVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Save file /home/koaliumi/public_html/edit.koalium.ir/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4saVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Done processing https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4saVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Parse assets from all responses that are not known binary formats
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Prepare request for https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] URI: 'https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVIGxA.woff2', 200
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Process response of https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Store content for https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Save file /home/koaliumi/public_html/edit.koalium.ir/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Done processing https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVIGxA.woff2
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Parse assets from all responses that are not known binary formats
+
+[2025-02-20 21:01:36 +0330] info [] [13 s] Prepare request for https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4iaVIGxA.woff2
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] URI: 'https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4iaVIGxA.woff2', 200
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] Process response of https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4iaVIGxA.woff2
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] Store content for https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4iaVIGxA.woff2
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] Save file /home/koaliumi/public_html/edit.koalium.ir/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4iaVIGxA.woff2
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] Done processing https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4iaVIGxA.woff2
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] Parse assets from all responses that are not known binary formats
+
+[2025-02-20 21:01:37 +0330] info [] [14 s] Prepare request for https://inter-cdn.com/g/static/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] URI: 'https://inter-cdn.com/g/static/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2', 200
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] Process response of https://inter-cdn.com/g/static/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] Store content for https://inter-cdn.com/g/static/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] Save file /home/koaliumi/public_html/edit.koalium.ir/g/static/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] Done processing https://inter-cdn.com/g/static/s/montserrat/v29/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] Parse assets from all responses that are not known binary formats
+
+[2025-02-20 21:01:38 +0330] info [] [15 s] Prepare request for https://inter-cdn.com/g/static/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B5caVIGxA.woff2
+
+[2025-02-20 21:01:39 +0330] info [] [16 s] URI: 'https://inter-

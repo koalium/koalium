@@ -1,0 +1,143 @@
+.dsm_fixed_header header.et-l--header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    z-index: 99999;
+}
+
+.dsm_fixed_header.dsm_fixed_header_auto.dsm_fixed_header_vb header.et-l.et-l--header.et-fb-root-ancestor-sibling {
+    position: sticky;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    z-index: 99999;
+}
+
+.dsm_fixed_header.dsm_fixed_header_vb header.et-l.et-l--header.et-fb-root-ancestor-sibling {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    z-index: 99999;
+}
+
+body.logged-in.admin-bar.dsm_fixed_header header.et-l--header,
+body.dsm_fixed_header_vb.logged-in.admin-bar.dsm_fixed_header header.et-l--header {
+    top: calc(0px + 32px);
+}
+
+.dsm_fixed_header_shrink header.et-l--header img {
+    transition: max-width 0.4s ease-in-out;
+    -moz-transition: max-width 0.4s ease-in-out;
+    -webkit-transition: max-width 0.4s ease-in-out;
+    -o-transition: max-width 0.4s ease-in-out;
+}
+
+/*Shrink*/
+.dsm_fixed_header_shrink header.et-l--header {
+    -webkit-animation-timing-function: cubic-bezier(.075, .82, .165, 1);
+    animation-timing-function: cubic-bezier(.075, .82, .165, 1);
+}
+
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active_scrolled header.et-l--header .et_pb_section,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active_scrolled header.et-l--header .et_pb_section .et_pb_row,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active_scrolled header.et-l--header .et_pb_module.et_pb_menu,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active_scrolled header.et-l--header .et_pb_menu__menu>nav>ul>li>a,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_section,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_section .et_pb_row,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_module.et_pb_menu,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_menu__menu>nav>ul>li>a {
+    transition: padding 0.4s ease-in-out;
+    -moz-transition: padding 0.4s ease-in-out;
+    -webkit-transition: padding 0.4s ease-in-out;
+    -o-transition: padding 0.4s ease-in-out;
+}
+
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_menu__menu>nav>ul>li>a,.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active.et-db #et-boc .et-l .et_pb_fullwidth_menu--with-logo .et_pb_menu__menu > nav > ul > li > a, .dsm_fixed_header_shrink.dsm_fixed_header_shrink_active.et-db #et-boc .et-l .et_pb_menu--with-logo .et_pb_menu__menu > nav > ul > li > a{padding-top:21px;padding-bottom:21px}
+
+.dsm_fixed_header_shrink header.et-l--header img {
+    transition: max-width 0.4s ease-in-out;
+    -moz-transition: max-width 0.4s ease-in-out;
+    -webkit-transition: max-width 0.4s ease-in-out;
+    -o-transition: max-width 0.4s ease-in-out;
+}
+
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_menu__logo img,
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header ul li:not(.menu-item) img {
+    max-width: 70%;
+    transition: max-width 0.4s ease-in-out;
+    -moz-transition: max-width 0.4s ease-in-out;
+    -webkit-transition: max-width 0.4s ease-in-out;
+    -o-transition: max-width 0.4s ease-in-out;
+}
+/*Divi Supreme Fix easy header arrow*/
+.dsm_fixed_header_shrink header.et-l--header .et-menu .menu-item-has-children > a:first-child:after {
+    transition: top .4s ease-in-out;
+}
+.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et-menu .menu-item-has-children > a:first-child:after {
+top: inherit;
+transition: top .4s ease-in-out;
+}
+
+/* Background */
+.dsm_fixed_header_scroll.dsm_fixed_header_scrolled header.et-l--header .et_pb_section {
+    transition: padding 0.4s ease-in-out, background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    -moz-transition: padding 0.4s ease-in-out, background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    -webkit-transition: padding 0.4s ease-in-out, background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    -o-transition: padding 0.4s ease-in-out, background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+/* Box Shadow*/
+.dsm_fixed_header_scroll.dsm_fixed_header_box_shadow_scroll:not(.dsm_fixed_header_scroll_active) header.et-l--header .et_pb_section {
+    box-shadow: unset;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 768px) {
+    .dsm_fixed_header_tablet_disable.dsm_fixed_header header.et-l--header {
+        position: relative;
+    }
+
+    .dsm_fixed_header_shrink_tablet_disable.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header img {
+        max-width: 100%;
+    }
+
+    .dsm_fixed_header_shrink_tablet_disable.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_menu__menu>nav>ul>li>a {
+        padding: 31px 0;
+    }
+}
+
+@media (max-width: 980px) {
+    body.logged-in.admin-bar.dsm_fixed_header.et-fb header.et-l--header {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    body.logged-in.admin-bar.dsm_fixed_header header.et-l--header {
+        top: calc(0px + 46px);
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .dsm_fixed_header_phone_disable.dsm_fixed_header header.et-l--header {
+        position: relative;
+    }
+
+    .dsm_fixed_header_shrink_phone_disable.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header img {
+        max-width: 100%;
+    }
+
+    .dsm_fixed_header_shrink_phone_disable.dsm_fixed_header_shrink.dsm_fixed_header_shrink_active header.et-l--header .et_pb_menu__menu>nav>ul>li>a {
+        padding: 31px 0;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3D Shafts and Disks Model</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <style>
+    body { margin: 0; }
+    #container { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    // Set up the scene, camera, and renderer
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.getElementById('container').appendChild(renderer.domElement);
+
+    // Create the first shaft geometry
+    var shaftLength1 = 33; // Length in mm
+    var shaftDiameter1 = 115; // Diameter in mm
+    var geometry1 = new THREE.CylinderGeometry(shaftDiameter1 / 2, shaftDiameter1 / 2, shaftLength1, 32);
+    var material1 = new THREE.MeshBasicMaterial({ color: 0x0077ff });
+    var shaft1 = new THREE.Mesh(geometry1, material1);
+    scene.add(shaft1);
+
+    // Create the second shaft geometry
+    var shaftLength2 = 33; // Length in mm
+    var shaftDiameter2 = 115; // Diameter in mm
+    var geometry2 = new THREE.CylinderGeometry(shaftDiameter2 / 2, shaftDiameter2 / 2, shaftLength2, 32);
+    var material2 = new THREE.MeshBasicMaterial({ color: 0xff7700 });
+    var shaft2 = new THREE.Mesh(geometry2, material2);
+    shaft2.position.set(150, 0, 0); // Position 150mm away on the X-axis
+    scene.add(shaft2);
+
+    // Create the first disk geometry
+    var outerRadius1 = 88 / 2; // Outer radius in mm
+    var innerRadius1 = 55 / 2; // Inner radius in mm
+    var diskThickness1 = 33; // Thickness in mm
+    var geometry3 = new THREE.RingGeometry(innerRadius1, outerRadius1, 32, 1, 0, Math.PI * 2);
+    var material3 = new THREE.MeshBasicMaterial({ color: 0x0077ff, side: THREE.DoubleSide });
+    var disk1 = new THREE.Mesh(geometry3, material3);
+    disk1.position.set(0, 0, 330); // Position 330mm away on the Z-axis
+    scene.add(disk1);
+
+    // Create the second disk geometry
+    var outerRadius2 = 88 / 2; // Outer radius in mm
+    var innerRadius2 = 55 / 2; // Inner radius in mm
+    var diskThickness2 = 33; // Thickness in mm
+    var geometry4 = new THREE.RingGeometry(innerRadius2, outerRadius2, 32, 1, 0, Math.PI * 2);
+    var material4 = new THREE.MeshBasicMaterial({ color: 0xff7700, side: THREE.DoubleSide });
+    var disk2 = new THREE.Mesh(geometry4, material4);
+    disk2.position.set(150, 0, 330); // Position 330mm away on the Z-axis
+    scene.add(disk2);
+
+    // Position the camera
+    var radius = 400; // Radius of the camera's orbit
+    var angle = 0; // Initial angle
+
+    // Render the scene
+    var animate = function () {
+      requestAnimationFrame(animate);
+
+      // Rotate the camera around the shafts and disks
+      angle += 0.01; // Adjust the speed of rotation
+      camera.position.x = radius * Math.cos(angle);
+      camera.position.y = radius * Math.sin(angle);
+      camera.lookAt(scene.position);
+
+      // Optional: Rotate the shafts and disks for better view
+      shaft1.rotation.x += 0.01;
+      shaft1.rotation.y += 0.01;
+      shaft2.rotation.x += 0.01;
+      shaft2.rotation.y += 0.01;
+      disk1.rotation.x += 0.01;
+      disk1.rotation.y += 0.01;
+      disk2.rotation.x += 0.01;
+      disk2.rotation.y += 0.01;
+
+      renderer.render(scene, camera);
+    };
+
+    animate();
+  </script>
+</body>
+</html>

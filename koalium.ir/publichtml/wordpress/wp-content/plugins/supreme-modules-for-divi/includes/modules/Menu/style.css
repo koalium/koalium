@@ -1,0 +1,101 @@
+ul.dsm-menu, ul.dsm-menu .sub-menu {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.dsm-menu a {
+	transition: all .4s ease-in-out;
+}
+.et_pb_bg_layout_dark ul.dsm-menu li a {
+	color: #fff
+}
+#left-area ul.dsm-menu, .comment-content ul.dsm-menu, .entry-content ul.dsm-menu, .et-l--body ul.dsm-menu, .et-l--footer ul.dsm-menu, .et-l--header ul.dsm-menu, body.et-pb-preview #main-content .container ul.dsm-menu {
+	padding-left: 0;
+}
+ul.dsm-menu .menu-item-has-children {
+	position: relative;
+}
+ul.dsm-menu .menu-item-has-children .sub-menu {
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+.dsm-menu-animation li a span {
+	position: relative;
+	padding-bottom: 2px;
+}
+.dsm-menu-animation-left-right li a span:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all .4s ease-in-out;
+}
+.dsm-menu-animation-left-right li a span:hover:after {
+    visibility: visible;
+	width: 100%;
+}
+
+.dsm-menu-animation-right-left li a span:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	right: 0;
+	visibility: hidden;
+	transition: all .4s ease-in-out;
+}
+.dsm-menu-animation-right-left li a span:hover:after {
+    visibility: visible;
+	width: 100%;
+}
+
+.dsm-menu-animation-center-out li a span:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all .4s ease-in-out;
+}
+.dsm-menu-animation-center-out li a span:hover:after {
+    visibility: visible;
+	transform: scaleX(1);
+}
+
+/*Sub Menu Collapse*/
+.dsm-menu-submenu-collapse .menu-item-has-children .sub-menu {
+	display: none;
+}
+.dsm-menu-submenu-collapse .menu-item-has-children .et-pb-icon {
+	font-size: 16px;
+	border-style: solid;
+}
+.dsm-menu-submenu-collapse .menu-item-has-children>a {
+	display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+/*
+.dsm-menu-submenu-collapse .dsm-submenu-active .sub-menu {
+	display: block;
+}
+
+.dsm-menu-submenu-collapse .menu-item-has-children > a:first-child {
+    padding-right: 20px;
+} 
+.dsm-menu-submenu-collapse .menu-item-has-children > a:first-child::after {
+    font-family: 'ETmodules';
+content: "3";
+font-size: 16px;
+position: absolute;
+right: 0;
+top: 0;
+font-weight: 800;
+} */

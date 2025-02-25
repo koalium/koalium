@@ -1,0 +1,104 @@
+.dsm_shapes {
+	display: inline-block;
+}
+.dsm_shapes_square {
+	width: 80px;
+	height: 80px;
+}
+
+.dsm_shapes_circle {
+	border-radius: 50%;
+}
+
+.dsm_shapes_rectangle {
+	width: 80px;
+	height: 40px;
+}
+
+.dsm_shapes_triangle {
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 80px solid #000;
+}
+
+.dsm_shapes_oval {
+	width: 80px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.dsm_shapes_trapezoid {
+	width: 80px;
+	height: 0px;
+	border-bottom-width: 32px;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+}
+
+.dsm_shapes_parallelogram {
+	width: 80px;
+	height: 40px;
+	transform: skew(20deg);
+}
+
+.dsm_shapes_diamond_square {
+	width: 80px;
+	height: 80px;
+	transform: rotate(45deg);
+}
+
+.dsm_shapes_hexagon {
+	position: relative;
+}
+
+.dsm_shapes_hexagon:before,
+.dsm_shapes_hexagon:after {
+	content: "";
+	position: absolute;
+	width: 0;
+}
+
+.dsm_shapes_hexagon:before {
+	bottom: 100%;
+}
+
+.dsm_shapes_hexagon:after {
+	top: 100%;
+}
+
+.dsm_shapes_blob_one {
+	border-radius: 71% 29% 41% 59% / 59% 43% 57% 41%;
+}
+
+.dsm_shapes_blob_two {
+	border-radius: 72% 28% 70% 30% / 36% 50% 50% 64%;
+}
+
+.dsm_shapes_blob_three {
+	border-radius: 40% 60% 27% 73% / 60% 75% 25% 40%;
+}
+
+.dsm_shapes_blob_four {
+	border-radius: 40% 60% 72% 28% / 65% 29% 71% 35%;
+}
+
+.dsm_shapes_blob_five {
+	border-radius: 45% 55% 37% 63% / 63% 73% 27% 37%;
+}
+
+.dsm_shapes_blob_six {
+	border-radius: 47% 53% 47% 53% / 38% 75% 25% 62%;
+}
+
+.dsm_shapes_blob_seven {
+	border-radius: 50% 50% 42% 58% / 38% 68% 32% 62%;
+}
+
+.dsm_shapes_blob_eight {
+	border-radius: 31% 69% 57% 43% / 27% 48% 52% 73%;
+}
+
+.dsm_shapes_wrapper {
+	border-style: solid;
+	border-color: #333333;
+}

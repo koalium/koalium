@@ -1,0 +1,35 @@
+page that  
+style it by css code to performace and dynamic view ui design for desktop view .
+place inputs at coloms to make it comfortable
+form:
+input size: number from 0.5 to10 step 0.5 def=2;
+input spinner qty def = 10;
+input spinner desqty def = 3;
+input spinner testqty def = 4;
+input stagger: select between 'inline,triangle'
+button : txt = send , send form data to tools.koalium.ir/tool/form_handler.php;
+button: text =clear view,clear canvas if maded ;
+button laserview: text = laser view,;
+
+
+make a canvas  at bottom and after  form , canvas width = 1000 , height =500, bg color = dark blue , margins = 2;
+
+laser view button func:
+make circle : radius = size input of form * 25*0.5 , out line thickness = 3,margin 3, xseperation = 5 , y seperation = 5,center = radius +margin start;
+draw verticaly ,row by row to fill col, the next col , animated , each one 200 ms, one by one , all of qty+desqty+testqty number of this circle, color blue  , margin = 5 in between , 13 at each ends,verticaly placed, fill col ,then go to next col,edge margins 12, color dark green,do not touch each other , place one after one ,in 200ms time between;
+from first to qty outline color = yellow ;
+then to desqty outline color = magenta ;
+then to testqty outline color = cyan;
+show the number in center of each circle font arial 12 bold color white 
+circle must not touch any of edges
+if inline selected:
+	each row follow perv row and first circle center x are equal;
+if triangle selected:
+	shift odd cols lower  by one radius + 2 , and set x seperation 0.86 of x sep;
+
+xseperation = 5 , y seperation = 5;
+if circle get touch bottom  edge:
+number of circle that drawn in canvas as circleinplane
+lastplane = calc mod remained % circleinplane
+make another canvas at bottom ,canvas num not greater than 2
+draw lastplane as draw perv in this canvas

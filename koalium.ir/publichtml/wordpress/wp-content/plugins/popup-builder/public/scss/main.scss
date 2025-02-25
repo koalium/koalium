@@ -1,0 +1,20 @@
+@import "fonts";
+@import "variables";
+@import "reset";
+
+.sgpb {
+	@import "buttons";
+	@import "header";
+	@import "popupExtenssionsList";
+	@import "popupMainOptions";
+	@import "subscriptionExtension";
+	@import "license";
+	@import "generalSettings";
+	@import "footer";
+	@import "global";
+	@import "media";
+}
+@import "global";
+@import "table";
+@import "rtl";
+@import "media";

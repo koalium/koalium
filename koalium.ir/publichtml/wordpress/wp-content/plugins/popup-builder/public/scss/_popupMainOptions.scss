@@ -1,0 +1,414 @@
+@import "variables";
+
+.sgpb {
+	&-options {
+		width: 100%;
+		display: flex;
+		position: relative;
+		flex-direction: column;
+		&-menu {
+			width: 23%;
+			padding: 20px;
+			background: $white_light;
+			margin-bottom: 10px;
+			position: relative;
+			cursor: pointer;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 3px;
+				background: transparent;
+			}
+			&-header {
+				&__sub {
+					display: none;
+					color: $gray_75;
+				}
+			}
+			&-active {
+				background: $white;
+				box-shadow: 0 0 10px $blue_light_opacity_3;
+				&:before {
+					background: $blue_light;
+				}
+				.sgpb-options-menu-header {
+					color: $blue_light;
+					margin-bottom: 10px;
+				}
+				.sgpb-options-menu-header__sub {
+					display: block;
+				}
+				+ .sgpb-options-content {
+					display: block;
+				}
+			}
+		}
+		&-content {
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 77%;
+			padding: 0 40px;
+			.sgpb-header-h1 {
+				line-height: 1.2;
+			}
+			.sgpb{
+				&-wrapper {
+					.text {
+						display: flex;
+						align-items: center;
+						color: $black;
+						margin-top: -30px;
+						margin-bottom: 10px;
+						.inputBlock__title {
+							font-weight: 600;
+							font-size: 17px;
+						}
+					}
+					.sgpb {
+						&-icons {
+							margin-right: 10px;
+						}
+						&-btn {
+							width: 80%;
+							text-align: center;
+							font-size: 20px;
+						}
+						&-pro-conditions {
+							* {
+								font-family: "Segoe UI Regular";
+							}
+							&-box {
+								max-width: 349px;
+								display: flex;
+								align-items: center;
+								flex-direction: column;
+								padding: 13px 10px;
+								border: 1px solid $gray_opacity_1;
+								background: $gray_e8_opacity_1;
+								border-radius: 10px;
+							}
+							&-main-wrapper {
+								align-items: flex-start;
+							}
+							&-title {
+								font-size: 30px;
+								font-weight: 600;
+								color: $black;
+							}
+							&-text {
+								font-size: 15px;
+								color: $gray_75;
+								padding: 0 25px;
+							}
+							&-pro-url {
+								font-family: "Segoe UI Regular";
+								color: $blue;
+								font-size: 15px;
+							}
+							&-inline-border {
+								width: 80%;
+								height: 2px;
+								background: $gray_opacity_1;
+							}
+							&-list {
+								width: 80%;
+								text-align: center;
+								.sgpb-pro-conditions-inline-border {
+									width: 100%;
+								}
+								.sgpb-pro-conditions-inline-border:last-child {
+									display: none;
+								}
+								* {
+									color: $gray_75;
+									font-size: 15px;
+								}
+							}
+						}
+
+						&-design {
+							.formItem {
+								label {
+									position: relative;
+									.sgpb-popup-theme {
+										&-img {
+											display: block;
+											width: 105px;
+											height: 70px;
+											background-size: 100px;
+											background-repeat: no-repeat;
+											background-position: center;
+										}
+										&-1 {
+											+ .sgpb-popup-theme-img {
+												background-image: url('../img/theme1.jpg');
+											}
+										}
+										&-2 {
+											+ .sgpb-popup-theme-img {
+												background-image: url('../img/theme2.jpg');
+											}
+										}
+										&-3 {
+											+ .sgpb-popup-theme-img {
+												background-image: url('../img/theme3.jpg');
+											}
+										}
+										&-4 {
+											+ .sgpb-popup-theme-img {
+												background-image: url('../img/theme4.jpg');
+											}
+										}
+										&-5 {
+											+ .sgpb-popup-theme-img {
+												background-image: url('../img/theme5.jpg');
+											}
+										}
+										&-6 {
+											+ .sgpb-popup-theme-img {
+												background-image: url('../img/theme6.jpg');
+											}
+										}
+									}
+									input[type="radio"] {
+										width: 100%;
+										height: 100%;
+										visibility: hidden;
+										position: absolute;
+										&:checked {
+											+ .sgpb-popup-theme-img {
+												width: 140px;
+												height: 110px;
+												background-size: 130px;
+												box-shadow: 0 0 10px $blue_light_opacity_3;
+											}
+										}
+									}
+								}
+								.subForm {
+									&Item {
+										.sgpb-range-wrap {
+											input[type="range"] {
+												cursor: pointer;
+												width: 200px;
+											}
+											input[type="text"] {
+												width: 52px;
+												padding: 0 0 0 10px!important;
+											}
+										}
+										.subFormBackground {
+											background: $light;
+											border-radius: 5px;
+											.subFormItemIcons {
+												display: inline-flex;
+												flex-direction: column;
+												justify-content: space-around;
+											}
+											.icons__item {
+												background: $blue_whiten;
+												width: 60px;
+												height: 60px;
+												display: inline-flex;
+												align-items: center;
+												justify-content: center;
+												border-radius: 50%;
+												cursor: pointer;
+												+ img {
+													width: 200px;
+												}
+												&.icons_pink {
+													background: $red_whiten;
+												}
+												&:hover {
+													cursor: pointer;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						&-close-settings {
+							input {
+								max-width: 100px;
+							}
+							.sgpb-close-button-image-option-wrapper {
+								.subFormItem__x {
+									width: 60px;
+									height: 60px;
+									div {
+										width: 100%;
+										height: 100%;
+									}
+								}
+								.icons__item {
+									-webkit-border-radius: $percentage_50;
+									-moz-border-radius: $percentage_50;
+									border-radius: $percentage_50;
+									img {
+										width: 45px;
+										height: 45px;
+									}
+									&.icons_blue {
+										background: $blue_whiten;
+									}
+									&.icons_pink {
+										background: $red_whiten;
+									}
+								}
+							}
+						}
+					}
+				}
+				&-media-upload {
+					width: 100%;
+					height: 70%;
+					min-height: 50vh;
+					.formItem_last {
+						width: 400px;
+						height: 400px;
+						position: relative;
+						margin: 0;
+						box-shadow: 0 0 20px $black_opacity_3;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						.sgpb-icons {
+							position: absolute;
+							left: -10%;
+							width: 80px;
+							height: 80px;
+							font-size: 50px;
+							margin: 0;
+						}
+					}
+					.sgpb-show-image-container {
+						background-image: url(../images/NoImage.png);
+						width: 70%;
+						height: 70%;
+						min-height: 40vh;
+						background-repeat: no-repeat;
+						background-size: contain;
+						background-position: center;
+					}
+				}
+				&-squares {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					margin-left: 8.750vw;
+					width: 350px;
+					height: 350px;
+					&__square {
+						background: $blue 0 0 no-repeat padding-box;
+						opacity: 0.4;
+						width: 100px;
+						height: 100px;
+						&:hover {
+							cursor: pointer;
+						}
+						&_leftRounded {
+							border-radius: 5px 0 0 5px;
+						}
+						&_rightRounded {
+							border-radius: 0 5px 5px 0;
+						}
+						&.active, &:hover {
+							background: $blue 0 0 no-repeat padding-box;
+							box-shadow: 0 3px 10px $blue_opacity_8;
+							opacity: 1;
+						}
+					}
+				}
+				&-customJsOrCss {
+					&_text {
+						font-size: 15px;
+					}
+					.formItem__title {
+						font-size: 15px;
+					}
+				}
+				&-floating-btn-wrapper {
+					* {
+						font-family: "Segoe UI Regular";
+					}
+					.subFormItem {
+						&__title {
+							font-size: 20px;
+							color: $black;
+						}
+					}
+					input[type="button"].sgpb-input-button, .sgpb-input-button {
+						background: $blue_d8;
+						border-radius: 3px;
+						color: $blue;
+						border-color: transparent;
+						width: 120px;
+						height: 47px;
+						display: inline-flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 16px;
+						font-weight: bold;
+						&:hover, &:focus, &.active {
+							color: $white;
+							background-color: $blue;
+							box-shadow: none;
+						}
+						&-disabled {
+							background-color: $blue_d8 !important;
+							opacity: 0.34 !important;
+							cursor: default !important;
+							color: $blue !important;
+						}
+						&-bg-arrows {
+							background-image: url("../svg/arrow_cross.svg");
+							background-color: $blue_d8_opacity_034!important;
+							background-repeat: no-repeat;
+							background-position: center;
+							opacity: 1!important;
+						}
+					}
+					.wp-picker-container {
+						button {
+							margin: 0 10px 0 0;
+						}
+						.wp-picker-holder {
+							position: absolute;
+						}
+						.wp-picker-input-wrap {
+							.sgpb-color-picker {
+								padding: 0 5px!important;
+								line-height: 2.1!important;
+							}
+						}
+					}
+				}
+			}
+			.icons__item {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+			.icons_blue {
+				background: $blue_whiten!important;
+				color: $blue!important;
+			}
+			.icons_pink {
+				background: $red_light!important;
+				color: $red!important;
+			}
+			.icons_gray {
+				background: $gray_c7!important;
+				color: $black_3!important;
+			}
+		}
+
+	}
+}

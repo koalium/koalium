@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "7d6207a7d89fada3",
+    "type": "split",
+    "children": [
+      {
+        "id": "76eac107a8596621",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd28e35b010ee44d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "دزدگیر/components/PIR wireless.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PIR wireless"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0aaa06ce2a3d72d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f9b82b389a7773e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db8c78ed63296004",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f9470af20f12edaa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bfaa2774e95f6ca6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1df455ca8d528c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c940317ab972fea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7acb6bec25cf3303",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "267987c71e4d52f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b3dd48158c052155",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7749a753a20681e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-projects:Open projects": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dd28e35b010ee44d",
+  "lastOpenFiles": [
+    "دزدگیر/components/micro server.md",
+    "دزدگیر/components/PIR wireless.md",
+    "دزدگیر/components/Drawing 2025-02-25 15.04.12.excalidraw.md",
+    "دزدگیر/دزدگیر پایه.canvas",
+    "دزدگیر/summery/قفل برقی.md",
+    "دزدگیر/summery/بخش اولیه دزدگیر.md",
+    "دزدگیر/summery/منبع تغذیه اصلی.md",
+    "دزدگیر/summery/ماژول های.md",
+    "دزدگیر/summery/ارتباط موبایل SIM800.md",
+    "دزدگیر/summery/Window magnet باز و بسته بودن درب و پنجره.md",
+    "دزدگیر/summery/آژیر.md",
+    "دزدگیر/summery/PIR تشخیص حرکت.md",
+    "دزدگیر/summery/nfc 13mhz.md",
+    "دزدگیر/summery/nano Server.md",
+    "دزدگیر/summery",
+    "دزدگیر/overall.md",
+    "دزدگیر/Drawing 2025-02-24 18.58.14.excalidraw.md",
+    "heat exchanger and environment friendly oil industry logo with a p.png",
+    "db_nano.md",
+    "Welcome.md",
+    "APex logo with a heat exchanger and environment-friendly oil industry theme.png",
+    "APex logo with a heat exchanger and environment-friendly oil industry theme (1).png",
+    "APex logo for heat exchanger and environment-friendly oil industry.png"
+  ]
+}

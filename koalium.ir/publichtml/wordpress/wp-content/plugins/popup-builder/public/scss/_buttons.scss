@@ -1,0 +1,124 @@
+@import "variables";
+
+.sgpb {
+	&-btn {
+		background: transparent;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding: 10px 15px;
+		border: 2px solid transparent;
+		line-height: 1.2;
+		font-weight: 600;
+		cursor: pointer;
+		&:active, &:focus {
+			@extend .sgpb-btn;
+		}
+		&-blue {
+			color: $white!important;
+			background: $blue;
+			border-color: $blue;
+			&:hover, &:focus, &:active {
+				box-shadow: 0 0 10px $blue_shadow;
+				background: $white;
+				color: $blue!important;
+				border-color: $blue;
+			}
+			&--outline {
+				color: $blue!important;
+				background: $white;
+				border-color: $blue;
+				&:hover, &:focus, &:active {
+					box-shadow: 0 0 10px $blue_shadow;
+					background: $blue;
+					color: $white!important;
+					border-color: $blue;
+				}
+			}
+			&-light {
+				color: $blue;
+				background: $blue_light_0066ff_opacity_2;
+				border-color: transparent;
+				&:hover, &:focus, &:active {
+					box-shadow: none;
+					background: $blue_light_0066ff_opacity_2;
+					color: $blue!important;
+					border-color: transparent;
+				}
+			}
+		}
+		&-dark {
+			&-outline {
+				background: $white;
+				color: $black;
+				border-color: $black;
+				&:active, &:focus {
+					@extend .sgpb-btn-dark-outline;
+				}
+			}
+		}
+		&-danger {
+			color: $red!important;
+			background: $red_whiten_FFCC;
+			&:hover, &:focus, &:active {
+				box-shadow: none;
+				background: $red;
+				color: $white!important;
+				border-color: transparent;
+			}
+		}
+		&-gray-light {
+			color: $black;
+			background-color: $light;
+			&:hover:not(.sgpb-no-hover),
+			&:focus(.sgpb-no-hover),
+			&:active(.sgpb-no-hover) {
+				background-color: $white;
+			}
+		}
+		&-more_extensions {
+			box-shadow: 0 0 6px $blue_light_opacity_8;
+			background: $blue_light;
+			color: $white;
+			border-color: $blue_light;
+			font: Bold 22px/28px Segoe UI Regular !important;
+			padding: 5px 34px;
+			&:hover, &:active, &:focus {
+				@extend .sgpb-btn-more_extensions;
+			}
+		}
+		&--rounded {
+			border-radius: 39px;
+			&:active, &:focus {
+				-webkit-border-radius: 39px;
+				-moz-border-radius: 39px;
+				border-radius: 39px;
+			}
+		}
+		&-disabled {
+			outline: none!important;
+			cursor: no-drop!important;
+			background: $gray_light!important;
+			color: $gray!important;
+			border-color: transparent!important;
+			box-shadow: none!important;
+			&:hover, &:focus, &:active {
+				@extend .sgpb-btn-disabled;
+			}
+		}
+
+	}
+
+	&--group {
+		display: flex;
+		.sgpb-btn {
+			margin-left: -2px;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+		.sgpb-input {
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+	}
+}

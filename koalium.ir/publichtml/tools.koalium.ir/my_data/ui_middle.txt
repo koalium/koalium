@@ -1,0 +1,37 @@
+typeList= 'reverse,forward,flat'
+matList='ss316,ss304,cs'
+matseal='ptfe,tef,pvc'
+sizeList='0.5,0.75,1,2,3,4,68,10'
+elementList='rupture disk, holder, breather valve'
+chooseList='Tag,laser,waterjet,wirecut,form,test,shipping'
+holderList='type,mat,qty'
+qtytest=3
+qtydesign=4
+middle:
+form : 
+title= rupture , inputs are:
+type: selection one of typeList def = ss316,
+size: select from sizaList def=4
+material: 3 selections from matList , text='main layer, vacuum layer , seal layer' , def = ss316,ss316,ptfe,
+qty: spinner to get integer value from 1 to any,
+burst pressure: decimal number from 0.1 to 101.1 in step 0.1 before 5 and 0.5 befor 10 and 1 before 100, def=5.5,
+burst temprature: decimal value frokm -200 to 1010 step 1 before 100 and step 5 before 200 and step 10 to end,
+button: text = send and send all form data and system ip to the tools.koalium.ir/tool/rupture_handler.php,
+button: text = clear , clear canvas that maded after and save value of form in cookie ,
+shape: selection of 'inline,triangle'
+button: text = laser view that do function to :
+make iframe and inside this iframe 2 canvas at bottom of form if not exist and invisible,width 1000, height = 500 bg color dark green , margins = 5,
+make circle : radius = size from form * 25 * 0.5 * 0.5 , color = green , outline = 3px , 
+visible first canvas named raw plane 1
+draw qty+qtytest+qtydesign number of cirle:
+circle drawn from top to bottom in coloumn after coloumn ,
+after fill each column if remain circle to draw , 
+goto next colomn that :
+if select inline in shape selection:
+next cols as like as this row
+if selection shape selected triangle:
+in odd coloumns first circle start y is between of perv row,
+and x of centers = 0.87 of inline seperations.
+no cicle can touch any edges
+
+

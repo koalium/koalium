@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Multi-Step Progress Bars with Randomized Time</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .progress-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .progress-container {
+            width: 120px;
+            height: 120px;
+            position: relative;
+            background-color: lightgrey;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .progress-bar {
+            width: 100%;
+            height: 100%;
+            background: conic-gradient(var(--color, red) var(--percent, 0%), transparent 0%);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: background 0.3s;
+        }
+        .progress-label {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            z-index: 1; /* Bring text to front */
+            color: #333;
+        }
+        .progress-title {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            display: none; /* Initially hidden */
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            display: none; /* Initially hidden */
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form id="size-form">
+            <label for="size">Enter size:</label>
+            <input type="text" id="size" name="size">
+            <button type="button" onclick="startProgressBars()">Submit</button>
+        </form>
+    </div>
+    
+    <div class="progress-wrapper">
+        <p class="progress-title" id="title-1">Database Search</p>
+        <div id="progress-container-1" class="progress-container">
+            <div id="progress-bar-1" class="progress-bar"></div>
+            <div class="progress-label" id="label-1">0%</div>
+        </div>
+    </div>
+
+    <div class="progress-wrapper">
+        <p class="progress-title" id="title-2">Calculation</p>
+        <div id="progress-container-2" class="progress-container">
+            <div id="progress-bar-2" class="progress-bar"></div>
+            <div class="progress-label" id="label-2">0%</div>
+        </div>
+    </div>
+
+    <div class="progress-wrapper">
+        <p class="progress-title" id="title-3">Deploy and Verification</p>
+        <div id="progress-container-3" class="progress-container">
+            <div id="progress-bar-3" class="progress-bar"></div>
+            <div class="progress-label" id="label-3">0%</div>
+        </div>
+    </div>
+
+    <table id="response-table">
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody id="response-body">
+        </tbody>
+    </table>
+
+    <script>
+        function getRandomDuration() {
+            return Math.random() * 100 + 10; // Random duration between 500ms and 5000ms
+        }
+
+        function startProgressBars() {
+            var progressBar1 = document.getElementById('progress-bar-1');
+            var progressLabel1 = document.getElementById('label-1');
+            var progressTitle1 = document.getElementById('title-1');
+
+            var progressBar2 = document.getElementById('progress-bar-2');
+            var progressLabel2 = document.getElementById('label-2');
+            var progressTitle2 = document.getElementById('title-2');
+
+            var progressBar3 = document.getElementById('progress-bar-3');
+            var progressLabel3 = document.getElementById('label-3');
+            var progressTitle3 = document.getElementById('title-3');
+
+            var progressContainer1 = document.getElementById('progress-container-1');
+            var progressContainer2 = document.getElementById('progress-container-2');
+            var progressContainer3 = document.getElementById('progress-container-3');
+
+            var duration1 = getRandomDuration();
+            var duration2 = getRandomDuration();
+            var duration3 = getRandomDuration();
+
+            function startProgressBar(progressTitle, progressContainer, progressBar, progressLabel, duration, callback) {
+                progressTitle.style.display = 'block';
+                progressContainer.style.display = 'block';
+                var start = null;
+                var width = 0;
+
+                function frame(timestamp) {
+                    if (!start) start = timestamp;
+                    var progress = timestamp - start;
+                    var percent = Math.min(progress / duration * 100, 100);
+
+                    width = percent;
+                    if (width <= 50 && width >=20) {
+                        progressBar.style.setProperty('--color', 'orange');
+                    }else if (width <= 90) {
+                        progressBar.style.setProperty('--color', 'yellow');
+                    }else if (width <= 110) {
+                        progressBar.style.setProperty('--color', 'green');
+                    }
+                    progressBar.style.setProperty('--percent', width + '%');
+                    progressLabel.innerHTML = Math.floor(width) + '%';
+
+                    if (progress < duration) {
+                        requestAnimationFrame(frame);
+                    } else {
+                        callback();
+                    }
+                }
+
+                requestAnimationFrame(frame);
+            }
+
+            function sendData() {
+                const form = document.getElementById('size-form');
+                const formData = new FormData(form);
+
+                fetch('http://localhost/tools/rupture_request_handler.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(result => {
+                    console.log('Form data sent successfully:', result);
+                    displayResponse(result);
+                })
+                .catch(error => {
+                    console.error('Error sending form data:', error);
+                });
+            }
+
+            function displayResponse(data) {
+                const table = document.getElementById('response-table');
+                const tbody = document.getElementById('response-body');
+                tbody.innerHTML = ''; // Clear previous data
+
+                for (let key in data) {
+                    if (data.hasOwnProperty(key)) {
+                        const row = document.createElement('tr');
+                        const keyCell = document.createElement('td');
+                        const valueCell = document.createElement('td');
+                        keyCell.textContent = key;
+                        valueCell.textContent = data[key];
+                        row.appendChild(keyCell);
+                        row.appendChild(valueCell);
+                        tbody.appendChild(row);
+                    }
+                }
+
+                table.style.display = 'table';
+            }
+
+            startProgressBar(progressTitle1, progressContainer1, progressBar1, progressLabel1, duration1, function() {
+                sendData();
+                startProgressBar(progressTitle2, progressContainer2, progressBar2, progressLabel2, duration2, function() {
+                    startProgressBar(progressTitle3, progressContainer3, progressBar3, progressLabel3, duration3, function() {
+                        // Optionally handle the final stage after showing the response table
+                    });
+                });
+            });
+        }
+    </script>
+</body>
+</html>

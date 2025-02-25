@@ -1,0 +1,3 @@
+header that shown logo
+png picture koalium-logo.png that traverse from right to left in 2 second and fix at left side
+text : koalium by beauty design follow logo and stop beside it

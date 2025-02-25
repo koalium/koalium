@@ -1,0 +1,21 @@
+@import "variables";
+
+.sgpb {
+	&-subscription-popup-options {
+		.dimensionForm {
+			width: 100%;
+			.sgpb-choice-wrapper {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	&-subscription{
+		.search-box {
+			display: none;
+		}
+		.table > thead > tr > th {
+			vertical-align: middle;
+		}
+	}
+
+}

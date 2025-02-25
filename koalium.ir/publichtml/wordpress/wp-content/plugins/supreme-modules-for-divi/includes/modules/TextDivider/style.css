@@ -1,0 +1,31 @@
+.dsm_text_divider .dsm-text-divider-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.dsm-text-divider-before, .dsm-text-divider-after {
+	font-size: 0;
+    line-height: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #7EBEC5;
+}
+
+.dsm-text-divider-header {
+	padding-bottom: 0;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    margin: 0 10px;
+}
+
+.dsm-text-divider-align-left .dsm-text-divider-before{
+	display: none;
+}
+
+.dsm-text-divider-align-right .dsm-text-divider-after{
+	display: none;
+}

@@ -1,0 +1,7 @@
+.dsm_embed_google_map {
+	line-height: 0;
+}
+.dsm_embed_google_map iframe {
+	height: 320px;
+    width: 100%;
+}

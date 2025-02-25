@@ -1,0 +1,91 @@
+[pl_row pagelayer-id="fntmjide8pvqmh6j"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="image" ele_bg_attachment="scroll" ele_bg_posx="center" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" overlay_type="color" overlay_transperancy="0.6" overlay_color="#161819ff" ele_padding="90px,0px,60px,0px" ele_margin="0px,0px,0px,0px" ele_bg_img="{{theme_url}}/images/about-bg.jpg" ele_bg_color="#181d1eff"]
+[pl_col pagelayer-id="bknbd530fzv4j9um"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400"]
+[pl_heading pagelayer-id="bpbyuj63phqi1qu6"  color="#ffffffff" ele_bg_hover_delay="400" align="left" heading_typo=",45,,,,,Solid,,,," heading_state="normal" animation="fadeInDown" animation_delay="600"]
+
+
+
+About Us[/pl_heading]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="e2ukvmlm36ev4y67"  stretch="auto" col_gap="0" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="70px,0px,70px,0px"]
+[pl_col pagelayer-id="km75ifcnk4y6tvup"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="8" ele_margin="0px,0px,0px,0px" col_width="60" ele_padding_tablet="0px,30px,0px,30px" ele_padding_mobile="0px,30px,30px,30px"]
+[pl_heading pagelayer-id="ueeprzg449bg3ivo"  heading_state="normal" color="#111111ff" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600"]
+
+<h3>Few words about Industrial
+</h3>[/pl_heading]
+[pl_text pagelayer-id="7fg7k8w2smjpyv83"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+
+<p>Vivamus faucibus tortor ac posuere dictum. Nulla scelerisque ipsum finibus quam lobortis, et eleifend quam ultrices. Nullam nec posuere lacus. Aliquam a dui orci. Etiam ante erat, pretium nec accumsan vehicula, imperdiet at arcu.</p>[/pl_text]
+[pl_text pagelayer-id="nncpz6ohk7lxfyy0"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+
+<p>Aliquam nec diam convallis, pulvinar ligula id, rhoncus tellus. Etiam ante erat, pretium nec accumsan vehicula, imperdiet at arcu. Vivamus faucibus tortor ac posuere dictum. Nulla scelerisque ipsum finibus quam lobortis, et eleifend quam ultrices. Nullam nec posuere lacus. Aliquam a dui orci. Etiam ante erat, pretium nec accumsan vehicula, imperdiet at arcu.</p>[/pl_text]
+[/pl_col]
+[pl_col pagelayer-id="73250vtde0i4hq0d"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4" col_width="40"]
+[pl_chart pagelayer-id="vrnlmaaqc19a59e7"  type="bar" legend_pos="top" labels="2008,2012,2016,2018,2019" tick_type="xaxis" xbegin="true" ybegin="true" title="Company Performance" ele_bg_hover_delay="400" title_color="#47425d" title_align="center"]
+[pl_chart_datasets pagelayer-id="ln3zte4kdavfeh5i"  label="Sales" datasets="400,800,1200,1500,1800" fill_color="true" ele_bg_hover_delay="400" bg_color="#3498dbff"]
+[/pl_chart_datasets]
+[pl_chart_datasets pagelayer-id="fqccm9auiqai8f8a"  label="Expense" datasets="200,750,1200,850,1400" fill_color="true" ele_bg_hover_delay="400" bg_color="#dc3a13ff"]
+[/pl_chart_datasets]
+[/pl_chart]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="d2go0tsmqflko4oj"  stretch="full" col_gap="10" width_content="full" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="color" ele_bg_attachment="scroll" ele_bg_posx="center" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" ele_padding="70px,0px,70px,0px" ele_bg_img="http://sitepad.local/site-data/plugins/pagelayer-pro/images/default-image.png" ele_bg_color="#3498dbff"]
+[pl_col pagelayer-id="dlezz3nu2bpmpig9"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_service pagelayer-id="ic78k3ujgfombmkf"  service_image="{{theme_url}}/images/testimonial1.jpg" service_image_size="custom" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Dexter Reed" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#3498dbff" service_heading_typo=",22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" img_border_type="solid" img_border_color="#fefefeff" img_border_width="3,3,3,3" img_border_radius="50%,50%,50%,50%" service_image_custom_size="130" ele_bg_type="gradient" ele_bg_gradient="180,#ffffff00,25,#ffffffff,25,#ffffffff,64" ele_padding="0px,15px,24px,15px" animation="zoomIn" animation_delay="600"]
+
+
+
+<p>Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="pbuhqtdpzrhljf13"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_service pagelayer-id="0icoh99ckb5jczu7"  service_image="{{theme_url}}/images/testimonial2.jpg" service_image_size="custom" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Nancy Bishop" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#3498dbff" service_heading_typo=",22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" img_border_type="solid" img_border_color="#fefefeff" img_border_width="3,3,3,3" img_border_radius="50%,50%,50%,50%" service_image_custom_size="130" ele_bg_type="gradient" ele_bg_gradient="180,#ffffff00,25,#ffffffff,25,#fefefeff,64" ele_padding="0px,15px,24px,15px" animation="zoomIn" animation_delay="600"]
+
+
+
+<p>Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="exovuehg93nfr9zs"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_service pagelayer-id="wku0sa2013zbq8hv"  service_image="{{theme_url}}/images/testimonial3.jpg" service_image_size="custom" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Dexter Reed" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#3498dbff" service_heading_typo=",22,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" img_border_type="solid" img_border_color="#fefefeff" img_border_width="3,3,3,3" img_border_radius="50%,50%,50%,50%" service_image_custom_size="130" ele_bg_type="gradient" ele_bg_gradient="180,#ffffff00,25,#ffffffff,25,#fefefeff,64" ele_padding="0px,15px,24px,15px" animation="zoomIn" animation_delay="600"]
+
+
+
+<p>Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.</p>[/pl_service]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="hfv4cvz2xb65cxbe"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="70px,0px,0px,0px"]
+[pl_col pagelayer-id="5hq7h68kwq7zidid"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+[pl_heading pagelayer-id="xsf977ukzd3rai0u"  heading_state="normal" color="#111111ff" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600"]
+
+<h3>Management Team</h3>[/pl_heading]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="saz9jys049tiocws"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="0px,0px,70px,0px"]
+[pl_col pagelayer-id="r0d9gf2xecd8nx36"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="2"]
+[pl_service pagelayer-id="syl7zmpbqnsx78n1"  service_image="{{theme_url}}/images/team.png" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_transition="400" service_heading="Philip Hoffman" service_heading_spacing="10" heading_state="normal" service_heading_color="#1d1b1bff" service_heading_typo="Merriweather,20,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" ele_bg_type="" ele_bg_color=" " service_image_spacing="0,0,0,0" ele_padding="0px,0px,20px,0px" img_filter="0,100,100,0,0,100,100" img_filter_hover="0,100,100,0,0,100,100" service_title_spacing=",,10," ele_shadow=",,,#eeeeeeff,0," animation="fadeInUp" animation_delay="600" service_content_spacing="0,10,0,10"]
+
+<h6><span style="color: #3498DB;">President</span></h6>
+<p>Sed dignissim, diam id molestie faucibus, purus nisl pretium quam, in pulvinar velit massa id elit.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="y4o52ip5651lc8ke"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="2"]
+[pl_service pagelayer-id="6il1s50hpw473zt7"  service_image="{{theme_url}}/images/team.png" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_transition="400" service_heading="David Spencer" service_heading_spacing="10" heading_state="normal" service_heading_color="#1d1b1bff" service_heading_typo="Merriweather,20,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" ele_bg_type="" ele_bg_color=" " service_image_spacing="0,0,0,0" ele_padding="0px,0px,20px,0px" img_filter="0,100,100,0,0,100,100" img_filter_hover="0,100,100,0,0,100,100" service_title_spacing=",,10," ele_shadow=",,,#eeeeeeff,0," animation="fadeInUp" animation_delay="600" service_content_spacing="0,10,0,10"]
+
+<h6><span style="color: #3498DB;">CEO</span></h6>
+<p>Sed dignissim, diam id molestie faucibus, purus nisl pretium quam, in pulvinar velit massa id elit.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="i3dw2hoacv2tgfeh"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="2"]
+[pl_service pagelayer-id="yxzqykoj21uddlb8"  service_image="{{theme_url}}/images/team.png" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_transition="400" service_heading="Richard Samuels" service_heading_spacing="10" heading_state="normal" service_heading_color="#1d1b1bff" service_heading_typo="Merriweather,20,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" ele_bg_type="" ele_bg_color=" " service_image_spacing="0,0,0,0" ele_padding="0px,0px,20px,0px" img_filter="0,100,100,0,0,100,100" img_filter_hover="0,100,100,0,0,100,100" service_title_spacing=",,10," ele_shadow=",,,#eeeeeeff,0," animation="fadeInUp" animation_delay="600" service_content_spacing="0,10,0,10"]
+
+<h6><span style="color: #3498DB;">Manager</span></h6>
+<p>Sed dignissim, diam id molestie faucibus, purus nisl pretium quam, in pulvinar velit massa id elit.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="gyfjgc19wfhxwhlf"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="2"]
+[pl_service pagelayer-id="38qaiuqgs2yf1374"  service_image="{{theme_url}}/images/team.png" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_transition="400" service_heading="Anissa Doel" service_heading_spacing="10" heading_state="normal" service_heading_color="#1d1b1bff" service_heading_typo="Merriweather,20,,600,,,Solid,,,," heading_transition="400" service_text_alignment="center" service_btn_hover_delay="400" ele_bg_hover_delay="400" ele_bg_type="" ele_bg_color=" " service_image_spacing="0,0,0,0" ele_padding="0px,0px,20px,0px" img_filter="0,100,100,0,0,100,100" img_filter_hover="0,100,100,0,0,100,100" service_title_spacing=",,10," ele_shadow=",,,#eeeeeeff,0," animation="fadeInUp" animation_delay="600" service_content_spacing="0,10,0,10"]
+
+<h6><span style="color: #3498DB;">Director</span></h6>
+<p>Sed dignissim, diam id molestie faucibus, purus nisl pretium quam, in pulvinar velit massa id elit.</p>[/pl_service]
+[/pl_col]
+[/pl_row]

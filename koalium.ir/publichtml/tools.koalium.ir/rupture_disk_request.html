@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupture Disk Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        select, input[type="number"], input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        button[type="button"] {
+            background-color: #28a745;
+            color: #fff;
+        }
+        button[type="button"]:hover {
+            background-color: #218838;
+        }
+    </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupture Disk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Rupture Disk</h1>
+        <form id="ruptureForm" action="./rupture_request_handler.php" method="POST">
+            <label for="type">Type:</label>
+            <select id="type" name="type" required>
+                <option value="reverse" selected>Reverse</option>
+                <option value="forward">Forward</option>
+                <option value="flat">Flat</option>
+            </select>
+
+            <label for="size">Size:</label>
+            <input type="number" id="size" name="size" step="0.5" min="0.5" max="102" value="4" required>
+
+            <label for="mainLayer">Main Layer Material:</label>
+            <select id="mainLayer" name="mainLayer">
+                <option value="SS304">SS304</option>
+                <option value="SS316" selected>SS316</option>
+                <option value="Monel">Monel</option>
+                <option value="inconel">Inconel</option>
+                <option value="hastelloy">Hastelloy</option>
+                <option value="nickel">Nickel</option>
+                <option value="aluminium">Aluminium</option>
+                <option value="titanium">Titanium</option>
+                <option value="copper">Copper</option>
+                <option value="CS">CS</option>
+            </select>
+
+            <label for="subLayer">Sub Layer Material:</label>
+            <select id="subLayer" name="subLayer">
+                <option value="SS304">SS304</option>
+                <option value="SS316" selected>SS316</option>
+                <option value="Monel">Monel</option>
+                <option value="inconel">Inconel</option>
+                <option value="hastelloy">Hastelloy</option>
+                <option value="nickel">Nickel</option>
+                <option value="aluminium">Aluminium</option>
+                <option value="titanium">Titanium</option>
+                <option value="copper">Copper</option>
+                <option value="CS">CS</option>
+            </select>
+
+            <label for="sealLayer">Seal Layer Material:</label>
+            <select id="sealLayer" name="sealLayer">
+                <option value="teflon" selected>Teflon</option>
+                <option value="pvc">PVC</option>
+                <option value="ptfe">PTFE</option>
+                <option value="fep">FEP</option>
+                <option value="plastic">Plastic</option>
+                <option value="graphite">Graphite</option>
+            </select>
+
+            <label for="burstPressure">Burst Pressure:</label>
+            <input type="number" id="burstPressure" name="burstPressure" step="0.5" min ="0" value="5" required>
+
+            <label for="burstTemperature">Burst Temperature:</label>
+            <input type="number" id="burstTemperature" name="burstTemperature" step="1" min ="-270" value="25" >
+            <label for="qty">Quantity:</label>
+            <input type="number" id="qty" name="qty" step="1" min ="1" value="1" >
+            <input type="hidden" id="user-ip" name="user-ip" value="">
+            <div class="button-container">
+                <button type="submit" formaction="./rupture_request_handler.php" onclick="getUserIP()">Thickness</button>
+                <button type="submit" onclick="getUserIP()" formaction="new_rupture_data_form.php">Save</button>
+                <button type="submit" onclick="getUserIP()" formaction="rupture_drw_handler.php">Raw Sheet</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        <script>
+        function getUserIP() {
+            document.getElementById('user-ip').value = data.ip;
+        }
+        getUserIP();
+    </script>
+</body>
+</html>

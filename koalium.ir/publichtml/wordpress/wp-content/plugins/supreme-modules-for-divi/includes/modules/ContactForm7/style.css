@@ -1,0 +1,84 @@
+.dsm_contact_form_7 label {
+    display: block;
+}
+
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-file {
+    width: 100%;
+}
+
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-textarea {
+    height: 240px;
+}
+
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-submit {
+    display: inline-block;
+    font-family: inherit;
+    cursor: pointer;
+    color: #2ea3f2;
+}
+
+
+.dsm_contact_form_7 input.text,
+.dsm_contact_form_7 input.title,
+.dsm_contact_form_7 input[type=email],
+.dsm_contact_form_7 input[type=url],
+.dsm_contact_form_7 input[type=password],
+.dsm_contact_form_7 input[type=tel],
+.dsm_contact_form_7 input[type=text],
+.dsm_contact_form_7 input[type=number],
+.dsm_contact_form_7 input[type=date],
+.dsm_contact_form_7 select,
+.dsm_contact_form_7 textarea {
+    width: 100%;
+    padding: 16px;
+    border-width: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+    -webkit-appearance: none;
+}
+
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 20px 16px 10px;
+    border: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-style: solid;
+}
+
+.dsm_contact_form_7 .dsm-contact-form-7-select:after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    margin-top: 3px;
+    border: 6px solid;
+    border-color: #666 transparent transparent transparent;
+    content: "";
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-date {}
+
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-date::-webkit-calendar-picker-indicator {}
+
+.dsm_contact_form_7 .wpcf7-not-valid-tip,
+.dsm_contact_form_7 .wpcf7-validation-errors {
+    border-style: solid;
+}
+
+.dsm_contact_form_7 div.wpcf7-response-output {
+    margin-left: 0;
+    margin-right: 0;
+}

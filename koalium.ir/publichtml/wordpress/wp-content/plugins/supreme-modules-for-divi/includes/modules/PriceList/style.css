@@ -1,0 +1,103 @@
+.dsm_pricelist_child>div,
+.dsm_pricelist_item_wrapper,
+.dsm-pricelist-header{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.dsm_pricelist_item_wrapper {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.dsm_pricelist_child:not(:last-child) {
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+
+.dsm-pricelist-header {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.dsm-pricelist-title {
+    padding-bottom: 0;
+    font-size: 26px;
+    line-height: 1em;
+    color: #333
+}
+
+.dsm-pricelist-separator {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    height: 0;
+}
+
+.dsm-pricelist-description {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    flex-flow: row wrap;
+}
+
+.dsm-pricelist-price {
+    font-size: 18px;
+}
+
+.dsm-pricelist-image {
+    max-width: 50%;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 25px;
+    line-height: 0
+}
+
+.dsm-pricelist-image img {
+    border-style: solid;
+    border-color: #333333;
+}
+
+.dsm_flipbox_child {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: transform .6s ease-in-out;
+    -o-transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-style: solid;
+}

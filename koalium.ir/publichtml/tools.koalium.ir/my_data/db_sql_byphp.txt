@@ -1,0 +1,4 @@
+databasename= koaliumi_rupturium_db
+pass: koala551364
+user: koaliumi_editor
+server: localhost

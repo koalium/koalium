@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3D Shafts, Disks, Cone, and Semi-Sphere Model</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <style>
+    body { margin: 0; }
+    #container { width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    // Set up the scene, camera, and renderer
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.getElementById('container').appendChild(renderer.domElement);
+
+    // Create the first shaft geometry
+    var shaftLength1 = 33; // Length in mm
+    var shaftDiameter1 = 115; // Diameter in mm
+    var geometry1 = new THREE.CylinderGeometry(shaftDiameter1 / 2, shaftDiameter1 / 2, shaftLength1, 32);
+    var material1 = new THREE.MeshBasicMaterial({ color: 0x0077ff });
+    var shaft1 = new THREE.Mesh(geometry1, material1);
+    scene.add(shaft1);
+
+    // Create the second shaft geometry
+    var shaftLength2 = 33; // Length in mm
+    var shaftDiameter2 = 115; // Diameter in mm
+    var geometry2 = new THREE.CylinderGeometry(shaftDiameter2 / 2, shaftDiameter2 / 2, shaftLength2, 32);
+    var material2 = new THREE.MeshBasicMaterial({ color: 0xff7700 });
+    var shaft2 = new THREE.Mesh(geometry2, material2);
+    shaft2.position.set(150, 0, 0); // Position 150mm away on the X-axis
+    scene.add(shaft2);
+
+    // Create the first disk geometry
+    var outerRadius1 = 88 / 2; // Outer radius in mm
+    var innerRadius1 = 55 / 2; // Inner radius in mm
+    var diskThickness1 = 33; // Thickness in mm
+    var geometry3 = new THREE.RingGeometry(innerRadius1, outerRadius1, 32, 1, 0, Math.PI * 2);
+    var material3 = new THREE.MeshBasicMaterial({ color: 0x0077ff, side: THREE.DoubleSide });
+    var disk1 = new THREE.Mesh(geometry3, material3);
+    disk1.position.set(0, 0, 330); // Position 330mm away on the Z-axis
+    scene.add(disk1);
+
+    // Create the second disk geometry
+    var outerRadius2 = 88 / 2; // Outer radius in mm
+    var innerRadius2 = 55 / 2; // Inner radius in mm
+    var diskThickness2 = 33; // Thickness in mm
+    var geometry4 = new THREE.RingGeometry(innerRadius2, outerRadius2, 32, 1, 0, Math.PI * 2);
+    var material4 = new THREE.MeshBasicMaterial({ color: 0xff7700, side: THREE.DoubleSide });
+    var disk2 = new THREE.Mesh(geometry4, material4);
+    disk2.position.set(150, 0, 330); // Position 330mm away on the Z-axis
+    scene.add(disk2);
+
+    // Create the cone geometry
+    var coneRadius = 50; // Radius in mm
+    var coneHeight = 100; // Height in mm
+    var geometry5 = new THREE.ConeGeometry(coneRadius, coneHeight, 32);
+    var material5 = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    var cone = new THREE.Mesh(geometry5, material5);
+    cone.position.set(-150, 0, 0); // Position the cone
+    scene.add(cone);
+
+    // Create the semi-sphere geometry
+    var sphereRadius = 50; // Radius in mm
+    var geometry6 = new THREE.SphereGeometry(sphereRadius, 32, 32, 0, Math.PI * 2, 0, Math.PI / 2);
+    var material6 = new THREE.MeshBasicMaterial({ color: 0xff00ff });
+    var semiSphere = new THREE.Mesh(geometry6, material6);
+    semiSphere.position.set(-150, 0, -150); // Position the semi-sphere
+    scene.add(semiSphere);
+
+    // Position the camera
+    var radius = 500; // Radius of the camera's orbit
+    var angle = 0; // Initial angle
+
+    // Render the scene
+    var animate = function () {
+      requestAnimationFrame(animate);
+
+      // Rotate the camera around the objects
+      angle += 0.01; // Adjust the speed of rotation
+      camera.position.x = radius * Math.cos(angle);
+      camera.position.y = radius * Math.sin(angle);
+      camera.lookAt(scene.position);
+
+      // Rotate the first shaft and its disk for better view
+      shaft1.rotation.x += 0.01;
+      shaft1.rotation.y += 0.01;
+      disk1.rotation.x += 0.01;
+      disk1.rotation.y += 0.01;
+
+      // Rotate the second shaft and its disk for better view
+      shaft2.rotation.x += 0.02; // Different speed
+      shaft2.rotation.y += 0.02; // Different speed
+      disk2.rotation.x += 0.02; // Different speed
+      disk2.rotation.y += 0.02; // Different speed
+
+      // Rotate the cone and semi-sphere for better view
+      cone.rotation.x += 0.01;
+      cone.rotation.y += 0.01;
+      semiSphere.rotation.x += 0.01;
+      semiSphere.rotation.y += 0.01;
+
+      renderer.render(scene, camera);
+    };
+
+    animate();
+  </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+{
+  "version": 2,
+  "projects": [],
+  "archives": [
+    {
+      "fieldConfig": {
+        "item": {
+          "options": [
+            "server",
+            "client",
+            "interface"
+          ],
+          "richText": true
+        }
+      },
+      "defaultName": "nanoServer_",
+      "templates": [
+        "دزدگیر/summery/Window magnet باز و بسته بودن درب و پنجره.md",
+        "دزدگیر/summery/منبع تغذیه اصلی.md"
+      ],
+      "excludedNotes": [
+        ""
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "/nanoserver",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#ff80b7",
+                "condition": {
+                  "field": "",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "612b966d-6d6d-4518-94a7-2fadfec5a75f",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c641ca78-e9c8-4b69-bd60-5e8a16d9c006",
+          "name": "nanoboard",
+          "type": "board"
+        },
+        {
+          "config": {
+            "filepath": "/nanoserver/a6d2a95a-2b47-4986-8c88-7199656f8aa3_db.md"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a6d2a95a-2b47-4986-8c88-7199656f8aa3",
+          "name": "DB_nano",
+          "type": "dbfolder-view"
+        }
+      ],
+      "id": "0afaa08c-36a1-4fec-9199-7cfc009369e8",
+      "name": "nano server"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <title>External Link warning</title>
+    <style type="text/css">
+      body { background-color: #ffffff; font-family: 'JIM-Sans-Regular'; }
+      
+      .button {
+	    background-color: #000000;
+	    color: #FFFFFF;
+	    display: inline-block;
+	    font-size: 14px;
+	    height: 42px;
+	    line-height: 40px;
+	    min-width: 198px;
+	    text-align: center;
+	    text-decoration: none;
+	    font-weight:600;
+	    cursor: pointer;
+		border-radius: 4px;
+		border-color: #000000;
+		border-width: 1px;
+		border-style: solid;
+		transition: background-color .4s ease-in-out;
+	  }
+	  
+	  .button.dark:hover {
+	    background-color: #FFFFFF;
+		color: #000000;
+	  }
+	  
+	  .button.light {
+	  	background-color: #E4E7EB;
+		border-color: #E4E7EB;
+	  	color: #121212;
+		transition: opacity .4s ease-in-out;
+	  }
+	  .button.light:hover {
+		opacity: 0.4;
+		-webkit-font-smoothing: antialiased;
+	  }
+	  
+      #logo {
+    	height: 78px;
+    	line-height: 78px;
+    	position: relative;
+		padding: 0px;
+		margin: 23px 0 0 75px;
+      }
+
+	  #logo img {
+	  	width: 168px;
+		height: 33.6px;
+    	max-height: 33.6px;
+    	max-width: 168px;
+    	vertical-align: top;
+	  }
+	  
+	  #planeLogo {
+		text-align: center;
+	  }
+	  
+	  #planeLogo img {
+		width: 290px;
+		height: 164px;
+		max-width: 290px;
+		max-height: 164px;
+	  }
+	  
+	  h1 {
+	  	font-family: 'JIM-Sans-Regular';
+	  	color: #000000;
+		font-size: 33px;
+		text-align: center;
+	  }
+	  
+	  .subTitle {
+		color: #2B2B2B;
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 30px;
+	  }
+	  
+	  .subSubTitle {
+		color: #82888C;
+		font-size: 14px;	
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 8px;
+		line-height: 1.5;
+	  }
+	  
+	  .buttons {
+		text-align: center;
+    	display: flex;
+    	flex-wrap: wrap;
+    	flex-direction: row;
+    	gap: 20px;
+    	align-items: center;
+    	justify-content: center;
+	  }
+	  
+	  p, div {
+	  	color: #2B2B2B;
+	  }
+	  
+	  .bold {
+	  	display: contents;
+		font-weight: bold;
+		font-family: 'JIM-Sans-Regular';
+	  }
+	  
+	  #link, #domain {
+	  	display: contents;
+	  }
+	  
+	  #externalLinkBox {
+	  	margin: 0 auto;
+	  	max-width: 750px;
+	  }
+	  
+	  @font-face {
+		font-family: 'JIM-Sans-Regular';
+		src: url('../css/fonts/Montserrat-Regular.ttf') format('truetype');
+	  }
+	  
+	  @font-face {
+		font-family: 'JIM-Sans-Light';
+		src: url('../css/fonts/Montserrat-Light.ttf') format('truetype');
+	  }
+	  
+	  .checkbox-wrapper{
+	  	color: #2b2b2b;
+	  	font-size: 14px;
+	  	text-align:center;
+	  	margin-top: 30px;
+	  }
+	  
+	  #trust{
+	  	accent-color: #2b2b2b;
+	  }
+	  
+	  @media (max-width: 500px) {
+	  	#logo img { display:none; }
+	  }
+
+    </style>
+  </head>
+  <body>
+    <div id="editButtonPage">
+	    <div id="logo"><img src="../images/logos/justinmind-logo-top.svg"/></div>
+
+		<div id="externalLinkBox">
+			<div id="planeLogo"><img src="../images/logos/externalTopImage.png"/></div>
+			<h1>External link</h1>
+		    <p class="subTitle">You are about to leave justinmind.com<br> to visit an external website</p>
+			<div class="buttons">
+				<div id="backButton" class="button light">Go back</div>
+				<div id="goButton" class="button dark">Go to external link</div>
+			</div>
+			<div class="checkbox-wrapper">
+  				<input id="trust" class="" type="checkbox" aria-hidden="true" />
+  				<label for="trust">Trust this domain forever</label>
+			</div>
+			<p class="subSubTitle" >Do not enter any user names, passwords, or any other sensitive information. If you trust the<br>source, you can proceed to this website. Otherwise, click 'Go Back' to return to the previous page.</p>
+	   </div>
+    </div>
+  </body>
+  
+  
+  <script type="text/javascript">
+  
+  	var isTab, url;
+  
+  	window.onload = function() {
+  		var searchParams = new URLSearchParams(window.location.search);
+		url = searchParams.get('url');
+		isTab = searchParams.get('tab');
+		
+		console.log(getDomain(url, true));
+	};
+  
+	document.getElementById("backButton").addEventListener("click", function() { window.history.back(); });
+	document.getElementById("goButton").addEventListener("click", function() { 
+		if(isTab === "false") {
+			window.location.replace(url);
+		}
+		else {
+			popup = window.open(url, "_blank");
+            popup.focus();
+		}
+	});
+	
+	function getDomain(url, subdomain) {
+    	subdomain = subdomain || false;
+		url = url.replace(/(https?:\/\/)?(www.)?(cloud.)?/i, '');
+
+    	if (!subdomain) {
+        	url = url.split('.');
+        	url = url.slice(url.length - 2).join('.');
+    	}
+
+    	if (url.indexOf('/') !== -1) {
+        	return url.split('/')[0];
+    	}
+
+    	return url;
+	}
+	
+	function setCookie(name,value,days) {
+	    var expires = "";
+	    if (days) {
+	        var date = new Date();
+	        date.setTime(date.getTime() + (days*24*60*60*1000));
+	        expires = "; expires=" + date.toUTCString();
+	    }
+	    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+	}
+	function getCookie(name) {
+	    var nameEQ = name + "=";
+	    var ca = document.cookie.split(';');
+	    for(var i=0;i < ca.length;i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	    }
+	    return null;
+	}
+	
+	var checkbox = document.getElementById('trust');
+
+	checkbox.addEventListener('change', function() {
+		var cookie = getCookie('jim-trusted-domains');
+        var domain = getDomain(url, true);
+	    if (this.checked) {
+	    	if(cookie==null){
+	    		setCookie('jim-trusted-domains',domain,365);
+	    	} else {
+	    		var domains=cookie.split(',');
+        		var exists=false;
+        		domains.forEach(function (item, index) {
+					if(item===domain){
+						exists=true;
+					}
+        		});
+		        if(!exists){
+		        	setCookie('jim-trusted-domains',cookie + ','+ domain,365);
+		        }
+	    	}
+	    } else {
+	        if(cookie!=null){
+	        	if(cookie.includes(domain)){
+	        		var domains=cookie.split(',');
+	        		var newCookie='';
+	        		domains.forEach(function (item, index) {
+						if(item!==domain && item.trim()!==''){
+							newCookie += item + ',';
+						}
+	        		});
+		        	setCookie('jim-trusted-domains', newCookie ,365);
+		        }
+	        }
+	    }
+	});
+
+	
+  </script>
+  
+</html>

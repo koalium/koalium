@@ -1,0 +1,963 @@
+<wpml-config>
+	<shortcodes>
+		<shortcode>
+			<tag>dsm_advanced_tabs</tag>
+			<attributes>
+				<attribute>dsm_aria_label</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_advanced_tabs_child</tag>
+			<attributes>
+				<attribute>dsm_title</attribute>
+				<attribute>dsm_title_phone</attribute>
+                <attribute>dsm_title_tablet</attribute>
+				<attribute type="link">dsm_title_url</attribute>
+				<attribute>dsm_subtitle</attribute>
+				<attribute>dsm_subtitle_phone</attribute>
+                <attribute>dsm_subtitle_tablet</attribute>
+				<attribute type="link">dsm_subtitle_url</attribute>
+				<attribute type="media-url">dsm_image</attribute>
+				<attribute type="media-url">dsm_image_active</attribute>
+				<attribute>dsm_content_title</attribute>
+				<attribute>dsm_content_title_phone</attribute>
+                <attribute>dsm_content_title_tablet</attribute>
+				<attribute encoding="allow_html_tags">dsm_content</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_phone</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_tablet</attribute>
+				<attribute type="media-url">dsm_content_image</attribute>
+				<attribute>dsm_content_image_alt</attribute>
+				<attribute>dsm_content_image_title_text</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_animated_gradient_text</tag>
+			<attributes>
+				<attribute>animated_gradient_text</attribute>
+				<attribute>animated_gradient_text_phone</attribute>
+                <attribute>animated_gradient_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_text_badges</tag>
+			<attributes>
+				<attribute>main_text</attribute>
+				<attribute>main_text_phone</attribute>
+                <attribute>main_text_tablet</attribute>
+				<attribute>badges_text</attribute>
+				<attribute>badges_text_phone</attribute>
+                <attribute>badges_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_before_after_image</tag>
+			<attributes>
+				<attribute type="media-url">before_src</attribute>
+				<attribute>before_alt</attribute>
+				<attribute>before_title_text</attribute>
+				<attribute>before_label_text</attribute>
+				<attribute type="media-url">after_src</attribute>
+				<attribute>after_alt</attribute>
+				<attribute>after_title_text</attribute>
+				<attribute>after_label_text</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_blob_image</tag>
+			<attributes>
+				<attribute type="media-url">blob_image</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute>blob_title</attribute>
+				<attribute>blob_title_phone</attribute>
+				<attribute>blob_title_tablet</attribute>
+				<attribute encoding="allow_html_tags">blob_desc</attribute>
+				<attribute encoding="allow_html_tags">blob_desc_tablet</attribute>
+                <attribute encoding="allow_html_tags">blob_desc_phone</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_block_reveal_image</tag>
+			<attributes>
+				<attribute type="media-url">src</attribute>
+				<attribute type="media-url">src_phone</attribute>
+                <attribute type="media-url">src_tablet</attribute>
+				<attribute>alt</attribute>
+                <attribute>title_text</attribute>
+				<attribute type="link">url</attribute>
+				<attribute type="media-url">show_lightbox_other_img_src</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_block_reveal_text</tag>
+			<attributes>
+				<attribute>block_reveal_text</attribute>
+				<attribute>block_reveal_text_phone</attribute>
+				<attribute>block_reveal_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_blog_carousel</tag>
+			<attributes>
+				<attribute>readmore_text</attribute>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_breadcrumbs</tag>
+			<attributes>
+				<attribute>home_text</attribute>
+				<attribute type="link">home_url_link</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_business_hours</tag>
+			<attributes>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_business_hours_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>time</attribute>
+				<attribute>time_phone</attribute>
+				<attribute>time_tablet</attribute>
+				<attribute>title</attribute>
+				<attribute>title_phone</attribute>
+				<attribute>title_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_caldera_forms</tag>
+			<attributes>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_button</tag>
+			<attributes>
+				<attribute>button_one_text</attribute>
+				<attribute>button_one_text_phone</attribute>
+				<attribute>button_one_text_tablet</attribute>
+				<attribute>button_one_email_address</attribute>
+				<attribute>button_one_email_cc</attribute>
+				<attribute>button_one_email_bcc</attribute>
+				<attribute>button_one_email_subject</attribute>
+				<attribute>button_one_email_msg</attribute>
+				<attribute>button_one_phone_number</attribute>
+				<attribute>button_one_sms_number</attribute>
+				<attribute>button_one_sms_body_text</attribute>
+				<attribute>button_one_fb_messenger</attribute>
+				<attribute>button_one_skype</attribute>
+				<attribute>button_one_whatsapp_number</attribute>
+				<attribute>button_one_whatsapp_msg</attribute>
+				<attribute>button_one_telegram</attribute>
+				<attribute>button_one_telegram_msg</attribute>
+				<attribute type="link">button_one_url</attribute>
+				<attribute type="media-url">button_one_download_file</attribute>
+				<attribute type="media-url">button_one_image_src</attribute>
+				<attribute>button_one_tooltip_content</attribute>
+				<attribute>button_two_text</attribute>
+				<attribute>button_two_text_phone</attribute>
+				<attribute>button_two_text_tablet</attribute>
+				<attribute>button_two_email_address</attribute>
+				<attribute>button_two_email_cc</attribute>
+				<attribute>button_two_email_bcc</attribute>
+				<attribute>button_two_email_subject</attribute>
+				<attribute>button_two_email_msg</attribute>
+				<attribute>button_two_phone_number</attribute>
+				<attribute>button_two_sms_number</attribute>
+				<attribute>button_two_sms_body_text</attribute>
+				<attribute>button_two_fb_messenger</attribute>
+				<attribute>button_two_skype</attribute>
+				<attribute>button_two_whatsapp_number</attribute>
+				<attribute>button_two_whatsapp_msg</attribute>
+				<attribute>button_two_telegram</attribute>
+				<attribute>button_two_telegram_msg</attribute>
+				<attribute type="link">button_two_url</attribute>
+				<attribute type="media-url">button_two_download_file</attribute>
+				<attribute type="media-url">button_two_image_src</attribute>
+				<attribute>button_two_tooltip_content</attribute>
+				<attribute>separator_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_card</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>title</attribute>
+				<attribute>title_phone</attribute>
+				<attribute>title_tablet</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>subtitle_phone</attribute>
+				<attribute>subtitle_tablet</attribute>
+				<attribute>badge_text</attribute>
+				<attribute>badge_text_phone</attribute>
+				<attribute>badge_text_tablet</attribute>
+				<attribute type="link">badge_url</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute encoding="allow_html_tags">content_phone</attribute>
+				<attribute encoding="allow_html_tags">content_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_card_carousel</tag>
+			<attributes>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_card_carousel_child</tag>
+			<attributes>
+				<attribute>admin_label</attribute>
+				<attribute>title</attribute>
+				<attribute>title_phone</attribute>
+				<attribute>title_tablet</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>subtitle_phone</attribute>
+				<attribute>subtitle_tablet</attribute>
+				<attribute>badge_text</attribute>
+				<attribute>badge_text_phone</attribute>
+				<attribute>badge_text_tablet</attribute>
+				<attribute type="link">badge_url</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute encoding="allow_html_tags">content_phone</attribute>
+				<attribute encoding="allow_html_tags">content_tablet</attribute>
+                <attribute type="link">link_option_url</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="media-url">button_image_src</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_contact_form_7</tag>
+			<attributes>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_circle_info</tag>
+			<attributes>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_circle_info_child</tag>
+			<attributes>
+				<attribute>dsm_circle_info_title</attribute>
+				<attribute>dsm_circle_info_title_phone</attribute>
+				<attribute>dsm_circle_info_title_tablet</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute>dsm_content_title</attribute>
+				<attribute>dsm_content_title_phone</attribute>
+				<attribute>dsm_content_title_tablet</attribute>
+				<attribute encoding="allow_html_tags">dsm_circle_info_content</attribute>
+				<attribute encoding="allow_html_tags">dsm_circle_info_content_phone</attribute>
+				<attribute encoding="allow_html_tags">dsm_circle_info_content_tablet</attribute>
+				<attribute type="media-url">dsm_content_image</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_content_timeline</tag>
+			<attributes>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_content_timeline_child</tag>
+			<attributes>
+				<attribute type="media-url">dsm_image</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute>dsm_title</attribute>
+				<attribute>dsm_title_phone</attribute>
+				<attribute>dsm_title_tablet</attribute>
+				<attribute encoding="allow_html_tags">dsm_content</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_phone</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_tablet</attribute>
+				<attribute>dsm_opposite_text</attribute>
+				<attribute>dsm_opposite_text_phone</attribute>
+				<attribute>dsm_opposite_text_tablet</attribute>
+				<attribute type="media-url">dsm_point_image</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_content_toggle</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>heading_one</attribute>
+				<attribute>heading_one_phone</attribute>
+				<attribute>heading_one_tablet</attribute>
+				<attribute>shortcode_content_one</attribute>
+				<attribute encoding="allow_html_tags">custom_content_one</attribute>
+				<attribute encoding="allow_html_tags">custom_content_one_phone</attribute>
+				<attribute encoding="allow_html_tags">custom_content_one_tablet</attribute>
+				<attribute>heading_two</attribute>
+				<attribute>heading_two_phone</attribute>
+				<attribute>heading_two_tablet</attribute>
+				<attribute>shortcode_content_two</attribute>
+				<attribute encoding="allow_html_tags">custom_content_two</attribute>
+				<attribute encoding="allow_html_tags">custom_content_two_phone</attribute>
+				<attribute encoding="allow_html_tags">custom_content_two_tablet</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_dual_heading</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>before_text</attribute>
+				<attribute>before_text_phone</attribute>
+				<attribute>before_text_tablet</attribute>
+				<attribute>middle_text</attribute>
+				<attribute>middle_text_phone</attribute>
+				<attribute>middle_text_tablet</attribute>
+				<attribute>after_text</attribute>
+				<attribute>after_text_phone</attribute>
+				<attribute>after_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_embed_google_map</tag>
+			<attributes>
+				<attribute>address</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_embed_twitter_timeline</tag>
+			<attributes>
+				<attribute>twitter_username</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_facebook_embed</tag>
+			<attributes>
+				<attribute type="link">fb_post_url</attribute>
+				<attribute type="link">fb_video_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_facebook_like_button</tag>
+			<attributes>
+				<attribute type="link">fb_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_facebook_comments</tag>
+			<attributes>
+				<attribute type="link">page_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_facebook_feed</tag>
+			<attributes>
+				<attribute type="link">fb_page_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_faq</tag>
+			<attributes>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_faq_child</tag>
+			<attributes>
+				<attribute type="media-url">dsm_child_use_image</attribute>
+				<attribute>dsm_title</attribute>
+				<attribute>dsm_title_phone</attribute>
+				<attribute>dsm_title_tablet</attribute>
+				<attribute encoding="allow_html_tags">dsm_content</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_phone</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_tablet</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_filterable_gallery</tag>
+			<attributes>
+				<attribute type="media-ids">gallery_ids</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_flipbox</tag>
+			<attributes>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_flipbox_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>title</attribute>
+				<attribute>title_phone</attribute>
+				<attribute>title_tablet</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>subtitle_phone</attribute>
+				<attribute>subtitle_tablet</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute encoding="allow_html_tags">content_phone</attribute>
+				<attribute encoding="allow_html_tags">content_tablet</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_floating_multi_images</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_floating_multi_images_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">src</attribute>
+				<attribute>alt</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_glitch_text</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>glitch_text</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_gradient_text</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>gradient_text</attribute>
+				<attribute>gradient_text_phone</attribute>
+				<attribute>gradient_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_icon_divider</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_icon_list</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_icon_list_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>text</attribute>
+				<attribute>text_phone</attribute>
+				<attribute>text_tablet</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute type="link">url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_accordion</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_accordion_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">image_accordion_src</attribute>
+				<attribute type="media-url">image_accordion_icon_image</attribute>
+				<attribute>image_accordion_title</attribute>
+				<attribute>image_accordion_title_phone</attribute>
+				<attribute>image_accordion_title_tablet</attribute>
+				<attribute>image_accordion_desc</attribute>
+				<attribute>image_accordion_desc_phone</attribute>
+				<attribute>image_accordion_desc_tablet</attribute>
+				<attribute>image_accordion_overlay_title</attribute>
+				<attribute>image_accordion_overlay_title_phone</attribute>
+				<attribute>iimage_accordion_overlay_title_tablet</attribute>
+				<attribute>ia_button_text</attribute>
+				<attribute>ia_button_text_phone</attribute>
+				<attribute>ia_button_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="link">ia_button_link</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_carousel</tag>
+			<attributes>
+				<attribute type="media-ids">gallery_ids</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_hotspots</tag>
+			<attributes>
+				<attribute type="media-url">src</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_hotspots_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">hotspot_img</attribute>
+				<attribute>hotspot_alt</attribute>
+				<attribute>hotspot_title_text</attribute>
+				<attribute>hotspot_text</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute encoding="allow_html_tags">content_phone</attribute>
+				<attribute encoding="allow_html_tags">content_tablet</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_hover_reveal</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">src</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_image_reveal</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>reveal_text</attribute>
+				<attribute type="media-url">src</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_lottie</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="link">lottie_url</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_mask_text</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>mask_text</attribute>
+				<attribute>mask_text_phone</attribute>
+				<attribute>mask_text_tablet</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_masonry_gallery</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-ids">gallery_ids</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_menu</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>title</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_perspective_image</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="link">src</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute type="media-url">show_lightbox_other_img_src</attribute>
+				<attribute type="link">url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_post_carousel</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>readmore_text</attribute>
+				<attribute>meta_seperator</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_pricelist</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_pricelist_child</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>price</attribute>
+				<attribute>price_phone</attribute>
+				<attribute>price_tablet</attribute>
+				<attribute>title</attribute>
+				<attribute>title_phone</attribute>
+				<attribute>title_tablet</attribute>
+				<attribute type="media-url">image</attribute>
+				<attribute>alt</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute encoding="allow_html_tags">content_phone</attribute>
+				<attribute encoding="allow_html_tags">content_tablet</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_scroll_image</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">src</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute type="media-url">show_lightbox_other_img_src</attribute>
+				<attribute type="link">url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_shapes</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_shuffle_letters</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>before_shuffle_text</attribute>
+				<attribute>before_shuffle_text_phone</attribute>
+				<attribute>before_shuffle_text_tablet</attribute>
+				<attribute>title</attribute>
+				<attribute>after_shuffle_text</attribute>
+				<attribute>after_shuffle_text_phone</attribute>
+				<attribute>after_shuffle_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_social_share_buttons</tag>
+			<attributes>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_social_share_buttons_child</tag>
+			<attributes>
+				<attribute type="media-url">src</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute>dsm_custom_label</attribute>
+				<attribute>dsm_custom_label_phone</attribute>
+				<attribute>dsm_custom_label_tablet</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_star_rating</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>title</attribute>
+				<attribute>title_phone</attribute>
+				<attribute>title_tablet</attribute>
+				<attribute>rating</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_step_flow</tag>
+			<attributes>
+				<attribute>dsm_title</attribute>
+				<attribute>dsm_title_phone</attribute>
+				<attribute>dsm_title_tablet</attribute>
+				<attribute>dsm_badge</attribute>
+				<attribute>dsm_badge_phone</attribute>
+				<attribute>dsm_badge_tablet</attribute>
+				<attribute encoding="allow_html_tags">dsm_content</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_phone</attribute>
+				<attribute encoding="allow_html_tags">dsm_content_tablet</attribute>
+				<attribute>button_text</attribute>
+				<attribute>button_text_phone</attribute>
+				<attribute>button_text_tablet</attribute>
+				<attribute type="link">button_url</attribute>
+				<attribute type="media-url">dsm_dir_image</attribute>
+				<attribute type="media-url">dsm_image</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute>dsm_custom_label</attribute>
+				<attribute>dsm_custom_label_phone</attribute>
+				<attribute>dsm_custom_label_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+				<attribute>admin_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_svg_animation</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">dsm_upload_svg</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_text_divider</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>header</attribute>
+				<attribute>header_phone</attribute>
+				<attribute>header_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_text_notation</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>before_text</attribute>
+				<attribute>before_text_phone</attribute>
+				<attribute>before_text_tablet</attribute>
+				<attribute>notation_text</attribute>
+				<attribute>notation_text_phone</attribute>
+				<attribute>notation_text_tablet</attribute>
+				<attribute>after_text</attribute>
+				<attribute>after_text_phone</attribute>
+				<attribute>after_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_text_path</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>dsm_path_text</attribute>
+				<attribute>dsm_path_text_phone</attribute>
+				<attribute>dsm_path_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_text_rotator</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>before_text</attribute>
+				<attribute>before_text_phone</attribute>
+				<attribute>before_text_tablet</attribute>
+				<attribute encoding="divi_options">text_rotator</attribute>
+				<attribute>after_text</attribute>
+				<attribute>after_text_phone</attribute>
+				<attribute>after_text_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_tilt_image</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute type="media-url">src</attribute>
+				<attribute>alt</attribute>
+				<attribute>title_text</attribute>
+				<attribute type="link">url</attribute>
+				<attribute>dsm_overlay_title</attribute>
+				<attribute>dsm_overlay_title_phone</attribute>
+				<attribute>dsm_overlay_title_tablet</attribute>
+				<attribute encoding="allow_html_tags">content</attribute>
+				<attribute encoding="allow_html_tags">content_phone</attribute>
+				<attribute encoding="allow_html_tags">content_tablet</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>dsm_typing_effect</tag>
+			<attributes>
+				<attribute>admin_title</attribute>
+				<attribute>before_typing_effect</attribute>
+				<attribute>before_typing_effect_phone</attribute>
+				<attribute>before_typing_effect_tablet</attribute>
+				<attribute>typing_effect</attribute>
+				<attribute>after_typing_effect</attribute>
+				<attribute>after_typing_effect_phone</attribute>
+				<attribute>after_typing_effect_tablet</attribute>
+				<attribute type="link">link_option_url</attribute>
+				<attribute type="media-url">background_image</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>et_pb_text</tag>
+			<attributes>
+				<attribute>dsm_modules_readmore_more_link_text</attribute>
+				<attribute>dsm_modules_readmore_less_link_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>et_pb_blog</tag>
+			<attributes>
+				<attribute>dsm_modules_readmore_more_link_text</attribute>
+				<attribute>dsm_modules_readmore_less_link_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>et_pb_code</tag>
+			<attributes>
+				<attribute>dsm_modules_readmore_more_link_text</attribute>
+				<attribute>dsm_modules_readmore_less_link_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>et_pb_cta</tag>
+			<attributes>
+				<attribute>dsm_modules_readmore_more_link_text</attribute>
+				<attribute>dsm_modules_readmore_less_link_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>et_pb_blurb</tag>
+			<attributes>
+				<attribute>dsm_modules_readmore_more_link_text</attribute>
+				<attribute>dsm_modules_readmore_less_link_text</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+</wpml-config>

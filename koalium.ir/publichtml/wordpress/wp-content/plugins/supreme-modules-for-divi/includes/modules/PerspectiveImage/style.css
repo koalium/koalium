@@ -1,0 +1,45 @@
+.dsm_perspective_image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 0;
+    -webkit-transform: translateZ(0);
+}
+.dsm_perspective_image .dsm-perspective-image-wrapper {
+    transform: perspective(1000px);
+}
+
+.dsm_perspective_image .et_pb_image_wrap {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.dsm_perspective_image .et_overlay {
+    border-width: 0;
+}
+
+.dsm-perspective-image-icon-empty.et_overlay:before {
+    display: none;
+}
+.dsm_perspective_image .dsm-perspective-image-overlay-off .et_overlay {
+    opacity: 1;
+    z-index: 3;
+}
+.dsm_perspective_image:hover .dsm-perspective-image-overlay-off .et_overlay {
+    opacity: 0;
+}
+
+.dsm_perspective_image img {
+    position: relative;
+}
+
+.dsm-lightbox-custom {
+    max-width: 100% !important;
+}
+
+.dsm-lightbox-custom.mfp-iframe-holder .mfp-close,
+.dsm-lightbox-custom.mfp-image-holder .mfp-close {
+    color: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}

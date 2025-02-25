@@ -1,0 +1,20 @@
+.dsm-typing-effect,
+.dsm-before-typing-effect,
+.dsm-after-typing-effect {
+	display: inline-block;
+}
+
+.dsm-typing-wrapper,
+.dsm-before-typing-effect,
+.dsm-after-typing-effect {
+	border-style: solid;
+}
+
+.dsm-typing-strings {
+	display: none;
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	text-indent: -9999px;
+	white-space: nowrap;
+}

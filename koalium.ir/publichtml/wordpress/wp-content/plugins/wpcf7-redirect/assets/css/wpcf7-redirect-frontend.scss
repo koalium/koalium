@@ -1,0 +1,14 @@
+// out: wpcf7-redirect-frontend.css, compress: false, sourceMap: false, autoprefixer: last 5 versions, groupmedia: true
+//compilecompressed
+@import 'mixins';
+
+.popup-template{
+    .modal{
+        opacity:0;
+        @include trans(250ms);
+        &.is-open{
+            opacity:1;
+            @include trans(250ms);
+        }
+    }
+}

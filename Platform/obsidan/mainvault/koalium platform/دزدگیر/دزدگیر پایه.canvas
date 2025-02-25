@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"ec14329f0c9d742a","type":"file","file":"دزدگیر/summery/PIR تشخیص حرکت.md","x":20,"y":-77,"width":400,"height":195,"color":"5"},
+		{"id":"cb662149292c7fda","type":"file","file":"دزدگیر/summery/nano Server.md","x":-480,"y":-100,"width":400,"height":240,"color":"3"},
+		{"id":"366b7c5555986630","type":"file","file":"دزدگیر/summery/nfc 13mhz.md","x":20,"y":170,"width":400,"height":210,"color":"5"},
+		{"id":"76723e2eb58f213a","type":"file","file":"دزدگیر/summery/Window magnet باز و بسته بودن درب و پنجره.md","x":-20,"y":-352,"width":400,"height":215,"color":"5"},
+		{"id":"de731008bd6d7ee8","type":"file","file":"دزدگیر/summery/ارتباط موبایل SIM800.md","x":-940,"y":-420,"width":400,"height":220,"color":"6"},
+		{"id":"3b64d881fa9c6e25","type":"text","text":"آژیر صوتی و بلنگوی آن","x":-1065,"y":-9,"width":250,"height":60,"color":"1"},
+		{"id":"5be9cc66fec74044","type":"file","file":"دزدگیر/summery/قفل برقی.md","x":-1015,"y":205,"width":400,"height":140,"color":"1"},
+		{"id":"ed3d35b444d590f8","x":-480,"y":205,"width":400,"height":260,"color":"2","type":"file","file":"دزدگیر/summery/منبع تغذیه اصلی.md"}
+	],
+	"edges":[
+		{"id":"e5c54a5b30df1676","fromNode":"ec14329f0c9d742a","fromSide":"left","toNode":"cb662149292c7fda","toSide":"right"},
+		{"id":"05d2fd0bc00fefaa","fromNode":"de731008bd6d7ee8","fromSide":"right","toNode":"cb662149292c7fda","toSide":"top"},
+		{"id":"94f3d289ef6f104f","fromNode":"cb662149292c7fda","fromSide":"left","toNode":"de731008bd6d7ee8","toSide":"bottom"},
+		{"id":"c42de57bb4423a73","fromNode":"cb662149292c7fda","fromSide":"left","toNode":"5be9cc66fec74044","toSide":"top"},
+		{"id":"8b280a0f7c28d022","fromNode":"76723e2eb58f213a","fromSide":"left","toNode":"cb662149292c7fda","toSide":"right"},
+		{"id":"44adfcbeddad8c4f","fromNode":"366b7c5555986630","fromSide":"left","toNode":"cb662149292c7fda","toSide":"right"},
+		{"id":"8106524cd65f4ea0","fromNode":"cb662149292c7fda","fromSide":"left","toNode":"3b64d881fa9c6e25","toSide":"right"},
+		{"id":"9f3708973cc88299","fromNode":"ed3d35b444d590f8","fromSide":"top","toNode":"cb662149292c7fda","toSide":"bottom"}
+	]
+}

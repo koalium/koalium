@@ -1,0 +1,364 @@
+@import "variables";
+
+.post-type-popupbuilder,
+.post-type-sgpbautoresponder,
+.post-type-sgpbtemplate {
+	.subtitle {
+		display: none;
+	}
+	form {
+		*:not(i) {
+			font-family: $font_family, Arial, Helvetica, sans-serif, FontAwesome;
+		}
+		.tablenav.top {
+			height: 40px;
+			.pagination-links {
+				display: none;
+			}
+			.actions {
+				display: flex;
+				&.bulkactions {
+					margin-right: 8px;
+				}
+				select, input {
+					padding: 10px 20px;
+					border-radius: 5px;
+					background-color: $light;
+					border: 2px solid transparent;
+					line-height: 1.2;
+					margin: 0;
+
+					&:focus, &:active {
+						border-color: transparent;
+						box-shadow: none;
+					}
+				}
+
+				select {
+					padding-left: 5px;
+					min-width: 120px;
+				}
+
+				input {
+					font-family: "Segoe UI Regular";
+					font-weight: 500;
+					margin-left: -2px;
+					color: $white;
+					background: $blue;
+					border-color: $blue;
+					font-size: 14px;
+
+					&:hover {
+						box-shadow: 0 0 10px $blue_shadow;
+						background: $white;
+						color: $blue;
+						border-color: $blue;
+					}
+				}
+			}
+
+			.tablenav-pages {
+				.subsubsub {
+					li {
+						color: white;
+
+						a {
+							font-family: "Segoe UI Regular";
+							color: $blue;
+							font-weight: 600;
+							background: transparent;
+							-webkit-border-radius: 29px;
+							-moz-border-radius: 29px;
+							border-radius: 29px;
+							padding: 10px 30px;
+							border: 2px solid rgba(0, 0, 0, 0.14);
+							line-height: 1.2;
+							&:focus {
+								box-shadow: none;
+								outline: none;
+							}
+							&.current {
+								color: $black;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		table {
+			border: none;
+			box-shadow: 0 0 15px #0000001A;
+			padding: 10px;
+			margin-top: 50px;
+			border-collapse: separate;
+			input[type="checkbox"] {
+				width: 20px;
+				height: 20px;
+				position: relative;
+				border: 1px solid $gray;
+				box-shadow: none;
+				transition: .05s border-color ease-in-out;
+				line-height: 0;
+
+				&:before {
+					content: '-';
+					position: absolute;
+					top: 36%;
+					left: 17%;
+					color: $white;
+					font-size: 31px;
+				}
+
+				&:checked {
+					background: $blue;
+					border-color: transparent;
+
+					&::before {
+						content: "E";
+						font-family: "Glyphter", Arial, Helvetica, sans-serif;
+						font-size: 13px;
+						line-height: 1.1;
+						color: #ffffff;
+					}
+				}
+
+			}
+			.sgpb-switch {
+				.sg-switch-checkbox {
+					&:checked + .sgpb-slider {
+						background-color: $blue;
+					}
+				}
+			}
+			thead {
+				input[type="checkbox"] {
+					background: $blue;
+				}
+				tr * {
+					color: $black;
+					font-family: "Segoe UI Regular";
+					font-weight: 600;
+				}
+				td, th {
+					border: none;
+				}
+
+			}
+			td, .check-column {
+				vertical-align: middle !important;
+			}
+			tbody {
+				tr {
+					background-color: $white;
+					position: relative;
+
+					td, th {
+						border-top: 1px solid $gray_light_opacity_3;
+						color: $black;
+					}
+					&.bulk-edit-sgpbautoresponder,
+					&.bulk-edit-sgpbtemplate,
+					&.bulk-edit-popupbuilder {
+						select {
+							padding: 10px 20px;
+							border-radius: 5px;
+							background-color: $light;
+							border: 2px solid transparent;
+							line-height: 1.2;
+							margin: 0;
+
+							&:focus, &:active {
+								border-color: transparent;
+								box-shadow: none;
+							}
+						}
+
+						select {
+							padding-left: 5px;
+							min-width: 120px;
+						}
+						input, button.cancel {
+							background: transparent;
+							-webkit-border-radius: 5px;
+							-moz-border-radius: 5px;
+							border-radius: 5px;
+							padding: 10px 15px;
+							border: 2px solid transparent;
+							line-height: 1.2;
+							font-weight: 600;
+							cursor: pointer;
+							&:active, &:focus {
+								background: transparent;
+								-webkit-border-radius: 5px;
+								-moz-border-radius: 5px;
+								border-radius: 5px;
+								padding: 10px 15px;
+								border: 2px solid transparent;
+								line-height: 1.2;
+								font-weight: 600;
+								cursor: pointer;
+							}
+						}
+						input {
+							color: $white!important;
+							background: $blue;
+							border-color: $blue;
+							&:hover, &:focus, &:active {
+								box-shadow: 0 0 10px $blue_shadow;
+								background: $white;
+								color: $blue!important;
+								border-color: $blue;
+							}
+						}
+						button.cancel {
+							background: $white;
+							color: $black;
+							border-color: $black;
+							&:active, &:focus {
+								background: $white;
+								color: $black;
+								border-color: $black;
+							}
+						}
+					}
+				}
+			}
+
+			tr.sgpb-popups-table-selected-row {
+				background-color: $blue_opacity_1;
+			}
+
+			.row-actions {
+				display: none;
+			}
+
+			.column-options {
+				display: flex;
+				justify-content: space-around;
+
+				.icon {
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					width: 40px;
+					height: 40px;
+					border-radius: $percentage_50;
+
+					&_edit, &_remove {
+						width: 40px;
+						height: 40px;
+					}
+
+					&_clone {
+						width: 35px;
+						height: 35px;
+					}
+
+					&_blue {
+						background: $blue_whiten;
+					}
+
+					&_pink {
+						background: $red_whiten;
+					}
+
+					img {
+						cursor: pointer;
+					}
+				}
+			}
+
+			.column-counter div {
+				max-width: 80px;
+				display: flex;
+				justify-content: space-around;
+
+				input {
+					background: $white;
+					color: $black;
+					border-color: $black;
+					border-radius: 5px;
+					line-height: 1.2;
+					padding: 5px 10px;
+					cursor: pointer;
+				}
+			}
+
+			.column-shortcode, .column-className {
+				input {
+					background: transparent;
+					border-width: 1px;
+					border-color: $gray_light;
+				}
+			}
+
+			.check-column {
+				padding: 0 0 0 5px !important;
+			}
+
+			.column-title {
+				a {
+					color: $blue;
+				}
+			}
+
+			tfoot {
+				display: none;
+			}
+		}
+
+		.tablenav.bottom {
+			display: none;
+		}
+
+		.pagination-links {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			font-size: 16px;
+			font-weight: bold;
+
+			.disabled {
+				display: none;
+			}
+
+			.paging-input {
+				order: -1;
+			}
+
+			a.button {
+				background: none;
+				border: none;
+				font-size: 22px;
+				color: black;
+				font-weight: bold;
+				min-height: 28px;
+				line-height: 1.2;
+
+				.screen-reader-text {
+					display: none;
+				}
+
+				&:focus, &:active {
+					background: none;
+					border: none;
+					font-size: 22px;
+					color: black;
+					font-weight: bold;
+					height: auto;
+					min-height: auto;
+					line-height: 1.2;
+					outline: none;
+					box-shadow: none;
+				}
+			}
+		}
+	}
+
+	#wpwrap {
+		background: $white;
+	}
+}

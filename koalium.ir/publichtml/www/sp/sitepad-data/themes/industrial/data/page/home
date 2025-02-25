@@ -1,0 +1,306 @@
+[pl_row pagelayer-id="geddi60k9ttf0tv5"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="" ele_bg_attachment="scroll" ele_bg_posx="center" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" overlay_type="color" overlay_transperancy="0.5" overlay_color="#3a4447ff" ele_margin="0px,0px,0px,0px" ele_padding="30px,0px,30px,0px" ele_bg_img="http://sitepad.local/site-data/plugins/pagelayer-pro/images/default-image.png" row_bg_type="slider" bg_slider_speed="2000" bg_slider="{{theme_url}}/images/banner1.jpg,{{theme_url}}/images/banner2.jpg,{{theme_url}}/images/banner3.jpg"]
+[pl_col pagelayer-id="n3sih6mod00eo11v"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" ele_padding="10%,0%,10%,0%" ele_margin="58px,0px,0px,0px"]
+[pl_heading pagelayer-id="79aub5uiunbl59sb"  color="#3498dbff" ele_bg_hover_delay="400" align="left" heading_typo=",50,,700,,,Solid,,,," heading_state="normal" animation="fadeInDown" animation_delay="600"]
+
+
+
+Industrial[/pl_heading]
+[pl_heading pagelayer-id="2wvey3n1nrp0hf5g"  heading_state="normal" color="#f9f9f9ff" ele_bg_hover_delay="400" ele_margin="-28px,0px,0px,0px" animation="fadeInUp" animation_delay="600"]
+
+
+
+<h2>Quality Manufacturing Is A System, Not Just A Slogan.</h2>[/pl_heading]
+[pl_heading pagelayer-id="b0k6g02bsd7mnk4c"  heading_state="normal" color="#f9f9f9ff" ele_bg_hover_delay="400" ele_margin="-28px,0px,0px,0px" animation="fadeInUp" animation_delay="600"]
+
+
+
+<h3>Think big. We do.
+</h3>[/pl_heading]
+[pl_btn pagelayer-id="vld5tv2aafshoonx"  text="Get Started" align="left" type="pagelayer-btn-custom" size="pagelayer-btn-large" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" ele_bg_hover_delay="400" btn_bg_color="#3498dbff" btn_color="#ffffff" animation="fadeInUp" animation_delay="600"]
+[/pl_btn]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="sm8d0qn04ygkjrs8"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="70px,0px,70px,0px"]
+[pl_col pagelayer-id="157s1jufby8u8tia"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="3" col_width="40"]
+[pl_image pagelayer-id="n4agwbmkue3csuu1"  id="{{theme_url}}/images/home1.jpg" id-size="full" align="center" img_filter="0,100,100,0,0,100,100" caption_color="#3E8EF7" ele_bg_hover_delay="400" max-width="100" img_hover="normal" img_hover_delay="400" img_filter_hover="0,100,100,0,0,100,100"]
+
+
+
+
+
+
+
+
+
+
+[/pl_image]
+[/pl_col]
+[pl_col pagelayer-id="lkgbm2zfpc226trh"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="7" ele_margin="0px,0px,0px,0px" col_width="60" ele_padding_tablet="0px,30px,0px,30px" ele_padding_mobile="0px,30px,30px,30px"]
+[pl_heading pagelayer-id="whpe6sy0xq40fsao"  heading_state="normal" color="#111111ff" ele_bg_hover_delay="400"]
+
+
+
+<h3>Welcome to Industrial Template
+</h3>[/pl_heading]
+[pl_text pagelayer-id="jv1plhiahm96hpel"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+
+
+
+<p>Vivamus faucibus tortor ac posuere dictum. Nulla scelerisque ipsum finibus quam lobortis, et eleifend quam ultrices. Nullam nec posuere lacus. Aliquam a dui orci. Etiam ante erat, pretium nec accumsan vehicula, imperdiet at arcu.</p>[/pl_text]
+[pl_text pagelayer-id="iqh8u5obdyikfl37"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+
+
+
+<p>Aliquam nec diam convallis, pulvinar ligula id, rhoncus tellus. Etiam ante erat, pretium nec accumsan vehicula, imperdiet at arcu. Vivamus faucibus tortor ac posuere dictum. Nulla scelerisque ipsum finibus quam lobortis, et eleifend quam ultrices. Nullam nec posuere lacus. Aliquam a dui orci. Etiam ante erat, pretium nec accumsan vehicula, imperdiet at arcu.</p>[/pl_text]
+[pl_heading pagelayer-id="t11yyse1mru66gdk"  heading_state="normal" color="#111111ff" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600" heading_typo=",20,,,,,Solid,,,,"]
+
+
+
+
+
+<h3>Key Services Offered :
+</h3>[/pl_heading]
+[pl_list pagelayer-id="hunxvdrh719zsa9m"  list_type="none" spacing="10" list_color="#555555" item_indent="10" icon_color="#3498dbff" icon_border_type="" ele_bg_hover_delay="400" icon_border_color="#cbd2dc78" icon_border_width="3" animation="fadeInUp" animation_delay="600"]
+[pl_list_item pagelayer-id="i3d3oyoo4ss193re"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-hand-o-right"]
+
+
+Vivamus faucibus tortor ac posuere dictum. Nulla scelerisque ipsum finibus quam lobortis, et eleifend quam ultrices.[/pl_list_item]
+[pl_list_item pagelayer-id="uu7iah7ke0eajvtw"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-hand-o-right"]
+
+
+Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.[/pl_list_item]
+[pl_list_item pagelayer-id="j144rzc61o3roli4"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-hand-o-right"]
+
+
+Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.[/pl_list_item]
+[/pl_list]
+[/pl_col]
+[pl_col pagelayer-id="lp4y2g2hzuwgobr1"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="2" ele_margin="0px,0px,0px,0px" col_width="60" ele_padding_tablet="0px,30px,0px,30px" ele_padding_mobile="0px,30px,30px,30px"]
+[pl_inner_row pagelayer-id="zu708wdjagtdizmp"  stretch="auto" col_gap="0" width_content="auto" row_height="default" column_pos="center" content_pos="center" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600" ele_margin="0px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="pfea8b9byjsi6m23"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="1" content_pos="center"]
+[pl_icon pagelayer-id="sipr3orsx3vup846"  icon="fa fa-group" icon_background_size="" icon_alignment="left" icon_color_style="#3498dbff" icon_size="pagelayer-icon-large" icon_hover_delay="400" ele_bg_hover_delay="400" bg_shape="" bg_color="#6cbe03ff" ele_zindex="2" icon_alignment_tablet="left" icon_alignment_mobile="left"]
+[/pl_icon]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="622hr1vza42f2trz"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="10"]
+[pl_counter pagelayer-id="y2jebcjwymb79dzi"  counter_start_number="1" counter_end_number="250" animation_duration="2000" counter_align="left" counter_text="Team Members" counter_text_color="#333333" counter_text_style=",15,,400,,,Solid,,,," counter_number_color="#141617ff" counter_number_style="Merriweather,30,,600,,,Solid,,,," ele_bg_hover_delay="400" ele_margin="0px,0px,0px,10px" ele_padding="0px,0px,20px,15px" ele_padding_tablet="0px,0px,20px,0px"]
+[/pl_counter]
+[/pl_inner_col]
+[/pl_inner_row]
+[pl_inner_row pagelayer-id="2j4komtkzlo7bwtr"  stretch="auto" col_gap="0" width_content="auto" row_height="default" column_pos="center" content_pos="center" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600" ele_margin="0px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="ihsxwvpwc05g7d8q"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="1" content_pos="center"]
+[pl_icon pagelayer-id="axjiy35z2xpwxu8f"  icon="fa fa-retweet" icon_background_size="" icon_alignment="left" icon_color_style="#3498dbff" icon_size="pagelayer-icon-large" icon_hover_delay="400" ele_bg_hover_delay="400" bg_shape="" bg_color="#6cbe03ff" ele_zindex="2" icon_alignment_tablet="left" icon_alignment_mobile="left"]
+[/pl_icon]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="fsebva8s4acji9ut"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="10"]
+[pl_counter pagelayer-id="w5bcmgvai43fxn1y"  counter_start_number="1" counter_end_number="199" animation_duration="2000" counter_align="left" counter_text="Projects Done" counter_text_color="#333333" counter_text_style=",15,,400,,,Solid,,,," counter_number_color="#141617ff" counter_number_style="Merriweather,30,,600,,,Solid,,,," ele_bg_hover_delay="400" ele_margin="0px,0px,0px,10px" ele_padding="0px,0px,20px,15px" ele_padding_tablet="0px,0px,20px,0px"]
+[/pl_counter]
+[/pl_inner_col]
+[/pl_inner_row]
+[pl_inner_row pagelayer-id="qzdl7l4j9fxj70us"  stretch="auto" col_gap="0" width_content="auto" row_height="default" column_pos="center" content_pos="center" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600" ele_margin="0px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="w9h1noyhc7uubc8d"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="1" content_pos="center"]
+[pl_icon pagelayer-id="e1qqxre5sgve9n7n"  icon="fa fa-trophy" icon_background_size="" icon_alignment="left" icon_color_style="#3498dbff" icon_size="pagelayer-icon-large" icon_hover_delay="400" ele_bg_hover_delay="400" bg_shape="" bg_color="#6cbe03ff" ele_zindex="2" icon_alignment_tablet="left" icon_alignment_mobile="left"]
+[/pl_icon]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="991m2sfjk6z52xsn"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="10"]
+[pl_counter pagelayer-id="gygq1s1nod64p5yc"  counter_start_number="1" counter_end_number="100" animation_duration="2000" counter_align="left" counter_text="Awards Won" counter_text_color="#333333" counter_text_style=",15,,400,,,Solid,,,," counter_number_color="#141617ff" counter_number_style="Merriweather,30,,600,,,Solid,,,," ele_bg_hover_delay="400" ele_margin="0px,0px,0px,10px" ele_padding="0px,0px,20px,15px" ele_padding_tablet="0px,0px,20px,0px"]
+[/pl_counter]
+[/pl_inner_col]
+[/pl_inner_row]
+[pl_inner_row pagelayer-id="z4y2ur9h50hb7dqs"  stretch="auto" col_gap="0" width_content="auto" row_height="default" column_pos="center" content_pos="center" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" animation="fadeInUp" animation_delay="600" ele_margin="0px,0px,0px,0px"]
+[pl_inner_col pagelayer-id="vrkmip21y4wqjj3y"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="1" content_pos="center"]
+[pl_icon pagelayer-id="3v8e0mha3qddpo1t"  icon="fa fa-smile-o" icon_background_size="" icon_alignment="left" icon_color_style="#3498dbff" icon_size="pagelayer-icon-large" icon_hover_delay="400" ele_bg_hover_delay="400" bg_shape="" bg_color="#6cbe03ff" ele_zindex="2" icon_alignment_tablet="left" icon_alignment_mobile="left"]
+[/pl_icon]
+[/pl_inner_col]
+[pl_inner_col pagelayer-id="og1echhalsy7qskf"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="10"]
+[pl_counter pagelayer-id="lhxljc2zfbnakvpq"  counter_start_number="1" counter_end_number="499" animation_duration="2000" counter_align="left" counter_text="Happy Clients" counter_text_color="#333333" counter_text_style=",15,,400,,,Solid,,,," counter_number_color="#141617ff" counter_number_style="Merriweather,30,,600,,,Solid,,,," ele_bg_hover_delay="400" ele_margin="0px,0px,0px,10px" ele_padding="0px,0px,0px,15px" ele_padding_tablet="0px,0px,0px,0px"]
+[/pl_counter]
+[/pl_inner_col]
+[/pl_inner_row]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="u0w1k59elbekaxgr"  stretch="full" col_gap="0" width_content="full" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_padding="0px,0px,70px,0px"]
+[pl_col pagelayer-id="gzyogx1j4ra3uyri"  widget_space="0" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_call pagelayer-id="ef4j6oee0p8t8xoz"  layout="overlay" height="300" hov_delay="800" img_overlay_hover="#333333" img_opacity_hover="0.3" hover_anim="pagelayer-cta-zoomin" heading="Power & Energy" heading_color="#3498dbff" heading_typo="Merriweather,25,,700,,,Solid,1.2,,," heading_delay="800" subheading_color="#ffffffff" subheading_delay="800" subheading_color_hover="#f7f7f7ff" content_spacing="25,25,25,25" content-align="left" content_valign="flex-end" content_delay="800" button_text="" btn_type="pagelayer-btn-custom" btn_size="pagelayer-btn-mini" btn_spacing="15" btn_hover_delay="400" btn_border_radius="5,5,5,5" show_ribbon="" ele_bg_hover_delay="400" align="left" content_bg="#4B6270" content_bg_hover="#E88987" ribbon_text="New Arrivals" ribbon_bg="#3E8EF7" ribbon_color="#ffffff" ribbon_pos="left" ribbon_top="5" ribbon_spacing="10,10" ribbon_height="35" ribbon_shadow="rgba(0,0,0,0.5)" shadow_height="3" width="50" subheading="Dorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis." subheading_typo=",15,,600,,,Solid,,,," btn_bg_color="#6dbe04ff" btn_color="#ffffff" content_hover="" img_overlay="#24282982" subheading_hover="" subheading_typo_hover=",,,,,,Solid,1.7,,," animation="fadeInUp" animation_delay="600" cta_image="{{theme_url}}/images/home2.jpg" img_opacity="0.8"]
+
+
+
+
+
+[/pl_call]
+[pl_call pagelayer-id="ocdmqedz73argw76"  layout="overlay" height="300" hov_delay="800" img_overlay_hover="#333333" img_opacity_hover="0.3" hover_anim="pagelayer-cta-zoomin" heading="Wooden Work" heading_color="#3498dbff" heading_typo="Merriweather,25,,700,,,Solid,1.2,,," heading_delay="800" subheading_color="#ffffffff" subheading_delay="800" subheading_color_hover="#f7f7f7ff" content_spacing="25,25,25,25" content-align="left" content_valign="flex-end" content_delay="800" button_text="" btn_type="pagelayer-btn-custom" btn_size="pagelayer-btn-mini" btn_spacing="15" btn_hover_delay="400" btn_border_radius="5,5,5,5" show_ribbon="" ele_bg_hover_delay="400" align="left" content_bg="#4B6270" content_bg_hover="#E88987" ribbon_text="New Arrivals" ribbon_bg="#3E8EF7" ribbon_color="#ffffff" ribbon_pos="left" ribbon_top="5" ribbon_spacing="10,10" ribbon_height="35" ribbon_shadow="rgba(0,0,0,0.5)" shadow_height="3" width="50" subheading="Vestibulum nec odios Suspe ndisse cursus mal suada lisis. Lorem ipsum dolor sit ametion consectetur elit." subheading_typo=",15,,600,,,Solid,,,," btn_bg_color="#6dbe04ff" btn_color="#ffffff" content_hover="" img_overlay="#24282982" subheading_hover="" subheading_typo_hover=",,,,,,Solid,1.7,,," animation="fadeInUp" animation_delay="600" img_opacity="0.8" cta_image="{{theme_url}}/images/home5.jpg"]
+
+
+
+
+
+[/pl_call]
+[/pl_col]
+[pl_col pagelayer-id="bqqx53xarzfxjtb2"  widget_space="0" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_call pagelayer-id="al6ger3aoboagp0p"  layout="overlay" height="300" hov_delay="800" img_overlay_hover="#333333" img_opacity_hover="0.3" hover_anim="pagelayer-cta-zoomin" heading="Agriculture Farming" heading_color="#3498dbff" heading_typo="Merriweather,25,,700,,,Solid,1.2,,," heading_delay="800" subheading_color="#ffffffff" subheading_delay="800" subheading_color_hover="#f7f7f7ff" content_spacing="25,25,25,25" content-align="left" content_valign="flex-end" content_delay="800" button_text="" btn_type="pagelayer-btn-custom" btn_size="pagelayer-btn-mini" btn_spacing="15" btn_hover_delay="400" btn_border_radius="5,5,5,5" show_ribbon="" ele_bg_hover_delay="400" align="left" content_bg="#4B6270" content_bg_hover="#E88987" ribbon_text="New Arrivals" ribbon_bg="#3E8EF7" ribbon_color="#ffffff" ribbon_pos="left" ribbon_top="5" ribbon_spacing="10,10" ribbon_height="35" ribbon_shadow="rgba(0,0,0,0.5)" shadow_height="3" width="50" subheading="Vestibulum nec odios Suspe ndisse cursus mal suada lisis. Lorem ipsum dolor sit ametion consectetur elit." subheading_typo=",15,,600,,,Solid,,,," btn_bg_color="#6dbe04ff" btn_color="#ffffff" content_hover="" img_overlay="#24282982" subheading_hover="" subheading_typo_hover=",,,,,,Solid,1.7,,," animation="fadeInUp" animation_delay="600" img_opacity="0.8" cta_image="{{theme_url}}/images/home3.jpg"]
+
+
+
+
+
+[/pl_call]
+[pl_call pagelayer-id="mwp7heu1w40w8kb1"  layout="overlay" height="300" hov_delay="800" img_overlay_hover="#333333" img_opacity_hover="0.3" hover_anim="pagelayer-cta-zoomin" heading="Machinery" heading_color="#3498dbff" heading_typo="Merriweather,25,,700,,,Solid,1.2,,," heading_delay="800" subheading_color="#ffffffff" subheading_delay="800" subheading_color_hover="#f7f7f7ff" content_spacing="25,25,25,25" content-align="left" content_valign="flex-end" content_delay="800" button_text="" btn_type="pagelayer-btn-custom" btn_size="pagelayer-btn-mini" btn_spacing="15" btn_hover_delay="400" btn_border_radius="5,5,5,5" show_ribbon="" ele_bg_hover_delay="400" align="left" content_bg="#4B6270" content_bg_hover="#E88987" ribbon_text="New Arrivals" ribbon_bg="#3E8EF7" ribbon_color="#ffffff" ribbon_pos="left" ribbon_top="5" ribbon_spacing="10,10" ribbon_height="35" ribbon_shadow="rgba(0,0,0,0.5)" shadow_height="3" width="50" subheading="Dorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis." subheading_typo=",15,,600,,,Solid,,,," btn_bg_color="#6dbe04ff" btn_color="#ffffff" content_hover="" img_overlay="#24282982" subheading_hover="" subheading_typo_hover=",,,,,,Solid,1.7,,," animation="fadeInUp" animation_delay="600" img_opacity="0.8" cta_image="{{theme_url}}/images/home6.jpg"]
+
+
+
+
+
+[/pl_call]
+[/pl_col]
+[pl_col pagelayer-id="apc5fz6hiefque73"  widget_space="0" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_call pagelayer-id="ay2c7k4nf5yra7ov"  layout="overlay" height="300" hov_delay="800" img_overlay_hover="#333333" img_opacity_hover="0.3" hover_anim="pagelayer-cta-zoomin" heading="Construction & Building" heading_color="#3498dbff" heading_typo="Merriweather,25,,700,,,Solid,1.2,,," heading_delay="800" subheading_color="#ffffffff" subheading_delay="800" subheading_color_hover="#f7f7f7ff" content_spacing="25,25,25,25" content-align="left" content_valign="flex-end" content_delay="800" button_text="" btn_type="pagelayer-btn-custom" btn_size="pagelayer-btn-mini" btn_spacing="15" btn_hover_delay="400" btn_border_radius="5,5,5,5" show_ribbon="" ele_bg_hover_delay="400" align="left" content_bg="#4B6270" content_bg_hover="#E88987" ribbon_text="New Arrivals" ribbon_bg="#3E8EF7" ribbon_color="#ffffff" ribbon_pos="left" ribbon_top="5" ribbon_spacing="10,10" ribbon_height="35" ribbon_shadow="rgba(0,0,0,0.5)" shadow_height="3" width="50" subheading="Dorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis." subheading_typo=",15,,600,,,Solid,,,," btn_bg_color="#6dbe04ff" btn_color="#ffffff" content_hover="" img_overlay="#24282982" subheading_hover="" subheading_typo_hover=",,,,,,Solid,1.7,,," animation="fadeInUp" animation_delay="600" img_opacity="0.8" cta_image="{{theme_url}}/images/home4.jpg"]
+
+
+
+
+
+[/pl_call]
+[pl_call pagelayer-id="npvqu3njpck0lyrd"  layout="overlay" height="300" hov_delay="800" img_overlay_hover="#333333" img_opacity_hover="0.3" hover_anim="pagelayer-cta-zoomin" heading="Oil & Gas" heading_color="#3498dbff" heading_typo="Merriweather,25,,700,,,Solid,1.2,,," heading_delay="800" subheading_color="#ffffffff" subheading_delay="800" subheading_color_hover="#f7f7f7ff" content_spacing="25,25,25,25" content-align="left" content_valign="flex-end" content_delay="800" button_text="" btn_type="pagelayer-btn-custom" btn_size="pagelayer-btn-mini" btn_spacing="15" btn_hover_delay="400" btn_border_radius="5,5,5,5" show_ribbon="" ele_bg_hover_delay="400" align="left" content_bg="#4B6270" content_bg_hover="#E88987" ribbon_text="New Arrivals" ribbon_bg="#3E8EF7" ribbon_color="#ffffff" ribbon_pos="left" ribbon_top="5" ribbon_spacing="10,10" ribbon_height="35" ribbon_shadow="rgba(0,0,0,0.5)" shadow_height="3" width="50" subheading="Vestibulum nec odios Suspe ndisse cursus mal suada lisis. Lorem ipsum dolor sit ametion consectetur elit." subheading_typo=",15,,600,,,Solid,,,," btn_bg_color="#6dbe04ff" btn_color="#ffffff" content_hover="" img_overlay="#24282982" subheading_hover="" subheading_typo_hover=",,,,,,Solid,1.7,,," animation="fadeInUp" animation_delay="600" img_opacity="0.8" cta_image="{{theme_url}}/images/home7.jpg"]
+
+
+
+
+
+[/pl_call]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="cwscblr5b1ahqpfl"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="0px,0px,0px,0px"]
+[pl_col pagelayer-id="eks6m2hha726qeoj"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400"]
+[pl_heading pagelayer-id="rpw8sisiltz3j3j7"  heading_state="normal" color="#111111ff" ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+<h3>Our Core Services
+</h3>[/pl_heading]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="ia3isxpa8wy88qzk"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="0px,0px,50px,0px"]
+[pl_col pagelayer-id="kdd0ma6r8g1lqc1n"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_iconbox pagelayer-id="zxrpbnazkh853xoh"  service_icon="fa fa-cubes" service_alignment="top" service_vertical_alignment="top" service_icon_view="stacked" service_icon_padding="20" service_icon_state="normal" service_icon_color="#ffffffff" service_icon_font_size="32" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Material Engg." service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#181819ff" service_heading_typo="Merriweather,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_icon_alignment="left" service_icon_background_color="#3498dbff" ele_padding="0px,0px,25px,0px" animation="zoomIn" animation_delay="600"]
+
+
+<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.</p>[/pl_iconbox]
+[pl_iconbox pagelayer-id="rx8nuyyw9zhybhw0"  service_icon="fa fa-flask" service_alignment="top" service_vertical_alignment="top" service_icon_view="stacked" service_icon_padding="20" service_icon_state="normal" service_icon_color="#ffffffff" service_icon_font_size="32" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Chemical Research" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#181819ff" service_heading_typo="Merriweather,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_icon_alignment="left" service_icon_background_color="#3498dbff" ele_padding="0px,0px,25px,0px" animation="zoomIn" animation_delay="600"]
+
+
+<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.</p>[/pl_iconbox]
+[/pl_col]
+[pl_col pagelayer-id="uess888jayvyczq9"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_iconbox pagelayer-id="acg5gh4wndb69h58"  service_icon="fa fa-fire" service_alignment="top" service_vertical_alignment="top" service_icon_view="stacked" service_icon_padding="20" service_icon_state="normal" service_icon_color="#ffffffff" service_icon_font_size="32" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Oil & Lubricants" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#181819ff" service_heading_typo="Merriweather,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_icon_alignment="left" service_icon_background_color="#3498dbff" ele_padding="0px,0px,25px,0px" animation="zoomIn" animation_delay="600"]
+
+
+<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.</p>[/pl_iconbox]
+[pl_iconbox pagelayer-id="3r7qiplzdavmzx6w"  service_icon="fa fa-renren" service_alignment="top" service_vertical_alignment="top" service_icon_view="stacked" service_icon_padding="20" service_icon_state="normal" service_icon_color="#ffffffff" service_icon_font_size="32" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Steel Cladding" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#181819ff" service_heading_typo="Merriweather,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_icon_alignment="left" service_icon_background_color="#3498dbff" ele_padding="0px,0px,25px,0px" animation="zoomIn" animation_delay="600"]
+
+
+<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.</p>[/pl_iconbox]
+[/pl_col]
+[pl_col pagelayer-id="8n2jfwnrfniakdrb"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_iconbox pagelayer-id="p00k62aath96zrzf"  service_icon="fa fa-gears" service_alignment="top" service_vertical_alignment="top" service_icon_view="stacked" service_icon_padding="20" service_icon_state="normal" service_icon_color="#ffffffff" service_icon_font_size="32" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Mechanical Engg." service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#181819ff" service_heading_typo="Merriweather,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_icon_alignment="left" service_icon_background_color="#3498dbff" ele_padding="0px,0px,25px,0px" animation="zoomIn" animation_delay="600"]
+
+
+<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.</p>[/pl_iconbox]
+[pl_iconbox pagelayer-id="iu1tr7jiks3994ra"  service_icon="fa fa-flash" service_alignment="top" service_vertical_alignment="top" service_icon_view="stacked" service_icon_padding="20" service_icon_state="normal" service_icon_color="#ffffffff" service_icon_font_size="32" service_icon_hover_delay="400" service_bor_state="normal" service_heading="Power & Energy" service_title_spacing="15,0,10,0" heading_state="normal" service_heading_color="#181819ff" service_heading_typo="Merriweather,22,,600,,,Solid,,,," heading_delay="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_icon_alignment="left" service_icon_background_color="#3498dbff" ele_padding="0px,0px,25px,0px" animation="zoomIn" animation_delay="600"]
+
+
+<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit.</p>[/pl_iconbox]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="o46a7aehnk0ldg5u"  stretch="auto" col_gap="0" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="color" overlay_transperancy="0.9" overlay_color=" " ele_bg_img="http://sitepad.local/site-data/plugins/pagelayer-pro/images/default-image.png" ele_bg_color="#3498dbff" ele_padding="30px,30px,30px,30px" ele_padding_mobile="30px,10px,30px,10px"]
+[pl_col pagelayer-id="7weyhdt52t14br54"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="6" content_pos="center"]
+[pl_image pagelayer-id="14pumeujuj5v40p4"  id="{{theme_url}}/images/home6.png" id-size="full" align="center" max-width="100" img_hover="normal" img_filter="0,100,100,0,0,100,100" img_hover_delay="400" img_filter_hover="0,100,100,0,0,100,100" caption_color="#3E8EF7" ele_bg_hover_delay="400" animation="zoomIn" animation_delay="600"]
+
+
+
+
+
+[/pl_image]
+[/pl_col]
+[pl_col pagelayer-id="8t4zlehnzqdvr9vu"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="6" content_pos="center" ele_margin="0px,0px,0px,0px" ele_padding_mobile="20px,20px,20px,20px" ele_padding_tablet="20px,20px,20px,20px"]
+[pl_heading pagelayer-id="szmbedohfdo28gna"  color="#ffffffff" ele_bg_hover_delay="400" heading_typo=",35,,,,,Solid,,,," heading_state="normal" animation="fadeInDown" animation_delay="600"]
+
+
+
+
+
+Question & Answer[/pl_heading]
+[pl_accordion pagelayer-id="om8v2bi08h2gkn0f"  icon="fas fa-plus" active_icon="fas fa-minus" icon_align="right" icon_padding="10" tabs_color="#ffffffff" tabs_bg_color="#1b1818ff" tabs_active_color="#3498dbff" tabs_active_bg_color="#ffffffff" tab_padding="15" tabs_content_bg_color="#fff" ele_bg_hover_delay="400" acc_space="10" acc_border_type="solid" acc_border_color="#cccccc" acc_border_width="1,1,1,1" animation="fadeInUp" animation_delay="600"]
+[pl_accordion_item pagelayer-id="wqxmk8wae3j3rsyb"  title="Ut enim ad minim veniam, quis nostrud?" ele_bg_hover_delay="400" default_active="true"]
+
+
+
+
+
+<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque.Aenean vulputate finibus justo et feugiat. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.Cras consequat. Praesent dapibus, neque id cursus faucibus, tortor neque, neque id cursus faucibus, tortor neque.</p>[/pl_accordion_item]
+[pl_accordion_item pagelayer-id="hbpmw3w9w54yrwiw"  title="Ut enim ad minim veniam, quis nostrud?" ele_bg_hover_delay="400"]
+
+
+
+
+
+<p>Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. . Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>[/pl_accordion_item]
+[pl_accordion_item pagelayer-id="eclu3yhyqot0mzm7"  title="Nulla aliquet nisl nec ex aliqueta porta ma?" ele_bg_hover_delay="400"]
+
+
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu hendrerit nunc. Proin tempus pulvinar augue, quis ultrices urna consectetur non.</p>[/pl_accordion_item]
+[pl_accordion_item pagelayer-id="nuk94roewnlbc1d8"  title="Ut enim ad minim veniam, quis nostrud?" ele_bg_hover_delay="400"]
+
+
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu hendrerit nunc. Proin tempus pulvinar augue, quis ultrices urna consectetur non.</p>[/pl_accordion_item]
+[/pl_accordion]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="9umw0jgjf4gtv1pz"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="70px,0px,0px,0px"]
+[pl_col pagelayer-id="7assqatea2ej91mg"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400"]
+[pl_heading pagelayer-id="h71va0syigghiz4n"  heading_state="normal" color="#111111ff" ele_bg_hover_delay="400"]
+
+
+<h3>Latest News about our Industry
+</h3>[/pl_heading]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="4le6ppc92clnlx8k"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="0px,0px,70px,0px"]
+[pl_col pagelayer-id="3guoydiayou1itx6"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4" animation="fadeInUp" animation_delay="600"]
+[pl_service pagelayer-id="frdf10907h6mao8i"  service_image="{{theme_url}}/images/blog1.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Warehouse" service_title_spacing="20,0,10,15" heading_state="normal" service_heading_color="#131416ff" service_heading_typo="Merriweather,24,,600,,,Solid,,,," heading_transition="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Read More" service_btn_state="normal" service_button_color="#ffffff" service_button_bg_color="#3e8ef7" service_content_spacing="0,15,20,15" service_btn_spacing="0,0,20,15" ele_shadow="0,2,5,#eeeeeeff,0," ele_margin="0px,0px,20px,0px"]
+
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>[/pl_service]
+[pl_service pagelayer-id="3k0ezllgsrlgwi4l"  service_image="{{theme_url}}/images/blog4.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Iron Smelter" service_title_spacing="20,0,10,15" heading_state="normal" service_heading_color="#131416ff" service_heading_typo="Merriweather,24,,600,,,Solid,,,," heading_transition="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Read More" service_btn_state="normal" service_button_color="#ffffff" service_button_bg_color="#3e8ef7" service_content_spacing="0,15,20,15" service_btn_spacing="0,0,20,15" ele_shadow="0,2,5,#eeeeeeff,0," ele_margin="0px,0px,20px,0px"]
+
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="3tqkr5jnqi4hcbld"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4" animation="fadeInUp" animation_delay="600"]
+[pl_service pagelayer-id="gjjzep2j0pqrn2ov"  service_image="{{theme_url}}/images/blog2.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Refinery" service_title_spacing="20,0,10,15" heading_state="normal" service_heading_color="#131416ff" service_heading_typo="Merriweather,24,,600,,,Solid,,,," heading_transition="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Read More" service_btn_state="normal" service_button_color="#ffffff" service_button_bg_color="#3e8ef7" service_content_spacing="0,15,20,15" service_btn_spacing="0,0,20,15" ele_shadow="0,2,5,#eeeeeeff,0," ele_margin="0px,0px,20px,0px"]
+
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>[/pl_service]
+[pl_service pagelayer-id="5rglu764meg8stc3"  service_image="{{theme_url}}/images/blog5.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Gas Company" service_title_spacing="20,0,10,15" heading_state="normal" service_heading_color="#131416ff" service_heading_typo="Merriweather,24,,600,,,Solid,,,," heading_transition="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Read More" service_btn_state="normal" service_button_color="#ffffff" service_button_bg_color="#3e8ef7" service_content_spacing="0,15,20,15" service_btn_spacing="0,0,20,15" ele_shadow="0,2,5,#eeeeeeff,0," ele_margin="0px,0px,20px,0px"]
+
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>[/pl_service]
+[/pl_col]
+[pl_col pagelayer-id="6fgf6owglj9xril0"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4" animation="fadeInUp" animation_delay="600"]
+[pl_service pagelayer-id="kkkhb47iw65ul7go"  service_image="{{theme_url}}/images/blog3.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Oil Pipeline" service_title_spacing="20,0,10,15" heading_state="normal" service_heading_color="#131416ff" service_heading_typo="Merriweather,24,,600,,,Solid,,,," heading_transition="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Read More" service_btn_state="normal" service_button_color="#ffffff" service_button_bg_color="#3e8ef7" service_content_spacing="0,15,20,15" service_btn_spacing="0,0,20,15" ele_shadow="0,2,5,#eeeeeeff,0," ele_padding="0px,0px,0px,0px" ele_margin="0px,0px,20px,0px"]
+
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>[/pl_service]
+[pl_service pagelayer-id="a5rrci49j95y9ux1"  service_image="{{theme_url}}/images/blog6.jpg" service_image_size="full" service_alignment="top" service_vertical_alignment="top" img_bor_state="normal" img_filter="0,100,100,0,0,100,100" img_transition="400" img_filter_hover="0,100,100,0,0,100,100" service_heading="Chemical Plants" service_title_spacing="20,0,10,15" heading_state="normal" service_heading_color="#131416ff" service_heading_typo="Merriweather,24,,600,,,Solid,,,," heading_transition="400" service_text_alignment="left" service_btn_hover_delay="400" ele_bg_hover_delay="400" service_button="true" service_button_type="pagelayer-btn-custom" service_button_size="pagelayer-btn-mini" service_button_text="Read More" service_btn_state="normal" service_button_color="#ffffff" service_button_bg_color="#3e8ef7" service_content_spacing="0,15,20,15" service_btn_spacing="0,0,20,15" ele_shadow="0,2,5,#eeeeeeff,0," ele_padding="0px,0px,0px,0px" ele_margin="0px,0px,20px,0px"]
+
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>[/pl_service]
+[/pl_col]
+[/pl_row]

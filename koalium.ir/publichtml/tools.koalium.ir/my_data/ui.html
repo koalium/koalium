@@ -1,0 +1,336 @@
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
+
+const RuptureForm = () => {
+  const [materials, setMaterials] = useState([]);
+  const [sizeTable, setSizeTable] = useState([]);
+
+  const [formData, setFormData] = useState({
+    ruptureType: "",
+    ruptureSize: "",
+    burstPressure: "",
+    burstTemp: "",
+    materials: ["", "", ""],
+    ruptureDiskQty: 1,
+    options: [],
+    holder: {
+      hasHolder: false,
+      holderSize: "",
+      holderMaterial: "",
+      holderQty: 0,
+      needGasket: false,
+    },
+  });
+
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const materialsResponse = await axios.get("/api/getMaterials");
+        const sizeTableResponse = await axios.get("/api/getSizeTable");
+
+        setMaterials(materialsResponse.data);
+        setSizeTable(sizeTableResponse.data);
+      } catch (err) {
+        console.error("Error fetching data:", err);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const handleSubmit = (action) => {
+    if (!sizeTable.includes(parseFloat(formData.ruptureSize))) {
+      setError("Invalid rupture size. Please select a valid value.");
+      return;
+    }
+
+    const dataToSend = {
+      ...formData,
+      ruptureSize: parseFloat(formData.ruptureSize),
+      burstPressure: parseFloat(formData.burstPressure),
+      burstTemp: parseFloat(formData.burstTemp),
+    };
+
+    switch (action) {
+      case "clone":
+        axios.post("https://koalium.ir/rupture", dataToSend);
+        break;
+      case "json":
+        alert(JSON.stringify(dataToSend, null, 2));
+        break;
+      case "save":
+        axios.post("/api/saveRupture", dataToSend);
+        break;
+      case "logo":
+        // Open new canvas logic here
+        break;
+      default:
+        console.error("Invalid action");
+    }
+  };
+
+  const updateMaterial = (index, value) => {
+    const newMaterials = [...formData.materials];
+    newMaterials[index] = value;
+    setFormData({ ...formData, materials: newMaterials });
+  };
+
+  return (
+    <Card className="max-w-4xl mx-auto mt-8 shadow-lg border border-gray-200 rounded-lg">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold mb-6 text-gray-800">Rupture Form</h2>
+
+        {/* Rupture Type */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Rupture Type</label>
+          <Select
+            value={formData.ruptureType}
+            onValueChange={(value) => setFormData({ ...formData, ruptureType: value })}
+          >
+            <SelectTrigger className="w-full border border-gray-300 rounded-md">
+              <SelectValue placeholder="Select rupture type" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="reverse">Reverse</SelectItem>
+              <SelectItem value="forward">Forward</SelectItem>
+              <SelectItem value="flat">Flat</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        {/* Rupture Size */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Rupture Size</label>
+          <Input
+            type="number"
+            className="w-full border border-gray-300 rounded-md"
+            value={formData.ruptureSize}
+            onChange={(e) => setFormData({ ...formData, ruptureSize: e.target.value })}
+          />
+          {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
+        </div>
+
+        {/* Burst Pressure */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Burst Pressure</label>
+          <Input
+            type="number"
+            className="w-full border border-gray-300 rounded-md"
+            value={formData.burstPressure}
+            onChange={(e) => setFormData({ ...formData, burstPressure: e.target.value })}
+          />
+        </div>
+
+        {/* Burst Temperature */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Burst Temperature</label>
+          <Input
+            type="number"
+            className="w-full border border-gray-300 rounded-md"
+            value={formData.burstTemp}
+            onChange={(e) => setFormData({ ...formData, burstTemp: e.target.value })}
+          />
+        </div>
+
+        {/* Materials */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Materials</label>
+          {formData.materials.map((material, index) => (
+            <Select
+              key={index}
+              value={material}
+              onValueChange={(value) => updateMaterial(index, value)}
+              className="mb-2"
+            >
+              <SelectTrigger className="w-full border border-gray-300 rounded-md">
+                <SelectValue placeholder="Select material" />
+              </SelectTrigger>
+              <SelectContent>
+                {materials.map((mat) => (
+                  <SelectItem key={mat} value={mat}>{mat}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          ))}
+        </div>
+
+        {/* Rupture Disk Quantity */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Rupture Disk Quantity</label>
+          <Input
+            type="number"
+            className="w-full border border-gray-300 rounded-md"
+            value={formData.ruptureDiskQty}
+            onChange={(e) => setFormData({ ...formData, ruptureDiskQty: parseInt(e.target.value, 10) })}
+          />
+        </div>
+
+        {/* Options */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Options</label>
+          <div className="grid grid-cols-2 gap-2">
+            {["wirecut", "waterjet", "sensor", "laser", "tag", "box", "ship", "forming"].map((option) => (
+              <div key={option} className="flex items-center">
+                <Checkbox
+                  checked={formData.options.includes(option)}
+                  onCheckedChange={(checked) => {
+                    const newOptions = checked
+                      ? [...formData.options, option]
+                      : formData.options.filter((opt) => opt !== option);
+                    setFormData({ ...formData, options: newOptions });
+                  }}
+                />
+                <label className="ml-2 text-sm text-gray-700">{option}</label>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Holder */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Holder</label>
+          <div className="flex items-center mb-2">
+            <Checkbox
+              checked={formData.holder.hasHolder}
+              onCheckedChange={(checked) =>
+                setFormData({ ...formData, holder: { ...formData.holder, hasHolder: checked } })
+              }
+            />
+            <label className="ml-2 text-sm text-gray-700">Has Holder</label>
+          </div>
+          {formData.holder.hasHolder && (
+            <div className="space-y-2">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Holder Size</label>
+                <Input
+                  type="number"
+                  className="w-full border border-gray-300 rounded-md"
+                  value={formData.holder.holderSize}
+                  onChange={(e) =>
+                    setFormData({
+                      ...formData,
+                      holder: { ...formData.holder, holderSize: e.target.value },
+                    })
+                  }
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Holder Material</label>
+                <Select
+                  value={formData.holder.holderMaterial}
+                  onValueChange={(value) =>
+                    setFormData({
+                      ...formData,
+                      holder: { ...formData.holder, holderMaterial: value },
+                    })
+                  }
+                >
+                  <SelectTrigger className="w-full border border-gray-300 rounded-md">
+                    <SelectValue placeholder="Select holder material" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {materials.map((mat) => (
+                      <SelectItem key={mat} value={mat}>{mat}</SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Holder Quantity</label>
+                <Input
+                  type="number"
+                  className="w-full border border-gray-300 rounded-md"
+                  value={formData.holder.holderQty}
+                  onChange={(e) =>
+                    setFormData({
+                      ...formData,
+                      holder: { ...formData.holder, holderQty: parseInt(e.target.value, 10) },
+                    })
+                  }
+                />
+              </div>
+              <div className="flex items-center">
+                <Checkbox
+                  checked={formData.holder.needGasket}
+                  onCheckedChange={(checked) =>
+                    setFormData({
+                      ...formData,
+                      holder: { ...formData.holder, needGasket: checked },
+                    })
+                  }
+                />
+                <label className="ml-2 text-sm text-gray-700">Need Gasket</label>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Buttons */}
+        <div className="mt-6 flex justify-end gap-4">
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white" onClick={() => handleSubmit("clone")}>Clone</Button>
+          <Button className="bg-gray-500 hover:bg-gray-600 text-white" onClick={() => handleSubmit("json")}>Show JSON</Button>
+          <Button className="bg-green-500 hover:bg-green-600 text-white" onClick={() => handleSubmit("save")}>Save</Button>
+          <Button className="bg-indigo-500 hover:bg-indigo-600 text-white" onClick={() => handleSubmit("logo")}>Logo</Button>
+        </div>
+      </CardContent>
+    </Card>
+  );
+};
+
+export default RuptureForm;
+
+
+{/* Rupture Size */}
+<div className="mb-4">
+  <label className="block text-sm font-medium text-gray-700 mb-1">Rupture Size</label>
+  <Input
+    type="number"
+    step="0.1"
+    min="0.1"
+    max="0.9"
+    className="w-full border border-gray-300 rounded-md"
+    value={formData.ruptureSize}
+    onChange={(e) => {
+      const value = parseFloat(e.target.value).toFixed(1);
+      setFormData({ ...formData, ruptureSize: value });
+    }}
+  />
+  {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
+</div>
+
+{/* Burst Pressure */}
+<div className="mb-4">
+  <label className="block text-sm font-medium text-gray-700 mb-1">Burst Pressure</label>
+  <Input
+    type="number"
+    step="0.01"
+    className="w-full border border-gray-300 rounded-md"
+    value={formData.burstPressure}
+    onChange={(e) => {
+      const value = parseFloat(e.target.value).toFixed(2);
+      setFormData({ ...formData, burstPressure: value });
+    }}
+  />
+</div>
+
+{/* Burst Temperature */}
+<div className="mb-4">
+  <label className="block text-sm font-medium text-gray-700 mb-1">Burst Temperature</label>
+  <Input
+    type="number"
+    step="0.01"
+    className="w-full border border-gray-300 rounded-md"
+    value={formData.burstTemp}
+    onChange={(e) => {
+      const value = parseFloat(e.target.value).toFixed(2);
+      setFormData({ ...formData, burstTemp: value });
+    }}
+  />
+</div>
