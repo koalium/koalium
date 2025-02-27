@@ -7,19 +7,20 @@ $password = 'koala551364'; // Replace with your database password
 $dbname = 'koaliumi_rupturium_db';
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Get all the POST data
-$size = $_POST['size'];
+$size = (int)$_POST['size'];
 $type = $_POST['type'];
 $qty_i = (int)$_POST['qty'];
 //
-$size_query = "SELECT * FROM element_raw_size WHERE element = 'rupture' AND type= '$type' AND size = '$size'" ;
+$size_query = "SELECT * FROM element_raw_size WHERE element = 'rupture' AND size = '$size'" ;
 $result_s = $conn->query($size_query);
+
 $row_s = $result_s->fetch_assoc();
 $diameter=$row_s['do']*0.25;
 //
 $size_query_q = "SELECT * FROM overtotest WHERE az <= $qty_i AND ta >= $qty_i " ;
 $result_q = $conn->query($size_query_q);
 $row_q = $result_q->fetch_assoc();
-$qty_t=(int)((int)($row_q['kam'])+(float)($row_q['dar'])*(int)($qty_i));
+$qty_t=((int)($row_q['kam']));//+(float)($row_q['dar'])*(int)($qty_i));
 $qty_d=3;
 $qty_m=+(int)($qty_t)+(int)($qty_i);
 $qty_total=(int)($qty_t)+(int)($qty_d)+(int)($qty_i);
@@ -38,7 +39,7 @@ $htmlContent = "<!DOCTYPE html>
         body {
             display: flex;
             flex-direction: column;
-            align-items: left;
+            align-items: center;
             margin: 20px;
             font-family: Arial, sans-serif;
         }
@@ -46,12 +47,11 @@ $htmlContent = "<!DOCTYPE html>
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         input[type='number'], select {
             padding: 8px;
             font-size: 14px;
-			
         }
         button {
             padding: 8px 12px;
@@ -62,8 +62,6 @@ $htmlContent = "<!DOCTYPE html>
             border: 2px solid #000;
             background-color: darkblue;
             margin: 2px;
-			width: 100%;
-            height: auto;
         }
         footer {
             margin-top: 20px;
@@ -71,44 +69,21 @@ $htmlContent = "<!DOCTYPE html>
             font-size: 12px;
             color: #555;
         }
-		/* Media query to rotate the canvas on mobile devices */
-        @media only screen and (max-width: 600px) {
-            canvas {
-				margin-top: 65px;
-                transform: rotate(90deg);
-                width: auto;
-                height: 100%;
-            }
-			form {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin-bottom: 50px;
-        }
-			button {
-				padding: 8px 12px;
-				font-size: 14px;
-				cursor: pointer;
-			}
-        }
     </style>
 </head>
 <body>
-    <form id='dynamic-form' >
-	    
-        <input type='number' id='size' name='size' min='0.5' max='10' step='0.5' value='2' hidden>
-		<label for='qty' align='right' font-style='14,bold' hidden>Qty:</label>
-        <input type='number' id='qty' name='qty' value='10'  size='5' hidden>
-        <input type='number' id='desqty' name='desqty' value='3'  hidden>
-        <input type='number' id='testqty' name='testqty' value='4'  hidden>
+    <form id='dynamic-form'>
+        <input type='number' id='size' name='size' min='0.5' max='10' step='0.5' value='2' hidden='true'>
+        <input type='number' id='qty' name='qty' value='10'  hidden='true'>
+        <input type='number' id='desqty' name='desqty' value='3'  hidden='true'>
+        <input type='number' id='testqty' name='testqty' value='4'  hidden='true'>
         <select id='stagger' name='stagger'  hidden='true'>
             <option value='inline'>Inline</option>
             <option value='triangle' selected >Triangle</option>
         </select>
-		<button type='button' onclick='laserView()'>Laser View</button>
         <button type='button' onclick='sendData()'>Send</button>
         <button type='button' onclick='clearCanvas()'>Clear View</button>
-        
+        <button type='button' onclick='laserView()'>Laser View</button>
     </form>
     <canvas id='canvas1' width='1000' height='500'></canvas>
     <canvas id='canvas2' width='1000' height='500' style='display: none;'></canvas>
@@ -229,5 +204,5 @@ $htmlContent = "<!DOCTYPE html>
 
 
 ?>
-<?
+<?php
 echo "$htmlContent\n";?>

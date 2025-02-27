@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"ec14329f0c9d742a","type":"file","file":"دزدگیر/summery/PIR تشخیص حرکت.md","x":20,"y":-77,"width":400,"height":195,"color":"5"},
-		{"id":"cb662149292c7fda","type":"file","file":"دزدگیر/summery/nano Server.md","x":-480,"y":-100,"width":400,"height":240,"color":"3"},
-		{"id":"366b7c5555986630","type":"file","file":"دزدگیر/summery/nfc 13mhz.md","x":20,"y":170,"width":400,"height":210,"color":"5"},
-		{"id":"76723e2eb58f213a","type":"file","file":"دزدگیر/summery/Window magnet باز و بسته بودن درب و پنجره.md","x":-20,"y":-352,"width":400,"height":215,"color":"5"},
-		{"id":"de731008bd6d7ee8","type":"file","file":"دزدگیر/summery/ارتباط موبایل SIM800.md","x":-940,"y":-420,"width":400,"height":220,"color":"6"},
+		{"id":"ec14329f0c9d742a","type":"file","file":"koalium platform/دزدگیر/summery/تشخیص حرکت.md","x":20,"y":-77,"width":400,"height":195,"color":"5"},
+		{"id":"cb662149292c7fda","type":"file","file":"koalium platform/دزدگیر/summery/nano Server.md","x":-480,"y":-100,"width":400,"height":240,"color":"3"},
+		{"id":"366b7c5555986630","type":"file","file":"koalium platform/دزدگیر/summery/nfc 13mhz.md","x":20,"y":170,"width":400,"height":210,"color":"5"},
+		{"id":"76723e2eb58f213a","type":"file","file":"koalium platform/دزدگیر/summery/Window magnet باز و بسته بودن درب و پنجره.md","x":-20,"y":-352,"width":400,"height":215,"color":"5"},
+		{"id":"de731008bd6d7ee8","type":"file","file":"koalium platform/دزدگیر/summery/ارتباط موبایل SIM800.md","x":-940,"y":-420,"width":400,"height":220,"color":"6"},
 		{"id":"3b64d881fa9c6e25","type":"text","text":"آژیر صوتی و بلنگوی آن","x":-1065,"y":-9,"width":250,"height":60,"color":"1"},
-		{"id":"5be9cc66fec74044","type":"file","file":"دزدگیر/summery/قفل برقی.md","x":-1015,"y":205,"width":400,"height":140,"color":"1"},
-		{"id":"ed3d35b444d590f8","x":-480,"y":205,"width":400,"height":260,"color":"2","type":"file","file":"دزدگیر/summery/منبع تغذیه اصلی.md"}
+		{"id":"5be9cc66fec74044","type":"file","file":"koalium platform/دزدگیر/summery/قفل برقی.md","x":-1015,"y":205,"width":400,"height":140,"color":"1"},
+		{"id":"ed3d35b444d590f8","type":"file","file":"koalium platform/دزدگیر/summery/منبع تغذیه اصلی.md","x":-480,"y":205,"width":400,"height":260,"color":"2"}
 	],
 	"edges":[
 		{"id":"e5c54a5b30df1676","fromNode":"ec14329f0c9d742a","fromSide":"left","toNode":"cb662149292c7fda","toSide":"right"},

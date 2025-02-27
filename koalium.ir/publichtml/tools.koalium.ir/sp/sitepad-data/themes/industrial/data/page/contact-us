@@ -1,0 +1,106 @@
+[pl_row pagelayer-id="ykaglr2z8xsq7hky"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="image" ele_padding="90px,0px,60px,0px" ele_bg_attachment="scroll" ele_bg_posx="center" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" overlay_transperancy="0.5" overlay_color="#3b4446ff" ele_margin="0px,0px,0px,0px" ele_bg_img="{{theme_url}}/images/contact-bg.jpg" ele_bg_color="#242e31ff" overlay_type="color"]
+[pl_col pagelayer-id="ce1b06932qtzslt6"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="12"]
+[pl_heading pagelayer-id="3pvfaj1x71yf8po4"  color="#fefefeff" ele_bg_hover_delay="400" align="left" animation="fadeInDown" heading_state="normal" animation_delay="600"]
+
+
+
+
+
+
+<h2>Contact Us</h2>[/pl_heading]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="6hsqevfiqs64ir3s"  0=""]
+[pl_col pagelayer-id="mqtac5fsl1h0ns46"  col="12"]
+[pl_text pagelayer-id="egx15fzssqw4mtra"  0=""]
+
+
+
+
+
+
+
+
+[/pl_text]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="im50so5ibwegfsz4"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="70px,0px,70px,0px"]
+[pl_col pagelayer-id="yag7avxx7j003pso"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="8"]
+[pl_text pagelayer-id="reuml1a3fmpslm6x"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+
+<p><span style="font-size: xx-large;"><strong>Get in touch</strong></span></p>[/pl_text]
+[pl_contact pagelayer-id="xzc9s78y07hsxi6x"  submit="Send Message" form="contact-form" name="Contact Form" form_position="left" submit_font_family="default" ele_bg_hover_delay="400" label_typo=",16,,,,,Solid,,,," space_label="0,0,4,0" input_padding="12,12" radio_padding="10,10" field_hover_delay="400" type="pagelayer-btn-custom" size="pagelayer-btn-small" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" placeholder_typo=",,,,,,Solid,,,," field_border_type="dotted" field_border_color="#c6cbd1ff" field_border_width="2,2,2,2" form_input_bg="#eeeeeeff" btn_bg_color="#3498dbff" btn_color="#ffffff" animation="fadeInUp" animation_delay="600"]
+[pl_contact_item pagelayer-id="f1x4sbskx9dz4crm"  label_name="Name" field_type="text" values="One
+Two" field_name="name" ele_bg_hover_delay="400" label_as_holder="" field_display="" field_width="100" space_between=",,10,"]
+[/pl_contact_item]
+[pl_contact_item pagelayer-id="9kl6nexv6rcf56y1"  label_name="Email" field_type="email" values="One
+Two" field_name="email" ele_bg_hover_delay="400" label_as_holder="" field_display="" field_width="100" space_between="0,0,10,0"]
+[/pl_contact_item]
+[pl_contact_item pagelayer-id="fkdgdfnwsqe21yq6"  label_name="Message" field_type="textarea" values="One
+Two" field_name="message" ele_bg_hover_delay="400" label_as_holder="" textarea_rows="6" field_width="100" space_between=",,10,"]
+[/pl_contact_item]
+[/pl_contact]
+[/pl_col]
+[pl_col pagelayer-id="y18zwgznq7kxrp41"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_text pagelayer-id="ty6pbgw404t0bf2m"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600"]
+
+
+
+<p><span style="font-size: xx-large;"><strong>Sandiago Office
+</strong></span></p>[/pl_text]
+[pl_phone pagelayer-id="tAtFVnUC0AZKvfAH"  icon="fas fa-phone-alt" ele_bg_hover_delay="400" space="15" color="#0c0c0cff" icon_color="#3498dbff" icon_size="19"]
+[/pl_phone]
+[pl_address pagelayer-id="lZePb2iSHdb363g1"  icon="fas fa-map-marker-alt" ele_bg_hover_delay="400" space="15" color="#111010ff" icon_color="#3498dbff" icon_size="19"]
+[/pl_address]
+[pl_email pagelayer-id="ja8OUWlDEjWBGwcS"  icon="fas fa-envelope" ele_bg_hover_delay="400" space="15" color="#010101ff" icon_color="#3498dbff" icon_size="19"]
+[/pl_email]
+[pl_list pagelayer-id="MxL81vU4hft5PlPR"  list_type="none" spacing="10" list_color="#090909ff" item_indent="10" icon_color="#3498dbff" icon_border_type="" ele_bg_hover_delay="400" icon_border_color="#cbd2dc78" icon_border_width="3" icon_size="18" list_icon_state="normal" list_text_state="normal"]
+[pl_list_item pagelayer-id="0DWkCK4NJMTDuBr6"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-clock-o" item_url=""]
+
+
+
+9.00 AM – 10.00 AM[/pl_list_item]
+[/pl_list]
+[pl_text pagelayer-id="9ewndpv0zgb4f3c6"  ele_bg_hover_delay="400" animation="fadeInDown" animation_delay="600" ele_margin="25px,0px,0px,0px"]
+
+
+<p><span style="font-size: xx-large;"><strong>Newzealand Office
+</strong></span></p>[/pl_text]
+[pl_list pagelayer-id="jmiwohyion8qwlgs"  list_type="none" spacing="10" list_color="#221e1eff" item_indent="10" icon_color="#3498dbff" icon_border_type="" ele_bg_hover_delay="400" icon_border_color="#cbd2dc78" icon_border_width="3" icon_size="18" animation="fadeInUp" animation_delay="600"]
+[pl_list_item pagelayer-id="5b8dt8mqpb8k7264"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-phone" item_url=""]
+
+
+
+
++012-3456-7890[/pl_list_item]
+[pl_list_item pagelayer-id="4g12sxwo3gcmdih6"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-map-marker" item_url=""]
+
+124 Street Newzealand.[/pl_list_item]
+[pl_list_item pagelayer-id="f2xzmlqct2jwdxex"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-envelope-o" item_url=""]
+
+info@domain.com[/pl_list_item]
+[pl_list_item pagelayer-id="26x4b97pw5te7bwf"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-clock-o" item_url=""]
+
+
+
+
+9.00 AM – 10.00 AM[/pl_list_item]
+[/pl_list]
+[pl_list pagelayer-id="2q0htv8sbo74wnzm"  list_type="none" spacing="10" list_color="#161313ff" item_indent="10" icon_color="#3498dbff" icon_border_type="" ele_bg_hover_delay="400" icon_border_color="#cbd2dc78" icon_border_width="3" icon_size="18"]
+[/pl_list]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="er616gvm2po1fzoj"  stretch="full" col_gap="0" width_content="full" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_margin="70px,0px,0px,0px" animation="fadeInUp" animation_delay="600"]
+[pl_col pagelayer-id="39guez456686t9y6"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400"]
+[pl_google_maps pagelayer-id="47tufixem4wj1itj"  zoom="10" height="300" ele_bg_hover_delay="400"]
+
+
+
+
+
+
+New York, New York, USA[/pl_google_maps]
+[/pl_col]
+[/pl_row]

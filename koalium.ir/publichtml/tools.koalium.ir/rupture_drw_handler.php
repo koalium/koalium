@@ -11,15 +11,16 @@ $size = (int)$_POST['size'];
 $type = $_POST['type'];
 $qty_i = (int)$_POST['qty'];
 //
-$size_query = "SELECT * FROM element_raw_size WHERE element = 'rupture' AND type= '$type' AND size = $size" ;
+$size_query = "SELECT * FROM element_raw_size WHERE element = 'rupture' AND size = '$size'" ;
 $result_s = $conn->query($size_query);
+
 $row_s = $result_s->fetch_assoc();
-$diameter=$row_s['di']*0.25;
+$diameter=$row_s['do']*0.25;
 //
 $size_query_q = "SELECT * FROM overtotest WHERE az <= $qty_i AND ta >= $qty_i " ;
 $result_q = $conn->query($size_query_q);
 $row_q = $result_q->fetch_assoc();
-$qty_t=(int)((int)($row_q['kam'])+(float)($row_q['dar'])*(int)($qty_i));
+$qty_t=((int)($row_q['kam']));//+(float)($row_q['dar'])*(int)($qty_i));
 $qty_d=3;
 $qty_m=+(int)($qty_t)+(int)($qty_i);
 $qty_total=(int)($qty_t)+(int)($qty_d)+(int)($qty_i);
@@ -203,5 +204,5 @@ $htmlContent = "<!DOCTYPE html>
 
 
 ?>
-<?
+<?php
 echo "$htmlContent\n";?>

@@ -6,10 +6,7 @@
 -- Generation Time: Feb 22, 2025 at 11:29 AM
 -- Server version: 8.0.40-cll-lve
 -- PHP Version: 8.3.15
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; START TRANSACTION; SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -26,12 +23,11 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `burst_condition`
 --
-
 CREATE TABLE `burst_condition` (
-  `ID` int NOT NULL,
-  `pressure` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `temprature` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `ID` INT NOT NULL,
+ `pressure` VARCHAR(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `temprature` VARCHAR(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `description` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -39,12 +35,11 @@ CREATE TABLE `burst_condition` (
 --
 -- Table structure for table `drw`
 --
-
 CREATE TABLE `drw` (
-  `ID` int NOT NULL,
-  `file` mediumblob,
-  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `ID` INT NOT NULL,
+ `file` MEDIUMBLOB,
+ `name` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -52,15 +47,14 @@ CREATE TABLE `drw` (
 --
 -- Table structure for table `element`
 --
-
 CREATE TABLE `element` (
-  `ID` int NOT NULL,
-  `name` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `namefa` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `type` int NOT NULL,
-  `subtype` int DEFAULT NULL,
-  `prop` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `ID` INT NOT NULL,
+ `name` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+ `namefa` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `type` INT NOT NULL,
+ `subtype` INT DEFAULT NULL,
+ `prop` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -68,27 +62,25 @@ CREATE TABLE `element` (
 --
 -- Table structure for table `element_raw_size`
 --
-
 CREATE TABLE `element_raw_size` (
-  `id` int DEFAULT NULL,
-  `element` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `type` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `size` varchar(7) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `nsize` varchar(7) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `di` varchar(8) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `do` varchar(8) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `thickness` varchar(8) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `len` varchar(10) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `width` varchar(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
-  `height` varchar(8) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL,
-  `desc` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `time` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `id` INT DEFAULT NULL,
+ `element` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `type` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `size` VARCHAR(7) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `nsize` VARCHAR(7) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `di` VARCHAR(8) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `do` VARCHAR(8) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `thickness` VARCHAR(8) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `len` VARCHAR(10) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `width` VARCHAR(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+ `height` VARCHAR(8) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL,
+ `desc` VARCHAR(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `time` VARCHAR(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `element_raw_size`
 --
-
 INSERT INTO `element_raw_size` (`id`, `element`, `type`, `size`, `nsize`, `di`, `do`, `thickness`, `len`, `width`, `height`, `desc`, `time`) VALUES
 (1, 'rupture', 'flat', '0.5', '12.5', '40', '0', '0', '0', '0', '0', 'desc', ''),
 (2, 'rupture', 'flat', '0.75', '19', '50', '0', '0', '0', '0', '0', 'desc', ''),
@@ -178,34 +170,33 @@ INSERT INTO `element_raw_size` (`id`, `element`, `type`, `size`, `nsize`, `di`, 
 --
 -- Table structure for table `importcvs`
 --
-
 CREATE TABLE `importcvs` (
-  `ID` varchar(15) NOT NULL,
-  `size` varchar(15) DEFAULT NULL,
-  `sub` varchar(15) DEFAULT NULL,
-  `seal` varchar(15) DEFAULT NULL,
-  `bp` varchar(15) DEFAULT NULL,
-  `time` varchar(15) DEFAULT NULL,
-  `desco` varchar(63) DEFAULT NULL,
-  `c4` varchar(127) DEFAULT NULL,
-  `c5` varchar(127) DEFAULT NULL,
-  `c6` varchar(255) DEFAULT NULL,
-  `c7` varchar(127) DEFAULT NULL,
-  `c8` varchar(127) DEFAULT NULL,
-  `c9` varchar(127) DEFAULT NULL,
-  `c1` varchar(127) DEFAULT NULL,
-  `c2` varchar(15) DEFAULT NULL,
-  `d1` varchar(127) DEFAULT NULL,
-  `d2` varchar(127) DEFAULT NULL,
-  `d3` varchar(255) DEFAULT NULL,
-  `d4` varchar(255) DEFAULT NULL,
-  `d5` varchar(127) DEFAULT NULL,
-  `d6` varchar(127) DEFAULT NULL,
-  `d7` varchar(127) DEFAULT NULL,
-  `d8` varchar(122) DEFAULT NULL,
-  `d9` varchar(125) DEFAULT NULL,
-  `d10` varchar(125) DEFAULT NULL,
-  `e1` varchar(127) DEFAULT NULL
+ `ID` VARCHAR(15) NOT NULL,
+ `size` VARCHAR(15) DEFAULT NULL,
+ `sub` VARCHAR(15) DEFAULT NULL,
+ `seal` VARCHAR(15) DEFAULT NULL,
+ `bp` VARCHAR(15) DEFAULT NULL,
+ `time` VARCHAR(15) DEFAULT NULL,
+ `desco` VARCHAR(63) DEFAULT NULL,
+ `c4` VARCHAR(127) DEFAULT NULL,
+ `c5` VARCHAR(127) DEFAULT NULL,
+ `c6` VARCHAR(255) DEFAULT NULL,
+ `c7` VARCHAR(127) DEFAULT NULL,
+ `c8` VARCHAR(127) DEFAULT NULL,
+ `c9` VARCHAR(127) DEFAULT NULL,
+ `c1` VARCHAR(127) DEFAULT NULL,
+ `c2` VARCHAR(15) DEFAULT NULL,
+ `d1` VARCHAR(127) DEFAULT NULL,
+ `d2` VARCHAR(127) DEFAULT NULL,
+ `d3` VARCHAR(255) DEFAULT NULL,
+ `d4` VARCHAR(255) DEFAULT NULL,
+ `d5` VARCHAR(127) DEFAULT NULL,
+ `d6` VARCHAR(127) DEFAULT NULL,
+ `d7` VARCHAR(127) DEFAULT NULL,
+ `d8` VARCHAR(122) DEFAULT NULL,
+ `d9` VARCHAR(125) DEFAULT NULL,
+ `d10` VARCHAR(125) DEFAULT NULL,
+ `e1` VARCHAR(127) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
@@ -213,15 +204,14 @@ CREATE TABLE `importcvs` (
 --
 -- Table structure for table `layer`
 --
-
 CREATE TABLE `layer` (
-  `ID` int NOT NULL,
-  `main` int NOT NULL COMMENT 'sheet id',
-  `vac` int NOT NULL COMMENT 'sheet id',
-  `seal` int NOT NULL COMMENT 'seallayer sheet id',
-  `sub` int DEFAULT NULL,
-  `extra` int DEFAULT NULL,
-  `description` int DEFAULT NULL
+ `ID` INT NOT NULL,
+ `main` INT NOT NULL COMMENT 'sheet id',
+ `vac` INT NOT NULL COMMENT 'sheet id',
+ `seal` INT NOT NULL COMMENT 'seallayer sheet id',
+ `sub` INT DEFAULT NULL,
+ `extra` INT DEFAULT NULL,
+ `description` INT DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -229,12 +219,11 @@ CREATE TABLE `layer` (
 --
 -- Table structure for table `material`
 --
-
 CREATE TABLE `material` (
-  `ID` int NOT NULL,
-  `material` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `thickness` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `ID` INT NOT NULL,
+ `material` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `thickness` VARCHAR(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -242,21 +231,19 @@ CREATE TABLE `material` (
 --
 -- Table structure for table `materials`
 --
-
 CREATE TABLE `materials` (
-  `name` varchar(31) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `namefa` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `density` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `price` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `metal` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `layers` varchar(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `desc` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `name` VARCHAR(31) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+ `namefa` VARCHAR(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `density` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `price` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `metal` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `layers` VARCHAR(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `desc` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `materials`
 --
-
 INSERT INTO `materials` (`name`, `namefa`, `density`, `price`, `metal`, `layers`, `desc`) VALUES
 ('aluminium', 'آلومینیوم', '2.70', '2200000', 'y', 'm,v', 'sheet'),
 ('bras', 'برنج', '8.70', '7320000', 'y', 'm,v', 'sheet'),
@@ -304,22 +291,20 @@ INSERT INTO `materials` (`name`, `namefa`, `density`, `price`, `metal`, `layers`
 --
 -- Table structure for table `mto`
 --
-
 CREATE TABLE `mto` (
-  `element` varchar(13) DEFAULT NULL,
-  `type` varchar(6) DEFAULT NULL,
-  `item` varchar(34) DEFAULT NULL,
-  `itemf` varchar(34) DEFAULT NULL,
-  `unitf` varchar(8) DEFAULT NULL,
-  `pr` varchar(8) DEFAULT NULL,
-  `p0` varchar(59) DEFAULT NULL,
-  `p1` varchar(36) DEFAULT NULL
+ `element` VARCHAR(13) DEFAULT NULL,
+ `type` VARCHAR(6) DEFAULT NULL,
+ `item` VARCHAR(34) DEFAULT NULL,
+ `itemf` VARCHAR(34) DEFAULT NULL,
+ `unitf` VARCHAR(8) DEFAULT NULL,
+ `pr` VARCHAR(8) DEFAULT NULL,
+ `p0` VARCHAR(59) DEFAULT NULL,
+ `p1` VARCHAR(36) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `mto`
 --
-
 INSERT INTO `mto` (`element`, `type`, `item`, `itemf`, `unitf`, `pr`, `p0`, `p1`) VALUES
 ('rupture', 'rff', 'Sheet', 'ورق ', 'برگ', '3000000', '3000000', '3000000'),
 ('rupture', 'rff', 'Sheet', 'ورق ', 'برگ', '4000000', 'l', 'w'),
@@ -463,23 +448,21 @@ INSERT INTO `mto` (`element`, `type`, `item`, `itemf`, `unitf`, `pr`, `p0`, `p1`
 --
 -- Table structure for table `mto_item_element`
 --
-
 CREATE TABLE `mto_item_element` (
-  `ID` int NOT NULL,
-  `element` varchar(13) DEFAULT NULL,
-  `type` varchar(6) DEFAULT NULL,
-  `nominalSize` varchar(34) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
-  `itemf` varchar(34) DEFAULT NULL,
-  `unitf` varchar(8) DEFAULT NULL,
-  `pr` varchar(8) DEFAULT NULL,
-  `p0` varchar(59) DEFAULT NULL,
-  `p1` varchar(36) DEFAULT NULL
+ `ID` INT NOT NULL,
+ `element` VARCHAR(13) DEFAULT NULL,
+ `type` VARCHAR(6) DEFAULT NULL,
+ `nominalSize` VARCHAR(34) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
+ `itemf` VARCHAR(34) DEFAULT NULL,
+ `unitf` VARCHAR(8) DEFAULT NULL,
+ `pr` VARCHAR(8) DEFAULT NULL,
+ `p0` VARCHAR(59) DEFAULT NULL,
+ `p1` VARCHAR(36) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `mto_item_element`
 --
-
 INSERT INTO `mto_item_element` (`ID`, `element`, `type`, `nominalSize`, `itemf`, `unitf`, `pr`, `p0`, `p1`) VALUES
 (1, 'rupture', 'rff', 'Sheet', 'ورق ', 'برگ', '3000000', '3000000', '3000000'),
 (2, 'rupture', 'rff', 'Sheet', 'ورق ', 'برگ', '4000000', 'l', 'w'),
@@ -623,19 +606,17 @@ INSERT INTO `mto_item_element` (`ID`, `element`, `type`, `nominalSize`, `itemf`,
 --
 -- Table structure for table `overfordesign`
 --
-
 CREATE TABLE `overfordesign` (
-  `ID` int NOT NULL,
-  `type` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `size` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `num` int NOT NULL DEFAULT '0',
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `ID` INT NOT NULL,
+ `type` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `size` VARCHAR(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `num` INT NOT NULL DEFAULT '0',
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `overfordesign`
 --
-
 INSERT INTO `overfordesign` (`ID`, `type`, `size`, `num`, `description`) VALUES
 (3, 'reverse', '8', 6, 'lower'),
 (4, 'forward', '8', 3, 'lower'),
@@ -649,20 +630,18 @@ INSERT INTO `overfordesign` (`ID`, `type`, `size`, `num`, `description`) VALUES
 --
 -- Table structure for table `overtotest`
 --
-
 CREATE TABLE `overtotest` (
-  `element` varchar(7) DEFAULT NULL,
-  `az` int DEFAULT NULL,
-  `ta` int DEFAULT NULL,
-  `kam` int DEFAULT NULL,
-  `dar` float(3,2) DEFAULT NULL,
-  `overcalc` varchar(10) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL
+ `element` VARCHAR(7) DEFAULT NULL,
+ `az` INT DEFAULT NULL,
+ `ta` INT DEFAULT NULL,
+ `kam` INT DEFAULT NULL,
+ `dar` FLOAT(3,2) DEFAULT NULL,
+ `overcalc` VARCHAR(10) CHARACTER SET ASCII COLLATE ascii_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `overtotest`
 --
-
 INSERT INTO `overtotest` (`element`, `az`, `ta`, `kam`, `dar`, `overcalc`) VALUES
 ('rupture', 1, 9, 2, 0.00, ''),
 ('rupture', 10, 15, 3, 0.00, ''),
@@ -677,25 +656,23 @@ INSERT INTO `overtotest` (`element`, `az`, `ta`, `kam`, `dar`, `overcalc`) VALUE
 --
 -- Table structure for table `requested_rupture`
 --
-
 CREATE TABLE `requested_rupture` (
-  `ID` int NOT NULL,
-  `type` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `size` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `main` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `sub` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `seal` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `bp` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `bt` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `request_by` varchar(63) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `time` timestamp NULL DEFAULT CURRENT_TIMESTAMP
+ `ID` INT NOT NULL,
+ `type` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `size` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `main` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `sub` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `seal` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `bp` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `bt` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `request_by` VARCHAR(63) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `description` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `time` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `requested_rupture`
 --
-
 INSERT INTO `requested_rupture` (`ID`, `type`, `size`, `main`, `sub`, `seal`, `bp`, `bt`, `request_by`, `description`, `time`) VALUES
 (14, 'reverse', '4', 'SS316', 'SS316', 'teflon', '5', '25', NULL, NULL, '2025-02-02 18:24:45'),
 (15, 'reverse', '4', 'SS316', 'SS316', 'teflon', '5', '25', 'user', NULL, '2025-02-02 18:27:30'),
@@ -761,17 +738,16 @@ INSERT INTO `requested_rupture` (`ID`, `type`, `size`, `main`, `sub`, `seal`, `b
 --
 -- Table structure for table `request_rupture`
 --
-
 CREATE TABLE `request_rupture` (
-  `ID` int NOT NULL,
-  `element` int NOT NULL,
-  `type` int NOT NULL,
-  `size` int NOT NULL,
-  `layers` int NOT NULL,
-  `burstCondition` int NOT NULL,
-  `user` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `timer` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+ `ID` INT NOT NULL,
+ `element` INT NOT NULL,
+ `type` INT NOT NULL,
+ `size` INT NOT NULL,
+ `layers` INT NOT NULL,
+ `burstCondition` INT NOT NULL,
+ `user` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `timer` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -779,14 +755,13 @@ CREATE TABLE `request_rupture` (
 --
 -- Table structure for table `rupture_disk`
 --
-
 CREATE TABLE `rupture_disk` (
-  `ID` int NOT NULL,
-  `type` int NOT NULL,
-  `size` int NOT NULL,
-  `layers` int NOT NULL,
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `time` int DEFAULT NULL
+ `ID` INT NOT NULL,
+ `type` INT NOT NULL,
+ `size` INT NOT NULL,
+ `layers` INT NOT NULL,
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+ `time` INT DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -794,23 +769,21 @@ CREATE TABLE `rupture_disk` (
 --
 -- Table structure for table `tested`
 --
-
 CREATE TABLE `tested` (
-  `id` int NOT NULL,
-  `type` varchar(7) DEFAULT NULL,
-  `size` varchar(5) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
-  `layer` varchar(43) DEFAULT NULL,
-  `bp` varchar(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
-  `bt` varchar(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
-  `rbp` varchar(5) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
-  `fh` varchar(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
-  `drw` varchar(22) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL
+ `id` INT NOT NULL,
+ `type` VARCHAR(7) DEFAULT NULL,
+ `size` VARCHAR(5) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+ `layer` VARCHAR(43) DEFAULT NULL,
+ `bp` VARCHAR(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+ `bt` VARCHAR(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+ `rbp` VARCHAR(5) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+ `fh` VARCHAR(8) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL,
+ `drw` VARCHAR(22) CHARACTER SET armscii8 COLLATE armscii8_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `tested`
 --
-
 INSERT INTO `tested` (`id`, `type`, `size`, `layer`, `bp`, `bt`, `rbp`, `fh`, `drw`) VALUES
 (1, 'flat', '16.0', 'cs:3_cs:0.5_pvc:0.8', '6.000', '40.00', '6.02', '', ''),
 (2, 'flat', '24.0', 'cs:3_cs:0.5_pvc:0.8', '6.000', '40.00', '6.02', '', ''),
@@ -1705,12 +1678,11 @@ INSERT INTO `tested` (`id`, `type`, `size`, `layer`, `bp`, `bt`, `rbp`, `fh`, `d
 --
 -- Table structure for table `tested_rupture_data`
 --
-
 CREATE TABLE `tested_rupture_data` (
-  `id` int NOT NULL,
-  `ruptureDisk` int DEFAULT NULL,
-  `burstCondition` int DEFAULT NULL,
-  `description` varchar(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
+ `id` INT NOT NULL,
+ `ruptureDisk` INT DEFAULT NULL,
+ `burstCondition` INT DEFAULT NULL,
+ `description` VARCHAR(127) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -1720,107 +1692,67 @@ CREATE TABLE `tested_rupture_data` (
 --
 -- Indexes for table `burst_condition`
 --
-ALTER TABLE `burst_condition`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `burst_condition` ADD PRIMARY KEY (`ID`);
 
 --
 -- Indexes for table `drw`
 --
-ALTER TABLE `drw`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `drw` ADD PRIMARY KEY (`ID`);
 
 --
 -- Indexes for table `element`
 --
-ALTER TABLE `element`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `typeID` (`type`),
-  ADD KEY `subtypeID` (`subtype`);
+ALTER TABLE `element` ADD PRIMARY KEY (`ID`), ADD KEY `typeID` (`type`), ADD KEY `subtypeID` (`subtype`);
 
 --
 -- Indexes for table `layer`
 --
-ALTER TABLE `layer`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `main` (`main`),
-  ADD KEY `vac` (`vac`),
-  ADD KEY `seal` (`seal`),
-  ADD KEY `sub` (`sub`),
-  ADD KEY `extra` (`extra`);
+ALTER TABLE `layer` ADD PRIMARY KEY (`ID`), ADD KEY `main` (`main`), ADD KEY `vac` (`vac`), ADD KEY `seal` (`seal`), ADD KEY `sub` (`sub`), ADD KEY `extra` (`extra`);
 
 --
 -- Indexes for table `material`
 --
-ALTER TABLE `material`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `material` (`material`);
+ALTER TABLE `material` ADD PRIMARY KEY (`ID`), ADD KEY `material` (`material`);
 
 --
 -- Indexes for table `materials`
 --
-ALTER TABLE `materials`
-  ADD PRIMARY KEY (`name`),
-  ADD UNIQUE KEY `name` (`name`);
+ALTER TABLE `materials` ADD PRIMARY KEY (`name`), ADD UNIQUE KEY `name` (`name`);
 
 --
 -- Indexes for table `mto_item_element`
 --
-ALTER TABLE `mto_item_element`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `element` (`element`),
-  ADD KEY `type` (`type`);
+ALTER TABLE `mto_item_element` ADD PRIMARY KEY (`ID`), ADD KEY `element` (`element`), ADD KEY `type` (`type`);
 
 --
 -- Indexes for table `overfordesign`
 --
-ALTER TABLE `overfordesign`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `typeID` (`type`),
-  ADD KEY `size` (`size`);
+ALTER TABLE `overfordesign` ADD PRIMARY KEY (`ID`), ADD KEY `typeID` (`type`), ADD KEY `size` (`size`);
 
 --
 -- Indexes for table `requested_rupture`
 --
-ALTER TABLE `requested_rupture`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `requested_rupture` ADD PRIMARY KEY (`ID`);
 
 --
 -- Indexes for table `request_rupture`
 --
-ALTER TABLE `request_rupture`
-  ADD KEY `burstConditionID` (`burstCondition`),
-  ADD KEY `layersID` (`layers`),
-  ADD KEY `sizeID` (`size`),
-  ADD KEY `typeID` (`type`),
-  ADD KEY `elementID` (`element`);
+ALTER TABLE `request_rupture` ADD KEY `burstConditionID` (`burstCondition`), ADD KEY `layersID` (`layers`), ADD KEY `sizeID` (`size`), ADD KEY `typeID` (`type`), ADD KEY `elementID` (`element`);
 
 --
 -- Indexes for table `rupture_disk`
 --
-ALTER TABLE `rupture_disk`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `ID` (`ID`,`type`),
-  ADD KEY `ID_2` (`ID`,`size`),
-  ADD KEY `ID_3` (`ID`,`layers`),
-  ADD KEY `type` (`type`),
-  ADD KEY `size` (`size`),
-  ADD KEY `layers` (`layers`);
+ALTER TABLE `rupture_disk` ADD PRIMARY KEY (`ID`), ADD KEY `ID` (`ID`,`type`), ADD KEY `ID_2` (`ID`,`size`), ADD KEY `ID_3` (`ID`,`layers`), ADD KEY `type` (`type`), ADD KEY `size` (`size`), ADD KEY `layers` (`layers`);
 
 --
 -- Indexes for table `tested`
 --
-ALTER TABLE `tested`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `tested` ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `tested_rupture_data`
 --
-ALTER TABLE `tested_rupture_data`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `size` (`ruptureDisk`),
-  ADD KEY `type` (`burstCondition`),
-  ADD KEY `ruptureDisk` (`ruptureDisk`),
-  ADD KEY `burstCondition` (`burstCondition`);
+ALTER TABLE `tested_rupture_data` ADD PRIMARY KEY (`id`), ADD KEY `size` (`ruptureDisk`), ADD KEY `type` (`burstCondition`), ADD KEY `ruptureDisk` (`ruptureDisk`), ADD KEY `burstCondition` (`burstCondition`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -1829,63 +1761,52 @@ ALTER TABLE `tested_rupture_data`
 --
 -- AUTO_INCREMENT for table `burst_condition`
 --
-ALTER TABLE `burst_condition`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `burst_condition` MODIFY `ID` INT NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `drw`
 --
-ALTER TABLE `drw`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `drw` MODIFY `ID` INT NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `element`
 --
-ALTER TABLE `element`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `element` MODIFY `ID` INT NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `layer`
 --
-ALTER TABLE `layer`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `layer` MODIFY `ID` INT NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `material`
 --
-ALTER TABLE `material`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `material` MODIFY `ID` INT NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `mto_item_element`
 --
-ALTER TABLE `mto_item_element`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=137;
+ALTER TABLE `mto_item_element` MODIFY `ID` INT NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=137;
 
 --
 -- AUTO_INCREMENT for table `overfordesign`
 --
-ALTER TABLE `overfordesign`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+ALTER TABLE `overfordesign` MODIFY `ID` INT NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `requested_rupture`
 --
-ALTER TABLE `requested_rupture`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+ALTER TABLE `requested_rupture` MODIFY `ID` INT NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `rupture_disk`
 --
-ALTER TABLE `rupture_disk`
-  MODIFY `ID` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `rupture_disk` MODIFY `ID` INT NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `tested_rupture_data`
 --
-ALTER TABLE `tested_rupture_data`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT;
-COMMIT;
+ALTER TABLE `tested_rupture_data` MODIFY `id` INT NOT NULL AUTO_INCREMENT; COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -1,0 +1,63 @@
+[pl_row pagelayer-id="pm020u3ujv5g4mpl"  stretch="auto" col_gap="10" width_content="auto" row_height="default" column_pos="default" content_pos="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="color" ele_bg_color="#3498dbff" ele_padding="60px,0px,60px,0px" ele_bg_attachment="scroll" ele_bg_posx="center" ele_bg_posy="center" ele_bg_repeat="no-repeat" ele_bg_size="cover" overlay_transperancy="0.5" overlay_color=" " ele_bg_img="http://sitepad.local/site-data/plugins/pagelayer-pro/images/default-image.png"]
+[pl_col pagelayer-id="3lxjarcx3l31b1rj"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_heading pagelayer-id="bkfpx5p8i9obvwxp"  color="#ffffffff" ele_bg_hover_delay="400" heading_typo=",30,,,,,Solid,,Uppercase,," heading_state="normal"]
+
+
+Contact Us[/pl_heading]
+[pl_address pagelayer-id="LfNezVyvoJTBENl9"  icon="fas fa-map-marker-alt" ele_bg_hover_delay="400" space="15" color="#ffffffff" icon_color="#ffffffff" icon_size="19"]
+[/pl_address]
+[pl_phone pagelayer-id="9ViQxmQ8NZQ5Gzg5"  icon="fas fa-phone-alt" ele_bg_hover_delay="400" space="15" color="#ffffffff" icon_color="#ffffffff" icon_size="19"]
+[/pl_phone]
+[pl_email pagelayer-id="ReIAlH51WnV5EgNR"  icon="fas fa-envelope" ele_bg_hover_delay="400" space="15" color="#ffffffff" icon_color="#ffffffff" icon_size="19"]
+[/pl_email]
+[pl_list pagelayer-id="ehjmw05rrxtcs853"  list_type="none" spacing="10" list_color="#f9f8f8ff" item_indent="10" icon_color="#f8f9f9ff" icon_border_type="" ele_bg_hover_delay="400" icon_border_color="#cbd2dc78" icon_border_width="3" icon_size="18"]
+[pl_list_item pagelayer-id="5vwf94v179dlta1t"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-clock-o" item_url=""]
+
+
+
+9.00 AM – 10.00 AM[/pl_list_item]
+[/pl_list]
+[/pl_col]
+[pl_col pagelayer-id="gnzxybrnorh7fyra"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_heading pagelayer-id="ldn50zshz87je4kz"  color="#ffffffff" ele_bg_hover_delay="400" heading_typo=",30,,,,,Solid,,Uppercase,," heading_state="normal"]
+
+
+
+Quick Links[/pl_heading]
+[pl_list pagelayer-id="l3x3d4vj5oikpqgw"  list_type="none" spacing="10" list_color="#f9f8f8ff" item_indent="10" icon_color="#f8f9f9ff" icon_border_type="" ele_bg_hover_delay="400" icon_border_color="#cbd2dc78" icon_border_width="3" icon_size="10"]
+[pl_list_item pagelayer-id="ersq4q2t53fcctg1"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-chevron-right" item_url=""]
+
+
+About us[/pl_list_item]
+[pl_list_item pagelayer-id="3e846scbzgxtcdjd"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-chevron-right" item_url=""]
+
+
+Services[/pl_list_item]
+[pl_list_item pagelayer-id="l097lcq0ot00oepy"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-chevron-right" item_url=""]
+
+
+Gallery[/pl_list_item]
+[pl_list_item pagelayer-id="ylw0cc7y74pydwzq"  show_icon="true" ele_bg_hover_delay="400" icon="fa fa-chevron-right" item_url=""]
+
+
+Contact us[/pl_list_item]
+[/pl_list]
+[/pl_col]
+[pl_col pagelayer-id="655jgts3lezlevcr"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400" col="4"]
+[pl_heading pagelayer-id="7oyswsfgtouyrbtz"  color="#ffffffff" ele_bg_hover_delay="400" heading_typo=",30,,,,,Solid,,Uppercase,," heading_state="normal"]
+
+
+Newsletters[/pl_heading]
+[pl_contact pagelayer-id="35erp771vwb0h7cf"  form="contact-form" name="Contact Form" form_position="default" space_label=",,10," input_padding="10,10" radio_padding="10,10" field_hover_delay="400" submit="Subscribe" type="pagelayer-btn-dark" size="pagelayer-btn-mini" btn_hover_delay="400" icon_position="pagelayer-btn-icon-left" icon_spacing="5" ele_bg_hover_delay="400" btn_typo=",,,,,,Solid,,,,"]
+[pl_contact_item pagelayer-id="umegu31us2dtjk03"  label_name="Enter your email" field_type="text" values="One
+Two" field_name="email" field_width="100" space_between="0,0,0,0" ele_bg_hover_delay="400" label_as_holder="true"]
+[/pl_contact_item]
+[/pl_contact]
+[/pl_col]
+[/pl_row]
+[pl_row pagelayer-id="Fza4JdMyKYiR6fIF"  stretch="auto" col_gap="10" width_content="auto" row_height="default" overlay_hover_delay="400" row_shape_top_color="#fff" row_shape_top_width="100" row_shape_top_height="100" row_shape_bottom_color="#fff" row_shape_bottom_width="100" row_shape_bottom_height="100" ele_bg_hover_delay="400" ele_bg_type="color" ele_bg_color="#010101ff"]
+[pl_col pagelayer-id="SmsMYSJQzK3CPV6K"  widget_space="15" overlay_hover_delay="400" ele_bg_hover_delay="400"]
+[pl_copyright pagelayer-id="DeCufGfKdxC2WXz2"  ele_bg_hover_delay="400" color="#ffffffff"]
+[/pl_copyright]
+[/pl_col]
+[/pl_row]

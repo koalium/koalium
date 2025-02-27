@@ -1,11 +1,10 @@
-
 <?php
 // Database connection details
 $servername = "localhost";
 $username = "koaliumi_editor"; // Replace with your database username
 $password = "koala551364"; // Replace with your database password
 $dbname = "koaliumi_rupturium_db";
-// echo "Error: " .$_POST['type']." " . $_POST['size'].$_POST['mainLayer'].$_POST['subLayer'].$_POST['sealLayer'].$_POST['burstPressure'].$_POST['burstTemperature'];
+ echo "Error: " .$_POST['type']." " . $_POST['size'].$_POST['mainLayer'].$_POST['subLayer'].$_POST['sealLayer'].$_POST['burstPressure'].$_POST['burstTemperature'];
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 

@@ -19,11 +19,11 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            fetchData('rupture_handler.php?table=type', 'type');
-            fetchData('rupture_handler.php?table=element_raw_size', 'size');
-            fetchData('rupture_handler.php?table=materials&db=koaliumi_rupturium_db&username=koaliumi_editor&password=koala551364', 'name');
-            fetchData('rupture_handler.php?table=materials&db=koaliumi_rupturium_db', 'name');
-            fetchData('rupture_handler.php?table=materials&db=koaliumi_rupturium_db', 'name');
+            fetchData('material_handler.php?table=type', 'type');
+            fetchData('material_handler.php?table=element_raw_size', 'size');
+            fetchData('material_handler.php?table=material&db=koaliumi_rupturium_db', 'main_material');
+            fetchData('material_handler.php?table=material&db=koaliumi_rupturium_db', 'vacuum_material');
+            fetchData('material_handler.php?table=material&db=koaliumi_rupturium_db', 'seal_material');
         });
     </script>
 </head>
@@ -37,26 +37,19 @@
         <select id="size" name="size"></select><br>
 
         <label>Layers:</label>
-        
+        <div>
+            <?php
+            $layers = ['main', 'vacuum', 'seal'];
+            foreach ($layers as $layer) {
+                echo "<h3>".ucfirst($layer)."</h3>";
 
+                echo "<label for='{$layer}_material'>Material:</label>";
+                echo "<select id='{$layer}_material' name='{$layer}_material'></select><br>";
 
-            <h3>Main</h3>
-            <label for="main_material">Material:</label>
-            <select id="main_material" name="main_material"></select><br>
-            <label for="main_thickness">Thickness:</label>
-            <input type="number" id="main_thickness" name="main_thickness" step="0.05" min="0.05" max="5.5"><br>
-
-            <h3>Vacuum</h3>
-            <label for="vacuum_material">Material:</label>
-            <select id="vacuum_material" name="vacuum_material"></select><br>
-            <label for="vacuum_thickness">Thickness:</label>
-            <input type="number" id="vacuum_thickness" name="vacuum_thickness" step="0.05" min="0.05" max="5.5"><br>
-
-            <h3>Seal</h3>
-            <label for="seal_material">Material:</label>
-            <select id="seal_material" name="seal_material"></select><br>
-            <label for="seal_thickness">Thickness:</label>
-            <input type="number" id="seal_thickness" name="seal_thickness" step="0.05" min="0.05" max="5.5"><br>
+                echo "<label for='{$layer}_thickness'>Thickness:</label>";
+                echo "<input type='number' id='{$layer}_thickness' name='{$layer}_thickness' step='0.05' min='0.05' max='5.5'><br>";
+            }
+            ?>
         </div>
 
         <label for="burst_temp">Burst Temperature:</label>

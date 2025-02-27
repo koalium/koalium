@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "4363686af70771ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c472abdb5850d4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dd72efed86bc828",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "koalium platform/دزدگیر/دزدگیر پایه.canvas",
+                "viewState": {
+                  "x": -322.5,
+                  "y": 22.5,
+                  "zoom": -1.2643598033003614
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "دزدگیر پایه"
+            }
+          },
+          {
+            "id": "71ca97239d2ebb24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "koalium platform/دزدگیر/components/Untitled 1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "9dbc7698bf5484a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "koalium platform/دزدگیر/summery/قفل برقی.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "قفل برقی"
+            }
+          },
+          {
+            "id": "e774a99042fa6a48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "koalium platform/دزدگیر/components/micro server.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "micro server"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a387dd06e56045d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a6c303778a1ce4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c30c0dfd58dc0c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f951aa07062c5287",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d7465688c20edaa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c23783ec3e7d82e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "bff91066608ea5a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aba0ecc8e8016b9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "koalium platform/دزدگیر/summery/قفل برقی.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for قفل برقی"
+            }
+          },
+          {
+            "id": "37717465c877176c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "koalium platform/دزدگیر/summery/قفل برقی.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from قفل برقی"
+            }
+          },
+          {
+            "id": "6f9b82ae498aa818",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b8b56962b70acbdd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "koalium platform/دزدگیر/summery/قفل برقی.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of قفل برقی"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "71ca97239d2ebb24",
+  "lastOpenFiles": [
+    "koalium platform/دزدگیر/components/Untitled.md",
+    "koalium platform/دزدگیر/components/Untitled 1.md",
+    "koalium platform/دزدگیر/components/relay controller to control power device.md",
+    "koalium platform/دزدگیر/components/micro server.md",
+    "koalium platform/دزدگیر/components/motion detector.md",
+    "koalium platform/pic/motion detector microwave.jpg",
+    "koalium platform/pic/uno.jpg",
+    "koalium platform/pic/ماژول-mini-nrf24l01-smd-wireless.jpg",
+    "koalium platform/pic/ماژول-led-rgb-هفت-تایی-ws2812.jpg",
+    "koalium platform/pic/ماژول-led-rgb-حلقه-ای-12-تایی-ws2812.jpg",
+    "koalium platform/pic/ماژول-led-rgb-خطی-8-تایی-ws2812.jpg",
+    "koalium platform/pic/ماژول-led-rgb-حلقه-ای-8-تایی-ws2812.jpg",
+    "koalium platform/pic/لنز-فرسنل-pir-سفید-34mm-کد-8605.jpg",
+    "koalium platform/pic/لنز-فرسنل-pir-سفید-8mm-کد-8308.jpg",
+    "koalium platform/pic/گیرنده-سه-پایه-مادون-قرمز-بدنه-فلزی-vs1838b.jpg",
+    "koalium platform/دزدگیر/components/PIR wireless.md",
+    "koalium platform/دزدگیر/components/pressure and temp sensor bmp280.md",
+    "koalium platform/دزدگیر/components/rfid.md",
+    "koalium platform/دزدگیر/summery/قفل برقی.md",
+    "koalium platform/pic",
+    "koalium platform/New folder",
+    "koalium platform/دزدگیر/دزدگیر پایه.canvas",
+    "koalium platform/دزدگیر/summery/nano Server.md",
+    "koalium platform/دزدگیر/summery/تشخیص حرکت.md",
+    "koalium platform/دزدگیر/summery/ارتباط موبایل SIM800.md",
+    "koalium platform/دزدگیر/summery/nfc 13mhz.md",
+    "koalium platform/دزدگیر/codes/nanoservercore/php on koalium to recive data.md",
+    "koalium platform/دزدگیر/codes/nanoservercore/send by gprs.md",
+    "koalium platform/دزدگیر/codes/nanoservercore/server by login user.md",
+    "koalium platform/دزدگیر/codes/nanoservercore/server to ctrl lamp.md",
+    "koalium platform/دزدگیر/codes/nanoservercore/dashboard and monitoring.md",
+    "koalium platform/دزدگیر/codes/nanoservercore/loggin and control.md",
+    "koalium platform/دزدگیر/codes/description for nanoserver.md",
+    "koalium platform/دزدگیر/codes/nanoservercore",
+    "koalium platform/دزدگیر/codes/nanoservercore/nano server esp8266.md",
+    "koalium platform/دزدگیر/codes"
+  ]
+}
